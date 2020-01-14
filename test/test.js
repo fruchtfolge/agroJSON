@@ -1,12 +1,15 @@
+const Ajv = require('ajv')
+const ajv = new Ajv({allErrors: true})
+const agroJSON = require('../agroJSON.schema.json')
+
 try {
-  var Ajv = require('ajv')
-  var ajv = new Ajv({allErrors: true})
-  var schema = require('../agroJSON.schema.json')
-  var validate = ajv.compile(schema)
+  // check if schema compiles
+  const validate = ajv.compile(agroJSON)
   if (!validate.errors) {
     console.log('Schema parsed succesfully!')
   }
-  console.log(Object.keys(schema.properties));
+  // validate against example files
+  
 } catch (e) {
   console.log("Test failed!")
   console.log(e.message)

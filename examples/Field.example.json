@@ -1,0 +1,120 @@
+{
+  "Field": {
+    "description": "Vorheriger deutscher Name: Schlag. Zweidimensionales\nGeoobjekt, das durch die Schlaggrenzen gegenüber\nbenachbarten Schlägen, Wegen, Waldstücken etc. räumlich\neindeutig abgegrenzt ist.\nPrevious german name: Schlag\n"
+  },
+  "FieldGroup": {
+    "Area": {
+      "@uom": null,
+      "$": -94401825.20785885
+    },
+    "Denominator": null,
+    "FieldGroupName": "Excepteur non cupidatat",
+    "FieldGroupNumber": "nulla eu",
+    "LandUseCategory": {
+      "$": "culpa et eu labore in",
+      "@languageID": "TmiPC-QaqjnpMR-vJRM-Qbahenv4-E2u8LdcA",
+      "@languageLocaleID": null
+    },
+    "Nominator": null,
+    "SubNumber": "consectetur adipis"
+  },
+  "Gemarkung": {
+    "FieldGroup": {
+      "Area": false,
+      "Denominator": null,
+      "FieldGroupName": "aliqua ut sint",
+      "FieldGroupNumber": "esse Exc",
+      "LandUseCategory": "fugiat in",
+      "Nominator": null,
+      "SubNumber": "enim"
+    },
+    "GemarkungCode": -57887812.24675436,
+    "GemarkungName": "exercitation in consectetur officia",
+    "GemarkungNumber": "ea magna"
+  },
+  "LandUseRestriction": {
+    "EndDate": {
+      "year": 65673303,
+      "month": 6,
+      "day": 4,
+      "timezone": 701
+    },
+    "StartDate": null,
+    "TypeOfRestriction": "consequat"
+  },
+  "PartOfField": {
+    "description": "Vorheriger deutscher Name: Teilschlag.\nPrevious german name: Teilschlag.\n"
+  },
+  "SpatialData": {
+    "LineString": {
+      "type": "LineString",
+      "coordinates": [
+        [-56018757.71300988, -25682659.539186, 41880536.01384047, -62942881.36141018, 30788160.09016338],
+        [-85511849.08498289, 90655396.11132461, 56837403.32510689, 66922253.30813533, -8979965.95008795],
+        [-13330251.617887393, 86411823.65916628, 92007714.33398706, 81238801.3517595],
+        [-16973578.875180364, -45004779.105167314]
+      ],
+      "bbox": [68381873.79407504, 71816863.7165061, -31113087.575465187, 45820010.14250103, 58368566.61961639]
+    },
+    "Point": {
+      "type": "Point",
+      "coordinates": [-69616086.47101131, 17066378.600362554, -57603861.24605197, 95755469.23073435],
+      "bbox": [33551391.870610774, -89381254.62095834, 13017911.417835131, 90282754.68771043, 43025061.823835194]
+    },
+    "Polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [21156453.752659485, -14439166.634720683, 40754223.46622455, 6693787.7340437025, 61329735.609496],
+          [-225611.1182628423, -14893137.449618354, -53203758.77137331],
+          [64646643.54947555, -23967922.332199216, -27683369.94735749, -94403554.02492781, -76527303.79630683],
+          [90278654.61395791, -18814271.840340525, -12938680.535846323],
+          [83378577.18028343, -8168733.699727684]
+        ],
+        [
+          [-96195434.7717823, -7835210.081379667],
+          [-21975139.218692258, 5305546.151364028, 28624266.10834512, -78240710.16468266],
+          [-65181321.462756395, -12443187.557781428, -74087280.09127831],
+          [59988615.03127563, -56544548.182146005],
+          [-94116991.70408937, 23129622.619590417, -36856901.9449108]
+        ],
+        [
+          [-43845439.73917423, 37182474.807830304, -44481476.77540226, 30309191.247732818],
+          [-83258965.06024972, -74062208.55958, 52463755.29533854],
+          [7966488.918450892, 33467179.7125265, 40200656.054525554, 91884230.95291728, -29314849.73379205],
+          [-6418220.798250392, -31955940.202694893, -26660705.315917045, -35647306.15362772, 42024855.33780384],
+          [24703521.958220392, 63264207.07159999, -38238793.81849431, -33999739.871840976]
+        ],
+        [
+          [47003673.41622397, -47752086.733710945, -23060882.339032233, 43094074.39244816],
+          [95968043.40883031, 80622003.04544958, -39392645.16961733, -14263268.103798628],
+          [-25572991.109369174, -32978964.80452303],
+          [-25146610.966339722, 55300834.34951681, -70603755.41422088],
+          [92048586.75883946, -71150350.92754155, 97850293.89644712, 36666621.92986223]
+        ]
+      ],
+      "bbox": [-5902732.169069573, -1487996.1473470777, 49764562.21772674, -17282020.750774324]
+    }
+  },
+  "Ackerzahl": 51076513,
+  "Denominator": null,
+  "EUNumberOfField": null,
+  "FieldBlockNumber": 24839945.83461255,
+  "FieldGroupName": null,
+  "FieldGroupNumber": "nostrud in",
+  "GemarkungCode": 19032561.569712132,
+  "GemarkungName": null,
+  "GemarkungNumber": null,
+  "Gruenlandzahl": 51659316,
+  "DistanceFarmField": "cupidatat veniam aliqua dolor",
+  "LandUseCategory": {
+    "$": "magna",
+    "@languageID": "XC-VfOeWo04-eZTKj3J-zV6a68-0tZgqsz-1OZVcPGM-TljX0Q-Licyx3uH-bOUk",
+    "@languageLocaleID": null
+  },
+  "NameOfField": "eu nostrud dolor velit consectetur",
+  "Nominator": "cillum et ex ut ",
+  "NumberOfField": null,
+  "SubNumber": "irure",
+  "TypeOfRestriction": -58795835.243011706
+}

@@ -1,0 +1,26 @@
+var elements = [
+  "Field",
+  "FieldGroup",
+  "Gemarkung",
+  "LandUseRestriction",
+  "PartOfField",
+  "SpatialData",
+  "Ackerzahl",
+  "Denominator",
+  "EUNumberOfField",
+  "FieldBlockNumber",
+  "FieldGroupName",
+  "FieldGroupNumber",
+  "GemarkungCode",
+  "GemarkungName",
+  "GemarkungNumber",
+  "Gruenlandzahl",
+  "DistanceFarmField",
+  "LandUseCategory",
+  "NameOfField",
+  "Nominator",
+  "NumberOfField",
+  "SubNumber",
+  "TypeOfRestriction"
+]
+
