@@ -20,3 +20,18 @@ In agroXML, spatial data is written in a subset (profile) of [Geography Markup L
 In order to maximize compatibility with these mapping services, coordinates are
 represented using the [**Web Mercator Projection**](https://en.wikipedia.org/wiki/Web_Mercator_projection) (WGS 84, EPSG:3857) instead of the ETRS89/EPSG:25832 projection commonly used in Europe.
 
+## Contribution
+Contribution is highly appreciated!
+
+Current ToDo's involve the following
+
+ - [ ] Get example agroXML files for the different modules described on the official website: [http://195.37.233.20/documentation/agroxml.html](http://195.37.233.20/documentation/agroxml.html)
+ - [ ] Further cleanup of the JSON schema (due to automatic conversion from the agroXML XSDs)
+ - [ ] Conversion tool between agroXML <-> agroJSON
+
+ If you are interested in helping out, please open an issue, pull request or drop a mail at [fruchtfolge@uni-bonn.de](mailto:fruchtfolge@uni-bonn.de)!
+ 
+ Make sure to `npm test` before creating a pull request.
+
+## License
+MIT
