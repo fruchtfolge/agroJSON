@@ -3,8 +3,8 @@
 	"additionalProperties": false,
 	"definitions": {
 		"Ackerzahl": {
-			"$ref": "#/definitions/xsd:nonNegativeInteger",
-			"description": "\nVorheriger deutscher Name: Ackerzahl.\nEnthält die im\nRahmen der Reichsbodenschätzung erhobene Ackerzahl eines\nStandorts und beschreibt die Bodenqualität. In der Regel bewegt sich diese zwischen 0 und\n100, kann gelegentlich aber auch höhere Werte annehmen,\nweshalb auf eine Beschränkung des Wertebereiches nach\noben verzichtet wurde. Je höher der Wert umso besser die Qualität des Bodens.\nPrevious german name: Ackerzahl\n"
+			"$ref": "#/definitions/nonNegativeInteger",
+			"description": "Vorheriger deutscher Name: Ackerzahl.\nEnthält die im\nRahmen der Reichsbodenschätzung erhobene Ackerzahl eines\nStandorts und beschreibt die Bodenqualität. In der Regel bewegt sich diese zwischen 0 und\n100, kann gelegentlich aber auch höhere Werte annehmen,\nweshalb auf eine Beschränkung des Wertebereiches nach\noben verzichtet wurde. Je höher der Wert umso besser die Qualität des Bodens.\nPrevious german name: Ackerzahl\n"
 		},
 		"Address": {
 			"$ref": "#/definitions/NameAndAddressType",
@@ -12,42 +12,42 @@
 		},
 		"Agent": {
 			"$ref": "#/definitions/AgentType",
-			"description": "\nVorheriger deutscher Name: Mittel.\nPrevious german name: Mittel.\n"
+			"description": "Vorheriger deutscher Name: Mittel.\nPrevious german name: Mittel.\n"
 		},
 		"AgentName": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Mittelname. Enthält die\nHandelsbezeichnung eines Dünge- oder\nPflanzenschutzmittels.\nPrevious german name: Mittelname\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Mittelname. Enthält die\nHandelsbezeichnung eines Dünge- oder\nPflanzenschutzmittels.\nPrevious german name: Mittelname\n"
 		},
 		"AgentNameCoded": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: MittelnameCoded. Codierter\nMittelname. Nur zu verwenden, wenn es sich um\nPflanzenschutzmittel handelt. Dann zu befüllen aus der\nListe PesticideName.xml\nPrevious german name: MittelnameCoded\n"
+			"description": "Vorheriger deutscher Name: MittelnameCoded. Codierter\nMittelname. Nur zu verwenden, wenn es sich um\nPflanzenschutzmittel handelt. Dann zu befüllen aus der\nListe PesticideName.xml\nPrevious german name: MittelnameCoded\n"
 		},
 		"AgentType": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Mitteltyp. Der Typ des\nPflanzenschutzmittel.\nPrevious german name: Mitteltyp\n"
+			"description": "Vorheriger deutscher Name: Mitteltyp. Der Typ des\nPflanzenschutzmittel.\nPrevious german name: Mitteltyp\n"
 		},
 		"AgriculturalCertificationCode": {
 			"$ref": "#/definitions/CodeType",
-			"description": "Vorheriger deutscher Name: AgriculturalCertificationCode. Enthält Angaben über die Zertifizierung von Betrieben oder Betriebszweigen für bestimmte Qualitätssicherungs- oder Ökolandbauprogramme. Beispiel-Element: <AgriculturalCertificationCode codeSpace=\"http://www.agroxml.de/content/AgriculturalCertificationCode.xml#EUREPGAP\" codeListVersionID=\"1.0\"/> Beispiel-Element: (möglich, aber z.Zt. nicht empfohlen) <AgriculturalCertificationCode codeSpace=\"http://www.agroxml.de/content/AgriculturalCertificationCode.xml#EUREPGAP\" codeListVersionID=\"1.0\"> EUREPGAP </AgriculturalCertificationCode>\nPrevious german name: AgriculturalCertificationCode"
+			"description": "Vorheriger deutscher Name: AgriculturalCertificationCode. Enthält Angaben über die Zertifizierung von Betrieben oder Betriebszweigen für bestimmte Qualitätssicherungs- oder Ökolandbauprogramme. Beispiel-Element: <AgriculturalCertificationCode codeSpace=\"http://www.agroxml.de/content/AgriculturalCertificationCode.xml#EUREPGAP\" codeListVersionID=\"1.0\"/> Beispiel-Element: (möglich, aber z.Zt. nicht empfohlen) <AgriculturalCertificationCode codeSpace=\"http://www.agroxml.de/content/AgriculturalCertificationCode.xml#EUREPGAP\" codeListVersionID=\"1.0\"> EUREPGAP </AgriculturalCertificationCode>Previous german name: AgriculturalCertificationCode"
 		},
 		"AgroxmlDoc": {
 			"$ref": "#/definitions/AgroxmlDocType",
 			"description": "The root element of an agroXML-Instance"
 		},
 		"Ambit": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: Geltungsbereich. Beinhaltet den Geltungsbereich von Zertifizierungen (QS, EurepGAP usw.). Der Geltungsbereich ist dabei eine textuelle Beschreibung von Produktgruppen, für die die Zertifizierung gilt.\nPrevious german name: Geltungsbereich"
 		},
 		"AmountApplied": {
 			"$ref": "#/definitions/AmountAppliedType"
 		},
 		"ApprovalBegin": {
-			"$ref": "#/definitions/xsd:date",
-			"description": "\nVorheriger deutscher Name: Zulassungsbeginn. Für\nBetriebsmittel, für die es eine gesetzliche Pflicht zur\nZulassung und ein Verbot der Anwendung ohne Zulassung\ngibt (z. B. Pflanzenschutzmittel, Sorten), das Datum, an\ndem diese beginnt.\nPrevious german name: Zulassungsbeginn\n"
+			"$ref": "#/definitions/date",
+			"description": "Vorheriger deutscher Name: Zulassungsbeginn. Für\nBetriebsmittel, für die es eine gesetzliche Pflicht zur\nZulassung und ein Verbot der Anwendung ohne Zulassung\ngibt (z. B. Pflanzenschutzmittel, Sorten), das Datum, an\ndem diese beginnt.\nPrevious german name: Zulassungsbeginn\n"
 		},
 		"ApprovalEnd": {
-			"$ref": "#/definitions/xsd:date",
-			"description": "\nVorheriger deutscher Name: Zulassungsende. Für\nBetriebsmittel, für die es eine gesetzliche Pflicht zur\nZulassung und ein Verbot der Anwendung ohne Zulassung\ngibt (z. B. Pflanzenschutzmittel, Sorten), das Datum, an\ndem diese endet. Übergangsfristen zum Aufbrauch von\nResten finden hierbei keine Berücksichtigung, es handelt\nsich also um das tatsächliche Enddatum der Zulassung.\nPrevious german name: Zulassungsende\n"
+			"$ref": "#/definitions/date",
+			"description": "Vorheriger deutscher Name: Zulassungsende. Für\nBetriebsmittel, für die es eine gesetzliche Pflicht zur\nZulassung und ein Verbot der Anwendung ohne Zulassung\ngibt (z. B. Pflanzenschutzmittel, Sorten), das Datum, an\ndem diese endet. Übergangsfristen zum Aufbrauch von\nResten finden hierbei keine Berücksichtigung, es handelt\nsich also um das tatsächliche Enddatum der Zulassung.\nPrevious german name: Zulassungsende\n"
 		},
 		"Area": {
 			"$ref": "#/definitions/AreaType",
@@ -65,12 +65,12 @@
 			"description": "Vorheriger deutscher Name: Merkmal.\nPrevious german name: Merkmal."
 		},
 		"AttributeSpecification": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: Merkmalauspraegung. Gibt an wie stark das Merkmal, auf das bonitiert wird, ausgeprägt ist. <AttributeSpecification> kann mithin Klassifizierungen (A, B, C... ; 1-10 usw.) oder auch Prozentwerte enthalten. Die genaue Wahl hängt von der Bonitur selbst ab und kann nur von demjenigen sinnvoll ausgewählt werden, der Einblick in die fachlichen Hintergründe des Boniturschemas hat.\nPrevious german name: Merkmalauspraegung"
 		},
 		"BBAID": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: BBAKennnummer. Kennnummer der\nPflanzenschutzmittel auf der vom Bundesministerium für\nVerbraucherschutz und Lebensmittelsicherheit\n(BvL)veröffentlichten Pflanzenschutzmittelliste. (siehe\nInhaltsliste Pflanzenschutzmittel.xml)\nPrevious german name: BBAKennnummer\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: BBAKennnummer. Kennnummer der\nPflanzenschutzmittel auf der vom Bundesministerium für\nVerbraucherschutz und Lebensmittelsicherheit\n(BvL)veröffentlichten Pflanzenschutzmittelliste. (siehe\nInhaltsliste Pflanzenschutzmittel.xml)\nPrevious german name: BBAKennnummer\n"
 		},
 		"BBCHScale": {
 			"description": "Vorheriger deutscher Name: BBCHStadium. Zwei- oder vierstellige Ziffernfolge, die den Entwicklungsstand einer Pflanze oder eines Bestandes angibt. Eine Beschreibung der Stadien mit Bildern und Hinweisen zur Bestimmung findet sich [http://www.bba.de/veroeff/bbch/bbchdeu.pdf hier].\nPrevious german name: BBCHStadium",
@@ -78,7 +78,7 @@
 			"type": "string"
 		},
 		"BekaempfungsrichtwertUeberschritten": {
-			"$ref": "#/definitions/xsd:boolean",
+			"$ref": "#/definitions/boolean",
 			"description": "Vorheriger deutscher Name: BekaempfungsrichtwertUeberschritten. Wird im Zusammenhang mit Ausbringung von Pflanzenschutzmittel (also im Arbeitsgang Pflanzenschutz) benötigt. Ist der Bekämpfungsrichtwert unterhalb, so richten die Schaderreger wenig schaden an, oder nutzen sogar, so dass eine Behandlung mit PFM nicht notwendig ist. Ist der Bekämpfungsrichtwert erreicht, so sollte PFM ausgebracht werden.\nPrevious german name: BekaempfungsrichtwertUeberschritten"
 		},
 		"Besatz": {
@@ -98,32 +98,32 @@
 			"description": "Vorheriger deutscher Name: Zertifizierung. Beinhaltet die Daten, die zur Beschreibung der Zertifizierung eines Betriebes relevant sind, wie z. B. Startdatum, Enddatum, Geltungsbereich usw.\nPrevious german name: Zertifizierung"
 		},
 		"CertificationNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: Zertifizierungsnummer"
 		},
 		"ChemicalAbstractServicesRegistryNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: CASNummer. Bekannt unter dem Namen CAS-Nummer. Eine international anerkannte, eindeutige Nummer für chemische Substanzen. Für jeden bekannten chemischen Stoff (auch Biosequenzen, Legierungen, Polymere) existiert eine eindeutige CAS-Nummer. Summenformeln, (verschiedensprachige) Trivialnamen und sogar IUPAC-Namen sind nicht eindeutig und können zur Verwechslung insbesondere durch Nichtchemiker führen. Beispielsweise lässt sich Aceton auch durch Dimethylketon oder 2-Propanon richtig bezeichnen - die CAS-Nummer ermöglicht hingegen eine eindeutige Identifizierung. Verschiedene Isomere eines Moleküls tragen verschiedene CAS-Nummern."
 		},
 		"Chit": {
-			"$ref": "#/definitions/xsd:boolean",
-			"description": "\nVorheriger deutscher Name: Vorkeimung.\nPrevious german name: Vorkeimung\n"
+			"$ref": "#/definitions/boolean",
+			"description": "Vorheriger deutscher Name: Vorkeimung.\nPrevious german name: Vorkeimung\n"
 		},
 		"ChromiumContent": {
 			"$ref": "#/definitions/ChemicalSubstancesContentType",
 			"description": "Der Chromgehalt.\nWe use exclusively the element form. This means, never give P2O5 content here, always reference your measurement to P."
 		},
 		"City": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Der Ortsname in einer Adresse."
 		},
 		"CityCode": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Identifier for a city, expressed as a short code rather than the full name (source: original GS1 documentation for the core component)"
 		},
 		"Clamp": {
 			"$ref": "#/definitions/ClampType",
-			"description": "\nVorheriger deutscher Name: Miete. Eine Miete ist eine\nAnhäufung von Feldfrüchten zum Zweck des Lagerns nach\nder Ernte. Die Lebensdauer einer Miete kann variieren.\nRübenmieten werden meist innerhalb weniger Tage nach der\nErnte zur Zuckerfabrik abtransportiert, während\nGemüsemieten einen ganzen Winter bestehen können. Mieten\nkönnen mit verschiedenen Materialien (Folie, Stroh...)\nabgedeckt werden. Der Zeitpunkt der Abdeckung wird im\nElement [[Abdeckdatum]] dokumentiert. Die Art der\nAbdeckung wird in Mietenschutz angegeben. Wann die Miete\nzum Abtransport aufgelöst wird, steht in Lieferdatum.\nPrevious german name: Miete\n"
+			"description": "Vorheriger deutscher Name: Miete. Eine Miete ist eine\nAnhäufung von Feldfrüchten zum Zweck des Lagerns nach\nder Ernte. Die Lebensdauer einer Miete kann variieren.\nRübenmieten werden meist innerhalb weniger Tage nach der\nErnte zur Zuckerfabrik abtransportiert, während\nGemüsemieten einen ganzen Winter bestehen können. Mieten\nkönnen mit verschiedenen Materialien (Folie, Stroh...)\nabgedeckt werden. Der Zeitpunkt der Abdeckung wird im\nElement [[Abdeckdatum]] dokumentiert. Die Art der\nAbdeckung wird in Mietenschutz angegeben. Wann die Miete\nzum Abtransport aufgelöst wird, steht in Lieferdatum.\nPrevious german name: Miete\n"
 		},
 		"Classification": {
 			"additionalProperties": false,
@@ -132,7 +132,7 @@
 					"$ref": "#/definitions/Method"
 				},
 				"Value": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				}
 			},
 			"type": "object"
@@ -147,7 +147,7 @@
 		},
 		"Climate": {
 			"$ref": "#/definitions/ClimateType",
-			"description": "\nVorheriger deutscher Name: Klima.\n"
+			"description": "Vorheriger deutscher Name: Klima.\n"
 		},
 		"Comment": {
 			"$ref": "#/definitions/TextType",
@@ -158,7 +158,7 @@
 			"description": "Vorheriger deutscher Name: Unternehmen."
 		},
 		"CompanyName": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: Unternehmensname. Der Name eines Unternehmens.\nPrevious german name: Unternehmensname."
 		},
 		"ConcomitantDocument": {
@@ -167,7 +167,7 @@
 		},
 		"ConsumptionOfSupplyItem": {
 			"$ref": "#/definitions/VolumeType",
-			"description": "\nVorheriger deutscher Name: Betriebsstoffverbrauch.\nEnthält den verbrauchten Betriebsstoff. Zu diskutieren\nist, wann Absolutverbräuche und wann Verbrauch auf eine\nBezugsgröße bezogen (l/ha, l/h) anzugeben ist, oder ob\nes nicht besser wäre, dafür unterschiedliche Elemente zu\nhaben.\nPrevious german name: Betriebsstoffverbrauch\n"
+			"description": "Vorheriger deutscher Name: Betriebsstoffverbrauch.\nEnthält den verbrauchten Betriebsstoff. Zu diskutieren\nist, wann Absolutverbräuche und wann Verbrauch auf eine\nBezugsgröße bezogen (l/ha, l/h) anzugeben ist, oder ob\nes nicht besser wäre, dafür unterschiedliche Elemente zu\nhaben.\nPrevious german name: Betriebsstoffverbrauch\n"
 		},
 		"Contact": {
 			"$ref": "#/definitions/ContactType",
@@ -175,7 +175,7 @@
 		},
 		"Contamination": {
 			"$ref": "#/definitions/ContaminationType",
-			"description": "\nVorheriger deutscher Name: Verschmutzung.\nPrevious german name: Verschmutzung.\n"
+			"description": "Vorheriger deutscher Name: Verschmutzung.\nPrevious german name: Verschmutzung.\n"
 		},
 		"ContractNumber": {
 			"$ref": "#/definitions/TextType",
@@ -198,12 +198,12 @@
 			"description": "Vorheriger deutscher Name: Laenderkennung. Die ISO 3166 ist ein Standard für die Kodierung von geografischen Einheiten, herausgegeben von der International Organization for Standardization (ISO). Er besteht aus drei Teilen zur Codierung von existierenden Staaten und einigen abhängigen Gebieten (ISO 3166-1) subnationalen Einheiten (ISO 3166-2) ehemaligen Staaten (ISO 3166-3) sollte sich auf UBL-Codeliste: UBL-CodeList-CountryIdentificationCode-1.0.xsd beziehen.\nPrevious german name: Laenderkennung"
 		},
 		"CountyCode": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Im deutschen Sprachgebrauch nicht verwendet. Bezieht sich auf den FIPS County Code für die USA.\nA code that identifies a county. A county is a territorial division in some countries, forming the chief unit of local administration. In the US, a county is a political and administrative division of a state. (source: original documentation of GS1 address core components)"
 		},
 		"CoveringDate": {
-			"$ref": "#/definitions/xsd:date",
-			"description": "\nVorheriger deutscher Name: Abdeckdatum. Das Datum der\nAbdeckung einer Miete.\nPrevious german name: Abdeckdatum\n"
+			"$ref": "#/definitions/date",
+			"description": "Vorheriger deutscher Name: Abdeckdatum. Das Datum der\nAbdeckung einer Miete.\nPrevious german name: Abdeckdatum\n"
 		},
 		"Crop": {
 			"$ref": "#/definitions/CropType",
@@ -225,7 +225,7 @@
 			"description": "Vorheriger deutscher Name: Kulturart. Die Art der Pflanze.\nPrevious german name: Kulturart"
 		},
 		"CrossStreet": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "A street intersecting a main street (usually at right angles) and continuing on both sides of it (Source: original documentation of the GS1 core component)"
 		},
 		"CrudeFat": {
@@ -245,24 +245,24 @@
 			"description": "Vorheriger deutscher Name: Anbau. Der Anbau beschreibt den Zustand eines Feldes in Bezug auf die darauf produzierten Pflanzen. Wenn es sich um mehrere getrennte Flächen handelt, die unterschiedliche Vor- und Zwischenfrüchte getragen haben, muss ein getrennter Anbau ausgefüllt werden.\nPrevious german name: Anbau"
 		},
 		"Cut": {
-			"$ref": "#/definitions/xsd:int",
+			"$ref": "#/definitions/int",
 			"description": "beispielsweise mehrschnittiges Ackerfutter wird über Schnittenummer bezeichnet."
 		},
 		"DateOfAnalysis": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Vorheriger deutscher Name: Untersuchungsdatum. Das Datum der Untersuchung.\nPrevious german name: Untersuchungsdatum"
 		},
 		"DegreeOfContamination": {
 			"$ref": "#/definitions/PercentType",
-			"description": "\nVorheriger deutscher Name: Verschmutzungsgrad. Gibt an\nwie stark Verschmutzt eine Maschine ist.\nPrevious german name: Verschmutzungsgrad.\n"
+			"description": "Vorheriger deutscher Name: Verschmutzungsgrad. Gibt an\nwie stark Verschmutzt eine Maschine ist.\nPrevious german name: Verschmutzungsgrad.\n"
 		},
 		"DeliveryDate": {
-			"$ref": "#/definitions/xsd:date",
-			"description": "\nVorheriger deutscher Name: Lieferdatum. Gibt an an wann\neine bestimmte Sache geliefert wird.\nPrevious german name: Lieferdatum\n"
+			"$ref": "#/definitions/date",
+			"description": "Vorheriger deutscher Name: Lieferdatum. Gibt an an wann\neine bestimmte Sache geliefert wird.\nPrevious german name: Lieferdatum\n"
 		},
 		"Denominator": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Nenner. Die Zahl die bei\neinem Bruch unten steht ist der Nenner und die Zahl die\noben steht ist der Zähler.\nPrevious german name: Nenner\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Nenner. Die Zahl die bei\neinem Bruch unten steht ist der Nenner und die Zahl die\noben steht ist der Zähler.\nPrevious german name: Nenner\n"
 		},
 		"Depth": {
 			"$ref": "#/definitions/LengthType",
@@ -277,7 +277,7 @@
 			"description": "Eine kurzer Text als Beschreibung des jeweiligen Sachverhaltes.\nA short description of the respective facts."
 		},
 		"DiastaticForce": {
-			"$ref": "#/definitions/xsd:integer",
+			"$ref": "#/definitions/integer",
 			"description": "Vorheriger deutscher Name: Diastatische_Kraft. Wird in Lintner Grad (°L) angegeben.\nPrevious german name: Diastatische_Kraft"
 		},
 		"DispositionNumber": {
@@ -290,26 +290,26 @@
 		},
 		"DistanceFarmField": {
 			"$ref": "#/definitions/LengthType",
-			"description": "\nVorheriger deutscher Name: Hofentfernung.\nPrevious german name: Hofentfernung\n"
+			"description": "Vorheriger deutscher Name: Hofentfernung.\nPrevious german name: Hofentfernung\n"
 		},
 		"Downtime": {
-			"$ref": "#/definitions/xsd:duration",
+			"$ref": "#/definitions/duration",
 			"description": "Vorheriger deutscher Name: Ausfallzeit. Die Zeit in der eine Maschine oder ein Arbeiter nicht in der Lage ist zu arbeiten.\nPrevious german name: Ausfallzeit"
 		},
 		"Drive": {
 			"$ref": "#/definitions/DriveType",
-			"description": "\nVorheriger deutscher Name: Antrieb.\nPrevious german name: Antrieb.\n"
+			"description": "Vorheriger deutscher Name: Antrieb.\nPrevious german name: Antrieb.\n"
 		},
 		"Drying": {
-			"$ref": "#/definitions/xsd:boolean",
-			"description": "\nVorheriger deutscher Name: Trocknung.\n"
+			"$ref": "#/definitions/boolean",
+			"description": "Vorheriger deutscher Name: Trocknung.\n"
 		},
 		"Duration": {
-			"$ref": "#/definitions/xsd:duration",
+			"$ref": "#/definitions/duration",
 			"description": "Vorheriger deutscher Name: Dauer. Zeitdauer eines Arbeitsganges.\nPrevious german name: Dauer"
 		},
 		"DurationOfUse": {
-			"$ref": "#/definitions/xsd:duration",
+			"$ref": "#/definitions/duration",
 			"description": "Vorheriger deutscher Name: Nutzungsjahr. Bei mehrjähriger Nutzung wird hier angegeben, wie lange die Nutzung bereits erfolgt. Entwickler, die dieses Element umsetzen, sollen die Anmerkungen unter http://www.w3.org/TR/xmlschema-2/#duration beachten. Es ist möglich, in einem Element vom Datentyp duration lediglich Jahre anzugeben. Eine feiner granulierte Angabe ist in diesem Zusammenhang sicher selten nötig.\nPrevious german name: Nutzungsjahr"
 		},
 		"EANnummer": {
@@ -317,8 +317,8 @@
 			"type": "integer"
 		},
 		"EUNumberOfField": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: EUSchlagnummer.\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: EUSchlagnummer.\n"
 		},
 		"EconomicalData": {
 			"$ref": "#/definitions/EconomicalDataType",
@@ -329,7 +329,7 @@
 			"description": "Vorheriger deutscher Name: BetriebswirtschaftlichesDatum. Das Element beschreibt Betriebswirtschaftliche Inhalte , die der Inhaltsliste \"betriebswirtschaftlichesDatum.xml\" zu entnehmen sind. (z.B.Zinssatz, Abschreibung, etc).\nPrevious german name: BetriebswirtschaftlichesDatum"
 		},
 		"Email": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Email-Adresse einer Person in der Form user@host.domain.toplevel."
 		},
 		"EmployeeID": {
@@ -337,7 +337,7 @@
 			"description": "Vorheriger deutscher Name: Personalnummer. Die jeweilige Nummer eines Mitarbeiters.\nPrevious german name: Personalnummer"
 		},
 		"EndDate": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Der Zeitraum von einem Tag, innerhalb dem ein Arbeitsgang beendet wurde."
 		},
 		"EndDateTime": {
@@ -349,8 +349,8 @@
 			"description": "Vorheriger deutscher Name: Energiebilanz. Die Bilanzierung der Energieströme eines offenen oder geschlossenen Systems, wobei eine negative Energiebilanz für einen Energieverlust und eine positive Energiebilanz für einen Energiegewinn des Systems stehen\nPrevious german name: Energiebilanz"
 		},
 		"FallingNumber": {
-			"$ref": "#/definitions/xsd:duration",
-			"description": "\nVorheriger deutscher Name: Fallzahl. Die Fallzahl ist\neine Angabe zur Backfähigkeit von Getreide oder dem\ndaraus gewonnenen Mehl.\nPrevious german name: Fallzahl\n"
+			"$ref": "#/definitions/duration",
+			"description": "Vorheriger deutscher Name: Fallzahl. Die Fallzahl ist\neine Angabe zur Backfähigkeit von Getreide oder dem\ndaraus gewonnenen Mehl.\nPrevious german name: Fallzahl\n"
 		},
 		"Farm": {
 			"$ref": "#/definitions/FarmType",
@@ -365,7 +365,7 @@
 			"description": "Vorheriger deutscher Name: Landbauform. In diesem Element wird angegeben, ob der Landbau konventionell oder ökologisch erfolgt."
 		},
 		"Fax": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Nummer eines Fax-Anschlusses."
 		},
 		"FederalState": {
@@ -381,27 +381,27 @@
 		},
 		"Fertilizer": {
 			"$ref": "#/definitions/FertilizerType",
-			"description": "\nVorheriger deutscher Name: Duengemittel. Enthält alle\ninhaltlich für Düngemittel wichtigen Daten. Düngemittel\nsind hierbei auch Wirtschaftsdünger.\nPrevious german name: Duengemittel\n"
+			"description": "Vorheriger deutscher Name: Duengemittel. Enthält alle\ninhaltlich für Düngemittel wichtigen Daten. Düngemittel\nsind hierbei auch Wirtschaftsdünger.\nPrevious german name: Duengemittel\n"
 		},
 		"Field": {
 			"$ref": "#/definitions/FieldType",
-			"description": "\nVorheriger deutscher Name: Schlag. Zweidimensionales\nGeoobjekt, das durch die Schlaggrenzen gegenüber\nbenachbarten Schlägen, Wegen, Waldstücken etc. räumlich\neindeutig abgegrenzt ist.\nPrevious german name: Schlag\n"
+			"description": "Vorheriger deutscher Name: Schlag. Zweidimensionales\nGeoobjekt, das durch die Schlaggrenzen gegenüber\nbenachbarten Schlägen, Wegen, Waldstücken etc. räumlich\neindeutig abgegrenzt ist.\nPrevious german name: Schlag\n"
 		},
 		"FieldBlockNumber": {
 			"$ref": "#/definitions/IdentifierType",
-			"description": "\nVorheriger deutscher Name: Feldblocknummer. Die Nummer\ndes Feldblocks innerhalb dessen ein Schlag liegt.\n"
+			"description": "Vorheriger deutscher Name: Feldblocknummer. Die Nummer\ndes Feldblocks innerhalb dessen ein Schlag liegt.\n"
 		},
 		"FieldGroup": {
 			"$ref": "#/definitions/FieldGroupType",
-			"description": "\nVorheriger deutscher Name: Flur.\nPrevious german name: Flur.\n"
+			"description": "Vorheriger deutscher Name: Flur.\nPrevious german name: Flur.\n"
 		},
 		"FieldGroupName": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Flurname. Flurnamen sind\nüberlieferte geografische Namen von kleinräumigen\nLandschaftsteilen. Sie kennzeichnen die kleineren und\nkleinsten geografischen Einheiten, wie Berge, Täler,\nWälder, Weiden, Wege, Gewanne, Fluren bis hin zu\neinzelnen Parzellen.\nPrevious german name: Flurname\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Flurname. Flurnamen sind\nüberlieferte geografische Namen von kleinräumigen\nLandschaftsteilen. Sie kennzeichnen die kleineren und\nkleinsten geografischen Einheiten, wie Berge, Täler,\nWälder, Weiden, Wege, Gewanne, Fluren bis hin zu\neinzelnen Parzellen.\nPrevious german name: Flurname\n"
 		},
 		"FieldGroupNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Flurnummer. Die Nummer eines\nFlures.\nPrevious german name: Flurnummer\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Flurnummer. Die Nummer eines\nFlures.\nPrevious german name: Flurnummer\n"
 		},
 		"FineCoarseDifference": {
 			"$ref": "#/definitions/ConcentrationType",
@@ -412,15 +412,15 @@
 			"description": "Vorheriger deutscher Name: Feinschrot_Malzextrakt\nPrevious german name: Feinschrot_Malzextrakt"
 		},
 		"FirstCertificationDate": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Vorheriger deutscher Name: Erstzertifizierung. Das Datum, zu dem eine Zertifizierung zugeteilt wurde."
 		},
 		"FirstName": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Der Vorname einer Person. Hier sollte immer der offizielle Vorname einer Person (in Deutschland z. B. wie im Personalausweis angegeben und im Melderegister erfasst) eingetragen werden. Dieses Element hat daher nicht den Datentyp TextType sondern normalizedString. In diesem Sinne existieren nämlich keine verschiedenen Repräsentationen des Vornamens in unterschiedlichen Sprachen (s. a. Dokumentation des TextType).\nThe first name of a person. Always fill this element with the official fist name of a person as for example given on his/her identity card. As such, this element is not of type TextType, but rather of normalizedString. There will never be different representations of the name in different languages. (see documentation for TextType)."
 		},
 		"FoilFleece": {
-			"$ref": "#/definitions/xsd:boolean",
+			"$ref": "#/definitions/boolean",
 			"description": "Vorheriger deutscher Name: Folie_vlies. Boolescher Wert, der angibt ob beim Anbau der Kultur eine Folie oder ein Vließ zur Bodenabdeckung verwendet wurde (Beispiel Spargelanbau, Rebschule)."
 		},
 		"FormOfFertilizer": {
@@ -442,19 +442,19 @@
 		},
 		"Gemarkung": {
 			"$ref": "#/definitions/GemarkungType",
-			"description": "\nVorheriger deutscher Name: Gemarkung.\nPrevious german name: Gemarkung.\n"
+			"description": "Vorheriger deutscher Name: Gemarkung.\nPrevious german name: Gemarkung.\n"
 		},
 		"GemarkungCode": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nEin Gemarkungscode aus einer Inhaltsliste\n"
+			"description": "Ein Gemarkungscode aus einer Inhaltsliste\n"
 		},
 		"GemarkungName": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Gemarkungsname. Der Name\neiner Gemarkung als administrativer Untereinheit einer\nGemeinde\nPrevious german name: Name\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Gemarkungsname. Der Name\neiner Gemarkung als administrativer Untereinheit einer\nGemeinde\nPrevious german name: Name\n"
 		},
 		"GemarkungNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Die Nummer einer Gemarkung\nals administrativer Untereinheit einer Gemeinde\nPrevious german name: Die Nummer einer Gemarkung\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Die Nummer einer Gemarkung\nals administrativer Untereinheit einer Gemeinde\nPrevious german name: Die Nummer einer Gemarkung\n"
 		},
 		"GeneticallyModifiedOrganism": {
 			"$ref": "#/definitions/GeneticallyModifiedOrganismType",
@@ -466,15 +466,15 @@
 		},
 		"GerminationEnergy": {
 			"$ref": "#/definitions/PercentType",
-			"description": "\nVorheriger deutscher Name: Triebkraft. Bei Kartoffeln,\nMais... wird in % gemessen\nPrevious german name: Triebkraft\n"
+			"description": "Vorheriger deutscher Name: Triebkraft. Bei Kartoffeln,\nMais... wird in % gemessen\nPrevious german name: Triebkraft\n"
 		},
 		"Gluten": {
 			"$ref": "#/definitions/ConcentrationType",
 			"description": "Vorheriger deutscher Name: Feuchtkleber\nPrevious german name: Feuchtkleber"
 		},
 		"Gruenlandzahl": {
-			"$ref": "#/definitions/xsd:nonNegativeInteger",
-			"description": "\nÄhnlich wie die Ackerzahl eine Bewertung der Güte eines\nGrünlandstandortes. Auch hier bewegt sich der\nWertebereich zwischen 0 und 100, mit gelegentlich\nauftretenden Werten über 100.\n"
+			"$ref": "#/definitions/nonNegativeInteger",
+			"description": "Ähnlich wie die Ackerzahl eine Bewertung der Güte eines\nGrünlandstandortes. Auch hier bewegt sich der\nWertebereich zwischen 0 und 100, mit gelegentlich\nauftretenden Werten über 100.\n"
 		},
 		"Harvest": {
 			"$ref": "#/definitions/HarvestType",
@@ -482,10 +482,10 @@
 		},
 		"HarvestResidues": {
 			"$ref": "#/definitions/HarvestResiduesType",
-			"description": "\nVorheriger deutscher Name: ErnteRueckstaende.\n"
+			"description": "Vorheriger deutscher Name: ErnteRueckstaende.\n"
 		},
 		"HarvestYear": {
-			"$ref": "#/definitions/xsd:gYear",
+			"$ref": "#/definitions/gYear",
 			"description": "Vorheriger deutscher Name: Erntejahr Das Jahr der Ernte.\nPrevious german name: Erntejahr"
 		},
 		"HarvestedArea": {
@@ -494,7 +494,7 @@
 		},
 		"HarvestedQuantity": {
 			"$ref": "#/definitions/MassType",
-			"description": "\nErntemenge ist die absolut auf einem Schlag als ganzes\ngeerntete Menge, also zum Beispiel 250 dt (in\nSI-Basiseinheit: 25000 kg)\nVorheriger deutscher Name: Erntemenge Die Menge die\nabgeerntet wurde.\nPrevious german name: Erntemenge\n"
+			"description": "Erntemenge ist die absolut auf einem Schlag als ganzes\ngeerntete Menge, also zum Beispiel 250 dt (in\nSI-Basiseinheit: 25000 kg)\nVorheriger deutscher Name: Erntemenge Die Menge die\nabgeerntet wurde.\nPrevious german name: Erntemenge\n"
 		},
 		"Height": {
 			"$ref": "#/definitions/LengthType",
@@ -502,7 +502,7 @@
 		},
 		"Humidity": {
 			"$ref": "#/definitions/PercentType",
-			"description": "\nVorheriger deutscher Name: Luftfeuchte. Gibt den\nFeuchtigkeitsgehalt der Luft an. Die Angabe erfolgt in\nProzent und gibt den Anteil des Wasserdampfgehaltes im\nVerhältnis zum Wasserdampfgehalt bei Sättigung wider.\nDieser Anteil ist temperaturabhängig. Bei niedrigen\nTemperaturen ist die Aufnahmefähigkeit der Luft für\nWasserdampf geringer, man sagt, der Taupunkt liegt\nniedriger.\nPrevious german name: Luftfeuchte\n"
+			"description": "Vorheriger deutscher Name: Luftfeuchte. Gibt den\nFeuchtigkeitsgehalt der Luft an. Die Angabe erfolgt in\nProzent und gibt den Anteil des Wasserdampfgehaltes im\nVerhältnis zum Wasserdampfgehalt bei Sättigung wider.\nDieser Anteil ist temperaturabhängig. Bei niedrigen\nTemperaturen ist die Aufnahmefähigkeit der Luft für\nWasserdampf geringer, man sagt, der Taupunkt liegt\nniedriger.\nPrevious german name: Luftfeuchte\n"
 		},
 		"HumusBalance": {
 			"$ref": "#/definitions/SustainabilityBalanceType",
@@ -518,19 +518,19 @@
 		},
 		"Indication": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Indikation. Der Grund warum\nein Pflanzenschutzmittel verwendet wird.\nPrevious german name: Indikation\n"
+			"description": "Vorheriger deutscher Name: Indikation. Der Grund warum\nein Pflanzenschutzmittel verwendet wird.\nPrevious german name: Indikation\n"
 		},
 		"IndicationDetails": {
 			"$ref": "#/definitions/IndicationDetailsType",
-			"description": "\nVorheriger deutscher Name: IndikationDetails\nPrevious german name: IndikationDetails.\n"
+			"description": "Vorheriger deutscher Name: IndikationDetails\nPrevious german name: IndikationDetails.\n"
 		},
 		"IndicationGroup": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Indikationsgruppe. Die\nPflanzenschutzmittel die auf eine gesamte Gruppe von\nKrankheiten reagiert.\nPrevious german name: Indikationsgruppe\n"
+			"description": "Vorheriger deutscher Name: Indikationsgruppe. Die\nPflanzenschutzmittel die auf eine gesamte Gruppe von\nKrankheiten reagiert.\nPrevious german name: Indikationsgruppe\n"
 		},
 		"IntendedUse": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Verwendungszweck.\n"
+			"description": "Vorheriger deutscher Name: Verwendungszweck.\n"
 		},
 		"Irrigation": {
 			"$ref": "#/definitions/IrrigationType",
@@ -541,7 +541,7 @@
 			"description": "Vorheriger deutscher Name: Begruendung."
 		},
 		"KolbachIndex": {
-			"$ref": "#/definitions/xsd:float",
+			"$ref": "#/definitions/float",
 			"description": "Vorheriger deutscher Name: Kolbachzahl\nPrevious german name: Kolbachzahl"
 		},
 		"Laboratory": {
@@ -554,11 +554,11 @@
 		},
 		"LandUseCategory": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Nutzungsart Beschreibt die\nArt mit der die Maschine arbeitet.\nPrevious german name: Nutzungsart\n"
+			"description": "Vorheriger deutscher Name: Nutzungsart Beschreibt die\nArt mit der die Maschine arbeitet.\nPrevious german name: Nutzungsart\n"
 		},
 		"LandUseRestriction": {
 			"$ref": "#/definitions/LandUseRestrictionType",
-			"description": "\nVorheriger deutscher Name: Bewirtschaftungsauflagen.\n"
+			"description": "Vorheriger deutscher Name: Bewirtschaftungsauflagen.\n"
 		},
 		"Landkreis": {
 			"$ref": "#/definitions/TextType",
@@ -573,7 +573,7 @@
 			"description": "Der Bleigehalt.\nWe use exclusively the element form. This means, never give P2O5 content here, always reference your measurement to P."
 		},
 		"LotName": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: BezeichungCharge\nPrevious german name: BezeichungCharge"
 		},
 		"LotNumber": {
@@ -582,7 +582,7 @@
 		},
 		"Machine": {
 			"$ref": "#/definitions/MachineType",
-			"description": "\nVorheriger deutscher Name: Maschine.\nPrevious german name: Maschine.\n"
+			"description": "Vorheriger deutscher Name: Maschine.\nPrevious german name: Maschine.\n"
 		},
 		"MachineWork": {
 			"$ref": "#/definitions/MachineWorkType",
@@ -616,11 +616,11 @@
 			"type": "object"
 		},
 		"MinimumDurability": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Vorheriger deutscher Name: Mindesthaltbarkeit (Mindesthaltbarkeitsdatum)\nPrevious german name: Mindesthaltbarkeit"
 		},
 		"Mobile": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Nummer eines Mobiltelefonanschlusses."
 		},
 		"Moisture": {
@@ -628,7 +628,7 @@
 			"description": "Vorheriger deutscher Name: Feuchte. Wassergehalt in Gewichtsprozent bezogen auf die Gesamtmasse.\nPrevious german name: Feuchte"
 		},
 		"MonetaryValuePerHectare": {
-			"$ref": "#/definitions/xsd:decimal",
+			"$ref": "#/definitions/decimal",
 			"description": "Deutscher Name: Ertragswert. Wert einer Frucht pro Hektar. Einzig gültige Währung ist der Euro.\nGerman name: Ertragswert."
 		},
 		"Mycotoxins": {
@@ -640,16 +640,16 @@
 			"description": "Allgemein wiederverwendbares Element für den Namen eines Objekts.\nGenerically reusable element for the name of an object."
 		},
 		"NameOfFarm": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: Betriebsname Der Name des Betriebes.\nPrevious german name: Betriebsname."
 		},
 		"NameOfField": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Schlagname Der Name des\nFeldes.\nPrevious german name: Schlagname\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Schlagname Der Name des\nFeldes.\nPrevious german name: Schlagname\n"
 		},
 		"NameOfMachine": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Maschinenname Gibt den Namen\nder Maschine an.\nPrevious german name: Maschinenname\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Maschinenname Gibt den Namen\nder Maschine an.\nPrevious german name: Maschinenname\n"
 		},
 		"NickelContent": {
 			"$ref": "#/definitions/ChemicalSubstancesContentType",
@@ -664,15 +664,15 @@
 			"description": "Der Stickstoffgesamtgehalt, also der Stickstoff aller möglichen N-Formen (Nitrat-N, Ammonium-N, organische Bindungen (z. B. Protein-N usw.)) zusammengenommen\nWe use exclusively the element form. This means, never give P2O5 content here, always reference your measurement to P."
 		},
 		"Nominator": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Zaehler.\nPrevious german name: Zaehler\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Zaehler.\nPrevious german name: Zaehler\n"
 		},
 		"NumberOfField": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Schlagnummer Die Nummer des\nSchlages.\nPrevious german name: Schlagnummer\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Schlagnummer Die Nummer des\nSchlages.\nPrevious german name: Schlagnummer\n"
 		},
 		"NumberOfGrainsPerEar": {
-			"$ref": "#/definitions/xsd:integer",
+			"$ref": "#/definitions/integer",
 			"description": "Vorheriger deutscher Name: AnzahlKoernerProAehre\nPrevious german name: AnzahlKoernerProAehre."
 		},
 		"OilContent": {
@@ -681,7 +681,7 @@
 		},
 		"OperatingSupplyItem": {
 			"$ref": "#/definitions/OperatingSupplyItemType",
-			"description": "\nVorheriger deutscher Name: Betriebsstoff.\nPrevious german name: Betriebsstoff.\n"
+			"description": "Vorheriger deutscher Name: Betriebsstoff.\nPrevious german name: Betriebsstoff.\n"
 		},
 		"Orderer": {
 			"$ref": "#/definitions/FarmType",
@@ -700,12 +700,12 @@
 			"description": "Vorheriger deutscher Name: Auswuchs\nPrevious german name: Auswuchs"
 		},
 		"POBoxNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Nummer eine Postfaches."
 		},
 		"PartOfField": {
 			"$ref": "#/definitions/PartOfFieldType",
-			"description": "\nVorheriger deutscher Name: Teilschlag.\nPrevious german name: Teilschlag.\n"
+			"description": "Vorheriger deutscher Name: Teilschlag.\nPrevious german name: Teilschlag.\n"
 		},
 		"Person": {
 			"$ref": "#/definitions/PersonType",
@@ -721,22 +721,22 @@
 		},
 		"Pesticide": {
 			"$ref": "#/definitions/PesticideType",
-			"description": "\nVorheriger deutscher Name: Pflanzenschutzmittel.\nPrevious german name: Pflanzenschutzmittel.\n"
+			"description": "Vorheriger deutscher Name: Pflanzenschutzmittel.\nPrevious german name: Pflanzenschutzmittel.\n"
 		},
 		"PesticideActiveIngredient": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: PflanzenschutzWirkstoff Mit\nHilfe dieses Elementes können Wirkstoffe eines\nPflanzenschutzmittels dokumentiert werden. Pro Element\nwird ein Wirkstoff eingetragen. Mögliche Werte sind der\nContentliste zu entnehmen, die vom [http://bvl.bund.de/\nBVL] gepflegt wird und die Wirkstoffe aller in der\nBundesrepublik Deutschland zugelassenen\nPflanzenschutzmittel enthält.\nBeispiele:\n* 1-Naphthylessigsäure * Fenbuconazol *\nSchalenwickler-Granulosevirus\nPrevious german name: PflanzenschutzWirkstoff\n"
+			"description": "Vorheriger deutscher Name: PflanzenschutzWirkstoff Mit\nHilfe dieses Elementes können Wirkstoffe eines\nPflanzenschutzmittels dokumentiert werden. Pro Element\nwird ein Wirkstoff eingetragen. Mögliche Werte sind der\nContentliste zu entnehmen, die vom [http://bvl.bund.de/\nBVL] gepflegt wird und die Wirkstoffe aller in der\nBundesrepublik Deutschland zugelassenen\nPflanzenschutzmittel enthält.Beispiele:* 1-Naphthylessigsäure * Fenbuconazol *\nSchalenwickler-Granulosevirus\nPrevious german name: PflanzenschutzWirkstoff\n"
 		},
 		"PesticideFormulation": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: PflanzenschutzFormulierung\nDie Beschreibung welche Pflanzenschutzmittel für welche\nPflanzen sind.\nPrevious german name: PflanzenschutzFormulierung\n"
+			"description": "Vorheriger deutscher Name: PflanzenschutzFormulierung\nDie Beschreibung welche Pflanzenschutzmittel für welche\nPflanzen sind.\nPrevious german name: PflanzenschutzFormulierung\n"
 		},
 		"PesticideScopeOfApplication": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: PflanzenschutzWirkungsbereich\nBezeichnet den Wirkungsbereich eines\nPflanzenschutzmittels.\nPrevious german name: PflanzenschutzWirkungsbereich\n"
+			"description": "Vorheriger deutscher Name: PflanzenschutzWirkungsbereich\nBezeichnet den Wirkungsbereich eines\nPflanzenschutzmittels.\nPrevious german name: PflanzenschutzWirkungsbereich\n"
 		},
 		"Phone": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Nummer eines Festnetzanschlusses."
 		},
 		"PhosphorusBalance": {
@@ -753,10 +753,10 @@
 		},
 		"Polarisation": {
 			"$ref": "#/definitions/PercentType",
-			"description": "\nVorheriger deutscher Name: Polarisation Polarisation\neiner Welle ist eine Eigenschaft von Transversalwellen,\nderen Schwingung senkrecht zur Ausbreitungsrichtung der\nWelle passiert. Bei Longitudinalwellen kann ein\nPolarisationsphänomen nicht auftreten, da die Schwingung\nin Ausbreitungsrichtung erfolgt.\nPrevious german name: Polarisation\n"
+			"description": "Vorheriger deutscher Name: Polarisation Polarisation\neiner Welle ist eine Eigenschaft von Transversalwellen,\nderen Schwingung senkrecht zur Ausbreitungsrichtung der\nWelle passiert. Bei Longitudinalwellen kann ein\nPolarisationsphänomen nicht auftreten, da die Schwingung\nin Ausbreitungsrichtung erfolgt.\nPrevious german name: Polarisation\n"
 		},
 		"PostalCode": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Postleitzahl, in Deutschland 5-stellig."
 		},
 		"PotassiumBalance": {
@@ -773,22 +773,22 @@
 		},
 		"Precipitation": {
 			"$ref": "#/definitions/LengthType",
-			"description": "\nVorheriger deutscher Name: Niederschlag. Der langjährige\ndurchschnittliche Niederschlag der Betriebsregion.\nPrevious german name: Niederschlag\n"
+			"description": "Vorheriger deutscher Name: Niederschlag. Der langjährige\ndurchschnittliche Niederschlag der Betriebsregion.\nPrevious german name: Niederschlag\n"
 		},
 		"PrimaryProduct": {
 			"$ref": "#/definitions/HarvestedCropType",
-			"description": "\nVorheriger deutscher Name: Hauptprodukt.\nPrevious german name: Hauptprodukt.\n"
+			"description": "Vorheriger deutscher Name: Hauptprodukt.\nPrevious german name: Hauptprodukt.\n"
 		},
 		"Procedure": {
 			"$ref": "#/definitions/CodeType",
 			"description": "Vorheriger deutscher Name: Verfahren.\nPrevious german name: Verfahren."
 		},
 		"ProcessDuration": {
-			"$ref": "#/definitions/xsd:duration",
+			"$ref": "#/definitions/duration",
 			"description": "Vorheriger deutscher Name: Arbeitsgangdauer. Die Zeit die der Arbeitsgang benötigt.\nPrevious german name: Arbeitsgangdauer"
 		},
 		"ProductionDate": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Vorheriger deutscher Name: Datum. Bezeichnet das Datum an dem die Verarbeitung stattgefunden hat.\nPrevious german name: Datum. Contains the production date."
 		},
 		"ProfitMarginII": {
@@ -797,23 +797,23 @@
 		},
 		"ProportionOfBrokenGrains": {
 			"$ref": "#/definitions/PercentType",
-			"description": "\nVorheriger deutscher Name: Bruchkornanteil. Der Anteil\nvom Korn der gebrochen ist.\nPrevious german name: Bruchkornanteil\n"
+			"description": "Vorheriger deutscher Name: Bruchkornanteil. Der Anteil\nvom Korn der gebrochen ist.\nPrevious german name: Bruchkornanteil\n"
 		},
 		"ProteinContent": {
 			"$ref": "#/definitions/PercentType",
 			"description": "Vorheriger deutscher Name: Proteingehalt. Gibt den Gehalt von Protein eines Stoffes in Prozent an.\nPrevious german name: Proteingehalt."
 		},
 		"ProvinceCode": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Free form text for State/Province. (source: original GS1 core component documentation)."
 		},
 		"QualityAttribute": {
 			"$ref": "#/definitions/QualityAttributeType",
-			"description": "\nVorheriger deutscher Name: Qualitätsmerkmal.\nPrevious german name: Qualitätsmerkmal.\n"
+			"description": "Vorheriger deutscher Name: Qualitätsmerkmal.\nPrevious german name: Qualitätsmerkmal.\n"
 		},
 		"RatedEnginePower": {
 			"$ref": "#/definitions/PowerType",
-			"description": "\nVorheriger deutscher Name: Leistung. Die Leistung (in\nWatt) einer Maschine.\nPrevious german name: Leistung.\n"
+			"description": "Vorheriger deutscher Name: Leistung. Die Leistung (in\nWatt) einer Maschine.\nPrevious german name: Leistung.\n"
 		},
 		"Rating": {
 			"$ref": "#/definitions/RatingType",
@@ -824,7 +824,7 @@
 			"description": "Vorheriger deutscher Name: Boniturschema.\nPrevious german name: Boniturschema."
 		},
 		"RatingSchemaName": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: BoniturSchemaName.\nPrevious german name: BoniturSchemaName"
 		},
 		"Recipient": {
@@ -845,14 +845,14 @@
 		},
 		"RegistrationPlateNumber": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Kennzeichen.\nPrevious german name: Kennzeichen\n"
+			"description": "Vorheriger deutscher Name: Kennzeichen.\nPrevious german name: Kennzeichen\n"
 		},
 		"RowSpacing": {
 			"$ref": "#/definitions/LengthType",
 			"description": "Vorheriger deutscher Name: Reihenabstand Abstand zwischen den Pflanzreihen, also Abstand der Säschare (quer zur Fahrtrichtung) bei der Aussaat. Bei Getreide ca. 10-12 cm, bei Rüben ca. 40 cm und bei Mais ca. 60 cm.\nPrevious german name: Reihenabstand"
 		},
 		"Salutation": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Die Anrede einer Person (Herr, Frau)."
 		},
 		"Sample": {
@@ -861,7 +861,7 @@
 		},
 		"SecondaryProduct": {
 			"$ref": "#/definitions/HarvestedCropType",
-			"description": "\nVorheriger deutscher Name: Nebenprodukt.\nPrevious german name: Nebenprodukt.\n"
+			"description": "Vorheriger deutscher Name: Nebenprodukt.\nPrevious german name: Nebenprodukt.\n"
 		},
 		"SedimentationValue": {
 			"$ref": "#/definitions/VolumeType",
@@ -869,19 +869,19 @@
 		},
 		"Seed": {
 			"$ref": "#/definitions/SeedType",
-			"description": "\nVorheriger deutscher Name: Saatgut.\nPrevious german name: Saatgut.\n"
+			"description": "Vorheriger deutscher Name: Saatgut.\nPrevious german name: Saatgut.\n"
 		},
 		"SeedBatch": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Saatgutpartie.\nPrevious german name: Saatgutpartie\n"
+			"description": "Vorheriger deutscher Name: Saatgutpartie.\nPrevious german name: Saatgutpartie\n"
 		},
 		"SeedDressing": {
 			"$ref": "#/definitions/AgentType",
-			"description": "\nVorheriger deutscher Name: Beizmittel.\nPrevious german name: Beizmittel.\n"
+			"description": "Vorheriger deutscher Name: Beizmittel.\nPrevious german name: Beizmittel.\n"
 		},
 		"SeedGrade": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Saatgutstufe. Saatgutstufen,\nsowie die Bestimmungen, die regeln, welches Saatgut\nwelche Stufenbezeichnung tragen darf, sind im\nSaatgutverkehrsgesetz festgelegt. Die Angabe kann der\nVerpackung des Saatgutes bzw. dem beiliegenden Schein\nentnommen werden.\nPrevious german name: Saatgutstufe\n"
+			"description": "Vorheriger deutscher Name: Saatgutstufe. Saatgutstufen,\nsowie die Bestimmungen, die regeln, welches Saatgut\nwelche Stufenbezeichnung tragen darf, sind im\nSaatgutverkehrsgesetz festgelegt. Die Angabe kann der\nVerpackung des Saatgutes bzw. dem beiliegenden Schein\nentnommen werden.\nPrevious german name: Saatgutstufe\n"
 		},
 		"SeedQuantity": {
 			"$ref": "#/definitions/MassType",
@@ -896,7 +896,7 @@
 			"description": "Vorheriger deutscher Name: Saat.\nPrevious german name: Saat"
 		},
 		"SeedingDensity": {
-			"$ref": "#/definitions/..xsd:nonNegativeInteger.1",
+			"$ref": "#/definitions/..nonNegativeInteger.1",
 			"description": "Die Dichte der Ausbringung des Saatgutes beim Säen. Sie wird in Körner pro Quadratmeter angegeben\nPrevious german name: Saatdichte"
 		},
 		"SeedingMethod": {
@@ -1166,7 +1166,7 @@
 		},
 		"SolarRadiation": {
 			"$ref": "#/definitions/MeasureType",
-			"description": "\nVorheriger deutscher Name: Globalstrahlung. Die Summe\nder an einem Ort an der Erdoberfläche eintreffenden\nSonnenstrahlung. Berücksichtigt werden hierbei sowohl\nDirektstrahlung als auch Diffusstrahlung. Wird gemessen\nmit Hilfe eines sogenannten Pyranometers.\nPrevious german name: Globalstrahlung\n"
+			"description": "Vorheriger deutscher Name: Globalstrahlung. Die Summe\nder an einem Ort an der Erdoberfläche eintreffenden\nSonnenstrahlung. Berücksichtigt werden hierbei sowohl\nDirektstrahlung als auch Diffusstrahlung. Wird gemessen\nmit Hilfe eines sogenannten Pyranometers.\nPrevious german name: Globalstrahlung\n"
 		},
 		"SourceOfInformation": {
 			"$ref": "#/definitions/SourceOfInformationType",
@@ -1174,34 +1174,34 @@
 		},
 		"SpatialData": {
 			"$ref": "#/definitions/SpatialDataType",
-			"description": "\nVorheriger deutscher Name: Geoinformation.\nPrevious german name: Geoinformation.\n"
+			"description": "Vorheriger deutscher Name: Geoinformation.\nPrevious german name: Geoinformation.\n"
 		},
 		"Speed": {
 			"$ref": "#/definitions/SpeedsType",
-			"description": "\nVorheriger deutscher Name: Geschwindigkeit.\nPrevious german name: Geschwindigkeit\n"
+			"description": "Vorheriger deutscher Name: Geschwindigkeit.\nPrevious german name: Geschwindigkeit\n"
 		},
 		"SpeedAverage": {
 			"$ref": "#/definitions/SpeedType",
-			"description": "\nVorheriger deutscher Name: Durchschnittsgeschwindigkeit\nDie Geschwindigkeit die durchschittlich gefahren wird.\nPrevious german name: Durchschnittsgeschwindigkeit\n"
+			"description": "Vorheriger deutscher Name: Durchschnittsgeschwindigkeit\nDie Geschwindigkeit die durchschittlich gefahren wird.\nPrevious german name: Durchschnittsgeschwindigkeit\n"
 		},
 		"SpeedMax": {
 			"$ref": "#/definitions/SpeedType",
-			"description": "\nVorheriger deutscher Name: GeschwindigkeitMax Die\nmaximale Geschwindigkeit die gefahren werden kann.\nPrevious german name: GeschwindigkeitMax\n"
+			"description": "Vorheriger deutscher Name: GeschwindigkeitMax Die\nmaximale Geschwindigkeit die gefahren werden kann.\nPrevious german name: GeschwindigkeitMax\n"
 		},
 		"SpeedMin": {
 			"$ref": "#/definitions/SpeedType",
-			"description": "\nVorheriger deutscher Name: GeschwindigkeitMin Die\nminimale geschwindigkeit die man fahren kann.\nPrevious german name: GeschwindigkeitMin\n"
+			"description": "Vorheriger deutscher Name: GeschwindigkeitMin Die\nminimale geschwindigkeit die man fahren kann.\nPrevious german name: GeschwindigkeitMin\n"
 		},
 		"SproutingStimulation": {
-			"$ref": "#/definitions/xsd:boolean",
-			"description": "\nVorheriger deutscher Name: Keimstimmung Gibt an ob das\nSaatguut bei bestimter Temperatur, Sonneneinstralung\noder Luftfeuchtigkeit anfängt zu keimen.\nPrevious german name: Keimstimmung\n"
+			"$ref": "#/definitions/boolean",
+			"description": "Vorheriger deutscher Name: Keimstimmung Gibt an ob das\nSaatguut bei bestimter Temperatur, Sonneneinstralung\noder Luftfeuchtigkeit anfängt zu keimen.\nPrevious german name: Keimstimmung\n"
 		},
 		"StarchContent": {
 			"$ref": "#/definitions/PercentType",
 			"description": "Vorheriger deutscher Name: Staerkegehalt Gibt in Prozent an wieviel Stärke enthalten ist.\nPrevious german name: Staerkegehalt."
 		},
 		"StartDate": {
-			"$ref": "#/definitions/xsd:date",
+			"$ref": "#/definitions/date",
 			"description": "Das Datum, an dem eine Zertifizierung gültig wurde."
 		},
 		"StartDateTime": {
@@ -1209,24 +1209,24 @@
 			"description": "Vorheriger deutscher Name: StartDateTime. Beschreibt den Startzeitpunkt z. B. eines Arbeitsganges.\nPrevious german name: StartDateTime"
 		},
 		"State": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Free form text for State/Province. (source: original GS1 core component documentation)"
 		},
 		"StorageLocationName": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "Vorheriger deutscher Name: BezeichungLager\nPrevious german name: BezeichungLager"
 		},
 		"StreetAddressOne": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "The first free form line of an address, This first part is printed on paper as the first line below the name. For example, the name of the street and the number in the street or the name of a building. (source: original GS1 core component documentation)"
 		},
 		"StreetAddressTwo": {
-			"$ref": "#/definitions/xsd:normalizedString",
+			"$ref": "#/definitions/normalizedString",
 			"description": "The second free form line of an address, This second part is printed on paper as the second line below the name. The second free form line complements the first free form line to locate the party e.g. floor number, name of a building, suite number. (source: original GS1 core component documentation)"
 		},
 		"SubNumber": {
-			"$ref": "#/definitions/xsd:normalizedString",
-			"description": "\nVorheriger deutscher Name: Unternummer.\nPrevious german name: Unternummer\n"
+			"$ref": "#/definitions/normalizedString",
+			"description": "Vorheriger deutscher Name: Unternummer.\nPrevious german name: Unternummer\n"
 		},
 		"SubstanceOfContents": {
 			"$ref": "#/definitions/CodeType",
@@ -1254,15 +1254,15 @@
 		},
 		"TechnicalSpecification": {
 			"$ref": "#/definitions/CodeType",
-			"description": "Vorheriger deutscher Name: TechnischesDatum.\nPrevious german name: TechnischesDatum.\n"
+			"description": "Vorheriger deutscher Name: TechnischesDatum.Previous german name: TechnischesDatum.\n"
 		},
 		"TechnicalSpecificationValue": {
-			"$ref": "#/definitions/xsd:string",
-			"description": "\nVorheriger deutscher Name: TechnischesDatumWert.\nPrevious german name: TechnischesDatumWert\n"
+			"$ref": "#/definitions/string",
+			"description": "Vorheriger deutscher Name: TechnischesDatumWert.\nPrevious german name: TechnischesDatumWert\n"
 		},
 		"TechnicalSpecifications": {
 			"$ref": "#/definitions/TechnicalSpecificationsType",
-			"description": "\nVorheriger deutscher Name: TechnischeDaten.\nPrevious german name: TechnischeDaten.\n"
+			"description": "Vorheriger deutscher Name: TechnischeDaten.\nPrevious german name: TechnischeDaten.\n"
 		},
 		"Temperature": {
 			"$ref": "#/definitions/TemperatureType",
@@ -1306,42 +1306,42 @@
 		},
 		"TypeOfClampProtection": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Mietenschutz. Die Art der\nAbdeckung einer Miete. Mögliche Werte: ohne, Vlies,\nStroh, Sonstiges\nPrevious german name: Mietenschutz\n"
+			"description": "Vorheriger deutscher Name: Mietenschutz. Die Art der\nAbdeckung einer Miete. Mögliche Werte: ohne, Vlies,\nStroh, Sonstiges\nPrevious german name: Mietenschutz\n"
 		},
 		"TypeOfContamination": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Verschmutzungsart.\nPrevious german name: Verschmutzungsart\n"
+			"description": "Vorheriger deutscher Name: Verschmutzungsart.\nPrevious german name: Verschmutzungsart\n"
 		},
 		"TypeOfFertilizer": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: DuengeMittelart. Beschreibt\ndie Art eines Duengemittels. Differenziert wird nach den\nTypen, die in der EU-Düngemittelverordnung dokumentiert\nund für die Bezeichnung von im Handel befindlichen\nDüngemitteln verpflichtend sind. Zu entnehmen sind diese\nNamen dem Etikett oder Lieferschein. Wirtschaftsdünger\nwurden gemäß deutscher Düngemittelverordnung ergänzt, da\ndiese nicht durch die EU-Verordnung abgedeckt sind.\nPrevious german name: DuengeMittelart\n"
+			"description": "Vorheriger deutscher Name: DuengeMittelart. Beschreibt\ndie Art eines Duengemittels. Differenziert wird nach den\nTypen, die in der EU-Düngemittelverordnung dokumentiert\nund für die Bezeichnung von im Handel befindlichen\nDüngemitteln verpflichtend sind. Zu entnehmen sind diese\nNamen dem Etikett oder Lieferschein. Wirtschaftsdünger\nwurden gemäß deutscher Düngemittelverordnung ergänzt, da\ndiese nicht durch die EU-Verordnung abgedeckt sind.\nPrevious german name: DuengeMittelart\n"
 		},
 		"TypeOfMachine": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Maschinenart. Bezeichnet die\nArt einer Maschine. Differenziert wird dabei nach\nMaschinengruppen des KTBL. Beispiele:\n* Traktoren, Standardtraktor mit Allradantrieb, 216 -\n250 kW * Bodenbearbeitung, Drehverstellpflug,\naufgesattelt, 10 - Schare, 300-500cm * Ernte,\nFutterrübenernte, Futterrüben - Köpfrodebunker,\n1-reihig, 2,2 t\nPrevious german name: Maschinenart\n"
+			"description": "Vorheriger deutscher Name: Maschinenart. Bezeichnet die\nArt einer Maschine. Differenziert wird dabei nach\nMaschinengruppen des KTBL. Beispiele:* Traktoren, Standardtraktor mit Allradantrieb, 216 -\n250 kW * Bodenbearbeitung, Drehverstellpflug,\naufgesattelt, 10 - Schare, 300-500cm * Ernte,\nFutterrübenernte, Futterrüben - Köpfrodebunker,\n1-reihig, 2,2 t\nPrevious german name: Maschinenart\n"
 		},
 		"TypeOfRestriction": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Auflagenart.\nPrevious german name: Auflagenart\n"
+			"description": "Vorheriger deutscher Name: Auflagenart.\nPrevious german name: Auflagenart\n"
 		},
 		"TypeOfSupplyItem": {
 			"$ref": "#/definitions/CodeType",
-			"description": "\nVorheriger deutscher Name: Betriebsstoffart. Bezeichnet\ndie Art eines Betriebsstoffes einer Maschine. Hierzu\nzählen auch Verbrauchsmaterialien wie Bindegarn sowie\nSchmierstoffe und Brennstoffe zur Wärmeerzeugung.\nPrevious german name: Betriebsstoffart\n"
+			"description": "Vorheriger deutscher Name: Betriebsstoffart. Bezeichnet\ndie Art eines Betriebsstoffes einer Maschine. Hierzu\nzählen auch Verbrauchsmaterialien wie Bindegarn sowie\nSchmierstoffe und Brennstoffe zur Wärmeerzeugung.\nPrevious german name: Betriebsstoffart\n"
 		},
 		"TyreDesignation": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Reifenbezeichnung. Gibt die\nReifenbezeichnung an.\nPrevious german name: Reifenbezeichnung\n"
+			"description": "Vorheriger deutscher Name: Reifenbezeichnung. Gibt die\nReifenbezeichnung an.\nPrevious german name: Reifenbezeichnung\n"
 		},
 		"TyreLoadCapacity": {
 			"$ref": "#/definitions/MassType",
-			"description": "\nVorheriger deutscher Name: Tragkraft. Gibt die Tragkraft\neines einzelnen Reifen in kg an.\nPrevious german name: Tragkraft.\n"
+			"description": "Vorheriger deutscher Name: Tragkraft. Gibt die Tragkraft\neines einzelnen Reifen in kg an.\nPrevious german name: Tragkraft.\n"
 		},
 		"Tyres": {
 			"$ref": "#/definitions/TyresType",
-			"description": "\nVorheriger deutscher Name: Bereifung.\nPrevious german name: Bereifung\n"
+			"description": "Vorheriger deutscher Name: Bereifung.\nPrevious german name: Bereifung\n"
 		},
 		"URI": {
-			"$ref": "#/definitions/xsd:anyURI",
+			"$ref": "#/definitions/anyURI",
 			"description": "Vorheriger deutscher Name: URI. URLs identifizieren eine Ressource über ihren primären Zugriffsmechanismus und den Ort der Ressource in Computernetzwerken.\nPrevious german name: URI"
 		},
 		"UniqueAreaID": {
@@ -1368,7 +1368,7 @@
 		},
 		"VehicleIdentificationNumber": {
 			"$ref": "#/definitions/TextType",
-			"description": "\nVorheriger deutscher Name: Fahrgestellnummer.\nPrevious german name: Fahrgestellnummer.\n"
+			"description": "Vorheriger deutscher Name: Fahrgestellnummer.\nPrevious german name: Fahrgestellnummer.\n"
 		},
 		"Vitreausness": {
 			"$ref": "#/definitions/ConcentrationType",
@@ -1379,8 +1379,8 @@
 			"description": "Für Volumenangaben im Allgemeinen."
 		},
 		"WaitingPeriod": {
-			"$ref": "#/definitions/xsd:duration",
-			"description": "\nVorheriger deutscher Name: Wartezeit. Zeitdauer, die\nnach Ausbringung eines Pflanzenschutzmittels bis zur\nErnte bzw. nach Behandlung eines Tieres mit\nArzneimitteln bis zur Verwendung des jeweiligen\nProduktes (Milch, Eier, Fleisch...) abzuwarten ist.\nPrevious german name: Wartezeit\n"
+			"$ref": "#/definitions/duration",
+			"description": "Vorheriger deutscher Name: Wartezeit. Zeitdauer, die\nnach Ausbringung eines Pflanzenschutzmittels bis zur\nErnte bzw. nach Behandlung eines Tieres mit\nArzneimitteln bis zur Verwendung des jeweiligen\nProduktes (Milch, Eier, Fleisch...) abzuwarten ist.\nPrevious german name: Wartezeit\n"
 		},
 		"WaterQuantity": {
 			"$ref": "#/definitions/VolumeType",
@@ -1388,7 +1388,7 @@
 		},
 		"WeatherStation": {
 			"$ref": "#/definitions/WeatherStationType",
-			"description": "\nVorheriger deutscher Name: Wetterstation.\nPrevious german name: Wetterstation\n"
+			"description": "Vorheriger deutscher Name: Wetterstation.\nPrevious german name: Wetterstation\n"
 		},
 		"Weight": {
 			"$ref": "#/definitions/MassType",
@@ -1404,29 +1404,29 @@
 		},
 		"WindSpeed": {
 			"$ref": "#/definitions/SpeedsType",
-			"description": "\nVorheriger deutscher Name: WindGeschwindigkeit.\nPrevious german name: WindGeschwindigkeit\n"
+			"description": "Vorheriger deutscher Name: WindGeschwindigkeit.\nPrevious german name: WindGeschwindigkeit\n"
 		},
 		"WorkProcess": {
 			"$ref": "#/definitions/WorkProcessType",
 			"description": "Vorheriger deutscher Name: Arbeitsgang. Ein Arbeitsgang ist eine in sich zeitlich und gegebenenfalls auch räumlich abgeschlossene, auf einer oder mehreren Flächen oder auf dem Betrieb (Hoffläche, Gebäude) durchgeführte Maßnahme mit dem Zweck, die landwirtschaftliche Produktion zu unterstützen. Innerhalb eines Arbeitsganges können mehrere Applikationen gleichzeitig erfolgen. Das heisst, wenn z. B. Duengung und Saat - wie im Maisanbau mit Unterfußdüngung üblich - in einer Überfahrt erledigt werden, so ist dies '''ein''' Arbeitsgang. Erfolgen die Maßnahmen hintereinander, so handelt es sich um getrennte Arbeitsgänge. Deshalb kommen die Elemente StartDateTime und EndDateTime jeweils nur einmal auf Ebene des Arbeitsganges vor.\nPrevious german name: Arbeitsgang"
 		},
 		"WortColor": {
-			"$ref": "#/definitions/xsd:integer",
+			"$ref": "#/definitions/integer",
 			"description": "Vorheriger deutscher Name: Wuerzefarbe.  Wird in EBC Grad (°EBC) angegeben\nPrevious german name: Wuerzefarbe"
 		},
 		"YieldQuantity": {
 			"$ref": "#/definitions/MeasureType",
-			"description": "\nVorheriger deutscher Name: Ertragsmenge. Die\nErtragsmenge ist die auf Fläche bezogene Erntemenge,\nalso zum Beispiel 50 dt/ha (ausgedrückt in\nSI-Basiseinheiten also 0,5 kg/m²)\nPrevious german name: Ertragsmenge\n"
+			"description": "Vorheriger deutscher Name: Ertragsmenge. Die\nErtragsmenge ist die auf Fläche bezogene Erntemenge,\nalso zum Beispiel 50 dt/ha (ausgedrückt in\nSI-Basiseinheiten also 0,5 kg/m²)\nPrevious german name: Ertragsmenge\n"
 		},
 		"ZincContent": {
 			"$ref": "#/definitions/ChemicalSubstancesContentType",
 			"description": "Der Zinkgehalt.\nWe use exclusively the element form. This means, never give P2O5 content here, always reference your measurement to P."
 		},
 		"_Analysis": {
-			"$ref": "#/definitions/xsd:anyType"
+			"$ref": "#/definitions/anyType"
 		},
 		"_WorkProcedure": {
-			"$ref": "#/definitions/xsd:anyType"
+			"$ref": "#/definitions/anyType"
 		},
 		"pHValue": {
 			"additionalProperties": false,
@@ -1438,23 +1438,23 @@
 					"$ref": "#/definitions/Method"
 				},
 				"Value": {
-					"$ref": "#/definitions/xsd:float"
+					"$ref": "#/definitions/float"
 				}
 			},
 			"type": "object"
 		},
 		"gml:CoordType": {
 			"additionalProperties": false,
-			"description": "\nRepresents a coordinate tuple in one, two, or three\ndimensions.\n",
+			"description": "Represents a coordinate tuple in one, two, or three\ndimensions.\n",
 			"properties": {
 				"gml:X": {
-					"$ref": "#/definitions/xsd:decimal"
+					"$ref": "#/definitions/decimal"
 				},
 				"gml:Y": {
-					"$ref": "#/definitions/xsd:decimal"
+					"$ref": "#/definitions/decimal"
 				},
 				"gml:Z": {
-					"$ref": "#/definitions/xsd:decimal"
+					"$ref": "#/definitions/decimal"
 				}
 			},
 			"required": [
@@ -1464,19 +1464,19 @@
 		},
 		"gml:CoordinatesType": {
 			"additionalProperties": false,
-			"description": "\nCoordinates can be included in a single string, but\nthere is no facility for validating string content. The\nvalue of the 'cs' attribute is the separator for\ncoordinate values, and the value of the 'ts' attribute\ngives the tuple separator (a single space by default);\nthe default values may be changed to reflect local\nusage.\n",
+			"description": "Coordinates can be included in a single string, but\nthere is no facility for validating string content. The\nvalue of the 'cs' attribute is the separator for\ncoordinate values, and the value of the 'ts' attribute\ngives the tuple separator (a single space by default);\nthe default values may be changed to reflect local\nusage.\n",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@cs": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@decimal": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@ts": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				}
 			},
 			"type": [
@@ -1488,7 +1488,7 @@
 		},
 		"gml:DirectPositionListType": {
 			"additionalProperties": false,
-			"description": "\nDirectPositionList instances hold the coordinates for a\nsequence of direct positions within the same coordinate\nreference system (CRS).\n",
+			"description": "DirectPositionList instances hold the coordinates for a\nsequence of direct positions within the same coordinate\nreference system (CRS).\n",
 			"properties": {
 				"$": {
 					"$ref": "#/definitions/gml:DoubleList"
@@ -1497,13 +1497,13 @@
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@count": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1518,7 +1518,7 @@
 		},
 		"gml:DirectPositionType": {
 			"additionalProperties": false,
-			"description": "\nDirectPosition instances hold the coordinates for a\nposition within some coordinate reference system (CRS).\nSince DirectPositions, as data types, will often be\nincluded in larger objects (such as geometry elements)\nthat have references to CRS, the \"srsName\" attribute\nwill in general be missing, if this particular\nDirectPosition is included in a larger element with such\na reference to a CRS. In this case, the CRS is\nimplicitly assumed to take on the value of the\ncontaining object's CRS.\n",
+			"description": "DirectPosition instances hold the coordinates for a\nposition within some coordinate reference system (CRS).\nSince DirectPositions, as data types, will often be\nincluded in larger objects (such as geometry elements)\nthat have references to CRS, the \"srsName\" attribute\nwill in general be missing, if this particular\nDirectPosition is included in a larger element with such\na reference to a CRS. In this case, the CRS is\nimplicitly assumed to take on the value of the\ncontaining object's CRS.\n",
 			"properties": {
 				"$": {
 					"$ref": "#/definitions/gml:DoubleList"
@@ -1527,10 +1527,10 @@
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1544,7 +1544,7 @@
 			]
 		},
 		"gml:DoubleList": {
-			"description": "\nXML List based on XML Schema double type. An element of\nthis type contains a space-separated list of double\nvalues\n",
+			"description": "XML List based on XML Schema double type. An element of\nthis type contains a space-separated list of double\nvalues\n",
 			"items": {
 				"type": "number"
 			},
@@ -1552,22 +1552,22 @@
 		},
 		"gml:LineStringType": {
 			"additionalProperties": false,
-			"description": "\nsome explanation\n",
+			"description": "some explanation\n",
 			"properties": {
 				"@axisLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@gid": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1643,16 +1643,16 @@
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@gid": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1722,7 +1722,7 @@
 			"type": "object"
 		},
 		"gml:NCNameList": {
-			"description": "\nA set of values, representing a list of token with the\nlexical value space of NCName. The tokens are seperated\nby whitespace.\n",
+			"description": "A set of values, representing a list of token with the\nlexical value space of NCName. The tokens are seperated\nby whitespace.\n",
 			"items": {
 				"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
 				"type": "string"
@@ -1731,12 +1731,12 @@
 		},
 		"gml:PointPropertyType": {
 			"additionalProperties": false,
-			"description": "\nA property that has a point as its value domain can\neither be an appropriate geometry element encapsulated\nin an element of this type or an XLink reference to a\nremote geometry element (where remote includes geometry\nelements located elsewhere in the same document). Either\nthe reference or the contained element must be given,\nbut neither both nor none.\n",
+			"description": "A property that has a point as its value domain can\neither be an appropriate geometry element encapsulated\nin an element of this type or an XLink reference to a\nremote geometry element (where remote includes geometry\nelements located elsewhere in the same document). Either\nthe reference or the contained element must be given,\nbut neither both nor none.\n",
 			"properties": {
 				"@remoteSchema": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -1745,16 +1745,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -1764,11 +1764,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"gml:Point": {
 					"$ref": "#/definitions/.gml:Point"
@@ -1783,16 +1783,16 @@
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@gid": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1827,22 +1827,22 @@
 		},
 		"gml:PolygonType": {
 			"additionalProperties": false,
-			"description": "\nA Polygon is a special surface that is defined by a\nsingle surface patch. The boundary of this patch is\ncoplanar and the polygon uses planar interpolation in\nits interior. It is backwards compatible with the\nPolygon of GML 2, GM_Polygon of ISO 19107 is implemented\nby PolygonPatch.\n",
+			"description": "A Polygon is a special surface that is defined by a\nsingle surface patch. The boundary of this patch is\ncoplanar and the polygon uses planar interpolation in\nits interior. It is backwards compatible with the\nPolygon of GML 2, GM_Polygon of ISO 19107 is implemented\nby PolygonPatch.\n",
 			"properties": {
 				"@axisLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
 				},
 				"@gid": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"@srsDimension": {
-					"$ref": "#/definitions/xsd:positiveInteger"
+					"$ref": "#/definitions/positiveInteger"
 				},
 				"@srsName": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@uomLabels": {
 					"$ref": "#/definitions/gml:NCNameList"
@@ -1891,7 +1891,7 @@
 				"ConductedOn": {
 					"additionalProperties": false,
 					"properties": {
-						"@xlink:actuate": {
+						"actuate": {
 							"enum": [
 								"onLoad",
 								"onRequest",
@@ -1900,16 +1900,16 @@
 							],
 							"type": "string"
 						},
-						"@xlink:arcrole": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"arcrole": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:href": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"href": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:role": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"role": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:show": {
+						"show": {
 							"enum": [
 								"new",
 								"replace",
@@ -1919,17 +1919,17 @@
 							],
 							"type": "string"
 						},
-						"@xlink:title": {
-							"$ref": "#/definitions/xsd:string"
+						"title": {
+							"$ref": "#/definitions/string"
 						},
-						"@xlink:type": {
-							"$ref": "#/definitions/xsd:string"
+						"type": {
+							"$ref": "#/definitions/string"
 						}
 					},
 					"type": "object"
 				},
 				"ResultDate": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				}
 			},
 			"type": "object"
@@ -2003,10 +2003,10 @@
 		},
 		"AgentType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: MittelType.\nPrevious german name: MittelType.\n",
+			"description": "Vorheriger deutscher Name: MittelType.\nPrevious german name: MittelType.\n",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"AgentName": {
 					"$ref": "#/definitions/AgentName"
@@ -2021,10 +2021,10 @@
 			"additionalProperties": false,
 			"properties": {
 				"@profile": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@version": {
-					"$ref": "#/definitions/xsd:token"
+					"$ref": "#/definitions/token"
 				},
 				"ContractNumber": {
 					"$ref": "#/definitions/ContractNumber"
@@ -2107,7 +2107,7 @@
 			"additionalProperties": false,
 			"properties": {
 				"@RefAgent": {
-					"$ref": "#/definitions/xsd:IDREFS"
+					"$ref": "#/definitions/IDREFS"
 				},
 				"AgentTotal": {
 					"$ref": "#/definitions/AmountPerAreaType"
@@ -2159,7 +2159,7 @@
 			"description": "Datentyp für die pro Fläche ausgebrachte Menge einer Substanz oder eines Mittels.",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
 					"enum": [
@@ -2184,10 +2184,10 @@
 			"description": "Flächen sind in Quadratmeter (m2) angegeben.\nAreas are measured in square meter (m2)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -2203,7 +2203,7 @@
 		"AssessmentType": {
 			"additionalProperties": false,
 			"properties": {
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -2212,16 +2212,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -2231,14 +2231,14 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"PotentialWaterErosion": {
-					"$ref": "#/definitions/xsd:anyType"
+					"$ref": "#/definitions/anyType"
 				},
 				"SustainabilityIndicators": {
 					"$ref": "#/definitions/SustainabilityIndicators"
@@ -2266,12 +2266,12 @@
 				"Location": {
 					"anyOf": [
 						{
-							"$ref": "#/definitions/xsd:normalizedString",
+							"$ref": "#/definitions/normalizedString",
 							"description": "z.b. Blatt, Stengel, Wurzel, Knolle"
 						},
 						{
 							"items": {
-								"$ref": "#/definitions/xsd:normalizedString",
+								"$ref": "#/definitions/normalizedString",
 								"description": "z.b. Blatt, Stengel, Wurzel, Knolle"
 							},
 							"type": "array"
@@ -2329,7 +2329,7 @@
 		},
 		"ClampType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: MieteType.\nPrevious german name: MieteType\n",
+			"description": "Vorheriger deutscher Name: MieteType.\nPrevious german name: MieteType\n",
 			"properties": {
 				"CoveringDate": {
 					"$ref": "#/definitions/CoveringDate"
@@ -2419,7 +2419,7 @@
 		},
 		"ClimateType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: KlimaType.\n",
+			"description": "Vorheriger deutscher Name: KlimaType.\n",
 			"properties": {
 				"Humidity": {
 					"$ref": "#/definitions/Humidity"
@@ -2440,16 +2440,16 @@
 			"additionalProperties": false,
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@codeListVersionID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@codeSpace": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@languageID": {
-					"$ref": "#/definitions/xsd:language"
+					"$ref": "#/definitions/language"
 				}
 			},
 			"required": [
@@ -2467,9 +2467,9 @@
 			"description": "Vorheriger deutscher Name: UnternehmenType. Für Organisationen, die einer unternehmerischen Tätigkeit nachgehen.",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -2478,16 +2478,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -2497,11 +2497,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Address": {
 					"$ref": "#/definitions/Address"
@@ -2519,7 +2519,7 @@
 					"$ref": "#/definitions/Description"
 				},
 				"LegalForm": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"Manager": {
 					"$ref": "#/definitions/PersonType"
@@ -2538,7 +2538,7 @@
 			"description": "Datentyp für Konzentration chemischer Substanzen.",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
 					"enum": [
@@ -2588,7 +2588,7 @@
 		},
 		"ContaminationType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: VerschmutzungType.\nPrevious german name: VerschmutzungType.\n",
+			"description": "Vorheriger deutscher Name: VerschmutzungType.\nPrevious german name: VerschmutzungType.\n",
 			"properties": {
 				"DegreeOfContamination": {
 					"$ref": "#/definitions/DegreeOfContamination"
@@ -2610,7 +2610,7 @@
 					"$ref": "#/definitions/CropGrowthStage"
 				},
 				"Date": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				}
 			},
 			"type": "object"
@@ -2655,10 +2655,10 @@
 			"description": "Vorheriger deutscher Name: AnbauType.",
 			"properties": {
 				"@directSowing": {
-					"$ref": "#/definitions/xsd:boolean"
+					"$ref": "#/definitions/boolean"
 				},
 				"@ploughless": {
-					"$ref": "#/definitions/xsd:boolean"
+					"$ref": "#/definitions/boolean"
 				},
 				"CatchCrop": {
 					"anyOf": [
@@ -2763,7 +2763,7 @@
 		},
 		"DriveType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: AntriebType.\nPrevious german name: AntriebType.\n",
+			"description": "Vorheriger deutscher Name: AntriebType.\nPrevious german name: AntriebType.\n",
 			"properties": {
 				"OperatingSupplyItem": {
 					"anyOf": [
@@ -2799,9 +2799,9 @@
 			"description": "Vorheriger deutscher Name: BetriebType.",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -2810,16 +2810,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -2829,11 +2829,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Address": {
 					"$ref": "#/definitions/Address"
@@ -2886,7 +2886,7 @@
 					]
 				},
 				"LegalForm": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"Manager": {
 					"$ref": "#/definitions/PersonType"
@@ -3038,7 +3038,7 @@
 			"description": "Vorheriger deutscher Name: DuengemittelType.",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"AgentName": {
 					"$ref": "#/definitions/AgentName"
@@ -3086,7 +3086,7 @@
 		},
 		"FieldGroupType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: FlurType.\nPrevious german name: FlurType.\n",
+			"description": "Vorheriger deutscher Name: FlurType.\nPrevious german name: FlurType.\n",
 			"properties": {
 				"Area": {
 					"$ref": "#/definitions/Area"
@@ -3114,24 +3114,24 @@
 		},
 		"FieldType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: SchlagType.\n",
+			"description": "Vorheriger deutscher Name: SchlagType.\n",
 			"properties": {
 				"@beginningDate": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"@endDate": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"@referenceDate": {
-					"$ref": "#/definitions/xsd:gYear"
+					"$ref": "#/definitions/gYear"
 				},
 				"@status": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -3140,16 +3140,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -3159,11 +3159,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Ackerzahl": {
 					"$ref": "#/definitions/Ackerzahl"
@@ -3238,7 +3238,7 @@
 		},
 		"GemarkungType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: GemarkungType.\nPrevious german name: GemarkungType.\n",
+			"description": "Vorheriger deutscher Name: GemarkungType.\nPrevious german name: GemarkungType.\n",
 			"properties": {
 				"FieldGroup": {
 					"$ref": "#/definitions/FieldGroupType"
@@ -3267,10 +3267,10 @@
 		},
 		"HarvestResiduesType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: ErnteRueckstaendeType.\nPrevious german name: ErnteRueckstaendeType.\n",
+			"description": "Vorheriger deutscher Name: ErnteRueckstaendeType.\nPrevious german name: ErnteRueckstaendeType.\n",
 			"properties": {
 				"@abgefahren": {
-					"$ref": "#/definitions/xsd:boolean"
+					"$ref": "#/definitions/boolean"
 				},
 				"HarvestedQuantity": {
 					"$ref": "#/definitions/HarvestedQuantity"
@@ -3372,7 +3372,7 @@
 		},
 		"HarvestedCropType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: ErnteproduktType.\nPrevious german name: ErnteproduktType.\n",
+			"description": "Vorheriger deutscher Name: ErnteproduktType.\nPrevious german name: ErnteproduktType.\n",
 			"properties": {
 				"Clamp": {
 					"$ref": "#/definitions/Clamp"
@@ -3403,9 +3403,9 @@
 			"description": "Ein Typ für ein leeres Element, das lediglich zur Referenzierung anderer Elemente dient. Die ID auf, die referenziert wird, wird in das idref-Attribut geschrieben. Zur Begründung, warum die Referenz im Attribut und nicht im Elementinhalt eingetragen wird, s. http://www.w3.org/TR/xmlschema-2/#IDREF",
 			"properties": {
 				"@idref": {
-					"$ref": "#/definitions/xsd:IDREF"
+					"$ref": "#/definitions/IDREF"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -3414,16 +3414,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -3433,11 +3433,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				}
 			},
 			"type": "object"
@@ -3460,28 +3460,28 @@
 			"additionalProperties": false,
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@identificationSchemeAgencyID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@identificationSchemeAgencyName": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@identificationSchemeDataURI": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@identificationSchemeID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@identificationSchemeName": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@identificationSchemeURI": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				},
 				"@identificationSchemeVersionID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"type": [
@@ -3493,7 +3493,7 @@
 		},
 		"IndicationDetailsType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: IndikationDetailsType.\nPrevious german name: IndikationDetailsType.\n",
+			"description": "Vorheriger deutscher Name: IndikationDetailsType.\nPrevious german name: IndikationDetailsType.\n",
 			"properties": {
 				"Indication": {
 					"$ref": "#/definitions/Indication"
@@ -3580,7 +3580,7 @@
 		},
 		"LandUseRestrictionType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: BewirtschaftungsauflagenType.\nPrevious german name: BewirtschaftungsauflagenType.\n",
+			"description": "Vorheriger deutscher Name: BewirtschaftungsauflagenType.\nPrevious german name: BewirtschaftungsauflagenType.\n",
 			"properties": {
 				"EndDate": {
 					"$ref": "#/definitions/EndDate"
@@ -3599,10 +3599,10 @@
 			"description": "Längen sind in Meter (m) angegeben.\nLength is measured in meter (m)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -3617,12 +3617,12 @@
 		},
 		"MachineType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: MaschineType.\nPrevious german name: MaschineType.\n",
+			"description": "Vorheriger deutscher Name: MaschineType.\nPrevious german name: MaschineType.\n",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -3631,16 +3631,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -3650,11 +3650,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Drive": {
 					"$ref": "#/definitions/Drive"
@@ -3740,10 +3740,10 @@
 			"description": "Massen (Gewichte im Alltagssprachgebrauch) werden in Kilogramm (kg) angegeben\nMass is measured in kilograms (kg)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -3760,13 +3760,13 @@
 			"additionalProperties": false,
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:decimal"
+					"$ref": "#/definitions/decimal"
 				},
 				"@measureUnitCodeListVersionID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:anyURI"
+					"$ref": "#/definitions/anyURI"
 				}
 			},
 			"required": [
@@ -3851,7 +3851,7 @@
 		},
 		"OperatingSupplyItemType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: BetriebsstoffType.\nPrevious german name: BetriebsstoffType.\n",
+			"description": "Vorheriger deutscher Name: BetriebsstoffType.\nPrevious german name: BetriebsstoffType.\n",
 			"properties": {
 				"ConsumptionOfSupplyItem": {
 					"$ref": "#/definitions/ConsumptionOfSupplyItem"
@@ -3935,12 +3935,12 @@
 		},
 		"PartOfFieldType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: TeilschlagType.\nPrevious german name: TeilschlagType.\n",
+			"description": "Vorheriger deutscher Name: TeilschlagType.\nPrevious german name: TeilschlagType.\n",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -3949,16 +3949,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -3968,11 +3968,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Ackerzahl": {
 					"$ref": "#/definitions/Ackerzahl"
@@ -4035,13 +4035,13 @@
 		},
 		"PercentType": {
 			"additionalProperties": false,
-			"description": "Dieser Datentyp wird nur verwendet, wenn es sich um Anteilsangaben handelt, die keine Konzentrationen (also nicht Masse- oder Volumenprozent sind. Für Konzentrationen steht der ConcentrationType zur Verfügung. Eine Randnotiz: Der Datentyp des PercentType ist abgeleitet von xsd:decimal und nicht von xsd:double. Das rührt daher, dass Prozentangaben oft auch in Bereichen eingesetzt werden, wo exakte Berechnungen notwendig sind (Beispiel: Zins-/Renditeangaben). xsd:double soll rechnerintern als Gleitkommazahl behandelt werden. Per IEEE-753 sind damit exakte Berechnungen nicht möglich. Elementinhalte eines Elementes, das sich auf xsd:decimal zurückführen lässt, soll hingegen mit \"arbitrary precision\" weiterverarbeitet werden.",
+			"description": "Dieser Datentyp wird nur verwendet, wenn es sich um Anteilsangaben handelt, die keine Konzentrationen (also nicht Masse- oder Volumenprozent sind. Für Konzentrationen steht der ConcentrationType zur Verfügung. Eine Randnotiz: Der Datentyp des PercentType ist abgeleitet von decimal und nicht von double. Das rührt daher, dass Prozentangaben oft auch in Bereichen eingesetzt werden, wo exakte Berechnungen notwendig sind (Beispiel: Zins-/Renditeangaben). double soll rechnerintern als Gleitkommazahl behandelt werden. Per IEEE-753 sind damit exakte Berechnungen nicht möglich. Elementinhalte eines Elementes, das sich auf decimal zurückführen lässt, soll hingegen mit \"arbitrary precision\" weiterverarbeitet werden.",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:decimal"
+					"$ref": "#/definitions/decimal"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -4056,12 +4056,12 @@
 		},
 		"PersonType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: PersonType.\n",
+			"description": "Vorheriger deutscher Name: PersonType.\n",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -4070,16 +4070,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -4089,11 +4089,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Address": {
 					"$ref": "#/definitions/Address"
@@ -4250,10 +4250,10 @@
 		},
 		"PesticideType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: PflanzenschutzmittelType.\nPrevious german name: PflanzenschutzmittelType.\n",
+			"description": "Vorheriger deutscher Name: PflanzenschutzmittelType.\nPrevious german name: PflanzenschutzmittelType.\n",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
 				"AgentName": {
 					"$ref": "#/definitions/AgentName"
@@ -4329,10 +4329,10 @@
 			"description": "Leistungen werden in Watt (W) angegeben.\nPower measured in watt (watt)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -4385,7 +4385,7 @@
 		},
 		"QualityAttributeType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: QualitaetsmerkmalType.\nPrevious german name: QualitaetsmerkmalType.\n",
+			"description": "Vorheriger deutscher Name: QualitaetsmerkmalType.\nPrevious german name: QualitaetsmerkmalType.\n",
 			"properties": {
 				"Comment": {
 					"$ref": "#/definitions/Comment"
@@ -4571,9 +4571,9 @@
 			"description": "Vorheriger deutscher Name: ProbeInformationType.",
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -4582,16 +4582,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -4601,11 +4601,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Comment": {
 					"$ref": "#/definitions/Comment"
@@ -4615,7 +4615,7 @@
 						{
 							"additionalProperties": false,
 							"properties": {
-								"@xlink:actuate": {
+								"actuate": {
 									"enum": [
 										"onLoad",
 										"onRequest",
@@ -4624,16 +4624,16 @@
 									],
 									"type": "string"
 								},
-								"@xlink:arcrole": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"arcrole": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:href": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"href": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:role": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"role": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:show": {
+								"show": {
 									"enum": [
 										"new",
 										"replace",
@@ -4643,11 +4643,11 @@
 									],
 									"type": "string"
 								},
-								"@xlink:title": {
-									"$ref": "#/definitions/xsd:string"
+								"title": {
+									"$ref": "#/definitions/string"
 								},
-								"@xlink:type": {
-									"$ref": "#/definitions/xsd:string"
+								"type": {
+									"$ref": "#/definitions/string"
 								}
 							},
 							"type": "object"
@@ -4656,7 +4656,7 @@
 							"items": {
 								"additionalProperties": false,
 								"properties": {
-									"@xlink:actuate": {
+									"actuate": {
 										"enum": [
 											"onLoad",
 											"onRequest",
@@ -4665,16 +4665,16 @@
 										],
 										"type": "string"
 									},
-									"@xlink:arcrole": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"arcrole": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:href": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"href": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:role": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"role": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:show": {
+									"show": {
 										"enum": [
 											"new",
 											"replace",
@@ -4684,11 +4684,11 @@
 										],
 										"type": "string"
 									},
-									"@xlink:title": {
-										"$ref": "#/definitions/xsd:string"
+									"title": {
+										"$ref": "#/definitions/string"
 									},
-									"@xlink:type": {
-										"$ref": "#/definitions/xsd:string"
+									"type": {
+										"$ref": "#/definitions/string"
 									}
 								},
 								"type": "object"
@@ -4698,10 +4698,10 @@
 					]
 				},
 				"Date": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"DateOfReceipt": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"Description": {
 					"$ref": "#/definitions/Description"
@@ -4717,10 +4717,10 @@
 		},
 		"SeedType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: SaatgutType.\nPrevious german name: SaatgutType.\n",
+			"description": "Vorheriger deutscher Name: SaatgutType.\nPrevious german name: SaatgutType.\n",
 			"properties": {
 				"@bought": {
-					"$ref": "#/definitions/xsd:boolean"
+					"$ref": "#/definitions/boolean"
 				},
 				"Chit": {
 					"$ref": "#/definitions/Chit"
@@ -4909,7 +4909,7 @@
 				"ConductedOn": {
 					"additionalProperties": false,
 					"properties": {
-						"@xlink:actuate": {
+						"actuate": {
 							"enum": [
 								"onLoad",
 								"onRequest",
@@ -4918,16 +4918,16 @@
 							],
 							"type": "string"
 						},
-						"@xlink:arcrole": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"arcrole": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:href": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"href": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:role": {
-							"$ref": "#/definitions/xsd:anyURI"
+						"role": {
+							"$ref": "#/definitions/anyURI"
 						},
-						"@xlink:show": {
+						"show": {
 							"enum": [
 								"new",
 								"replace",
@@ -4937,11 +4937,11 @@
 							],
 							"type": "string"
 						},
-						"@xlink:title": {
-							"$ref": "#/definitions/xsd:string"
+						"title": {
+							"$ref": "#/definitions/string"
 						},
-						"@xlink:type": {
-							"$ref": "#/definitions/xsd:string"
+						"type": {
+							"$ref": "#/definitions/string"
 						}
 					},
 					"type": "object"
@@ -4977,7 +4977,7 @@
 					"$ref": "#/definitions/PotassiumContent"
 				},
 				"ResultDate": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"SodiumContent": {
 					"$ref": "#/definitions/SodiumContent"
@@ -5001,9 +5001,9 @@
 			"additionalProperties": false,
 			"properties": {
 				"@id": {
-					"$ref": "#/definitions/xsd:ID"
+					"$ref": "#/definitions/ID"
 				},
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -5012,16 +5012,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -5031,11 +5031,11 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"Comment": {
 					"$ref": "#/definitions/Comment"
@@ -5045,7 +5045,7 @@
 						{
 							"additionalProperties": false,
 							"properties": {
-								"@xlink:actuate": {
+								"actuate": {
 									"enum": [
 										"onLoad",
 										"onRequest",
@@ -5054,16 +5054,16 @@
 									],
 									"type": "string"
 								},
-								"@xlink:arcrole": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"arcrole": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:href": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"href": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:role": {
-									"$ref": "#/definitions/xsd:anyURI"
+								"role": {
+									"$ref": "#/definitions/anyURI"
 								},
-								"@xlink:show": {
+								"show": {
 									"enum": [
 										"new",
 										"replace",
@@ -5073,11 +5073,11 @@
 									],
 									"type": "string"
 								},
-								"@xlink:title": {
-									"$ref": "#/definitions/xsd:string"
+								"title": {
+									"$ref": "#/definitions/string"
 								},
-								"@xlink:type": {
-									"$ref": "#/definitions/xsd:string"
+								"type": {
+									"$ref": "#/definitions/string"
 								}
 							},
 							"type": "object"
@@ -5086,7 +5086,7 @@
 							"items": {
 								"additionalProperties": false,
 								"properties": {
-									"@xlink:actuate": {
+									"actuate": {
 										"enum": [
 											"onLoad",
 											"onRequest",
@@ -5095,16 +5095,16 @@
 										],
 										"type": "string"
 									},
-									"@xlink:arcrole": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"arcrole": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:href": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"href": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:role": {
-										"$ref": "#/definitions/xsd:anyURI"
+									"role": {
+										"$ref": "#/definitions/anyURI"
 									},
-									"@xlink:show": {
+									"show": {
 										"enum": [
 											"new",
 											"replace",
@@ -5114,11 +5114,11 @@
 										],
 										"type": "string"
 									},
-									"@xlink:title": {
-										"$ref": "#/definitions/xsd:string"
+									"title": {
+										"$ref": "#/definitions/string"
 									},
-									"@xlink:type": {
-										"$ref": "#/definitions/xsd:string"
+									"type": {
+										"$ref": "#/definitions/string"
 									}
 								},
 								"type": "object"
@@ -5128,10 +5128,10 @@
 					]
 				},
 				"Date": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"DateOfReceipt": {
-					"$ref": "#/definitions/xsd:date"
+					"$ref": "#/definitions/date"
 				},
 				"Depth": {
 					"$ref": "#/definitions/Depth"
@@ -5266,7 +5266,7 @@
 		},
 		"SpatialDataType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: GeoinformationType.\nPrevious german name: GeoinformationType.\n",
+			"description": "Vorheriger deutscher Name: GeoinformationType.\nPrevious german name: GeoinformationType.\n",
 			"properties": {
 				"gml:LineString": {
 					"anyOf": [
@@ -5315,10 +5315,10 @@
 			"description": "Geschwindigkeiten werden in Meter pro Sekunde (m/s) angegeben\nspeeds are measured in meter per seconds (m/s)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -5333,7 +5333,7 @@
 		},
 		"SpeedsType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: GeschwindigkeitType.\nPrevious german name: GeschwindigkeitType\n",
+			"description": "Vorheriger deutscher Name: GeschwindigkeitType.\nPrevious german name: GeschwindigkeitType\n",
 			"properties": {
 				"SpeedAverage": {
 					"$ref": "#/definitions/SpeedAverage"
@@ -5435,7 +5435,7 @@
 		},
 		"TechnicalSpecificationsType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: TechnischeDatenType.\nPrevious german name: TechnischeDatenType.\n",
+			"description": "Vorheriger deutscher Name: TechnischeDatenType.\nPrevious german name: TechnischeDatenType.\n",
 			"properties": {
 				"TechnicalSpecification": {
 					"$ref": "#/definitions/TechnicalSpecification"
@@ -5451,10 +5451,10 @@
 			"description": "Temperaturen werden in Grad Celsius (C) angegeben\ntemperatures are measured in degree centrigrade (C)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -5469,16 +5469,16 @@
 		},
 		"TextType": {
 			"additionalProperties": false,
-			"description": "Der TextType ist gedacht für Zeichenketten, die mit Sprach- oder Länderkürzeln behaftet sind. Diese können in Attributen angegeben werden. Wo das keinen Sinn macht, ist der Typ xsd:string zu verwenden.\nTextType is to be used for character strings, which are associated with language and locale information. These can be given in the attributes. Where this does not make sense, use the type xsd:string.",
+			"description": "Der TextType ist gedacht für Zeichenketten, die mit Sprach- oder Länderkürzeln behaftet sind. Diese können in Attributen angegeben werden. Wo das keinen Sinn macht, ist der Typ string zu verwenden.\nTextType is to be used for character strings, which are associated with language and locale information. These can be given in the attributes. Where this does not make sense, use the type string.",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:string"
+					"$ref": "#/definitions/string"
 				},
 				"@languageID": {
-					"$ref": "#/definitions/xsd:language"
+					"$ref": "#/definitions/language"
 				},
 				"@languageLocaleID": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"type": [
@@ -5670,7 +5670,7 @@
 		},
 		"TyresType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: BereifungType.\nPrevious german name: BereifungType.\n",
+			"description": "Vorheriger deutscher Name: BereifungType.\nPrevious german name: BereifungType.\n",
 			"properties": {
 				"TyreDesignation": {
 					"$ref": "#/definitions/TyreDesignation"
@@ -5697,7 +5697,7 @@
 		"VarietyType": {
 			"additionalProperties": false,
 			"properties": {
-				"@xlink:actuate": {
+				"actuate": {
 					"enum": [
 						"onLoad",
 						"onRequest",
@@ -5706,16 +5706,16 @@
 					],
 					"type": "string"
 				},
-				"@xlink:arcrole": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"arcrole": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:href": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"href": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:role": {
-					"$ref": "#/definitions/xsd:anyURI"
+				"role": {
+					"$ref": "#/definitions/anyURI"
 				},
-				"@xlink:show": {
+				"show": {
 					"enum": [
 						"new",
 						"replace",
@@ -5725,21 +5725,21 @@
 					],
 					"type": "string"
 				},
-				"@xlink:title": {
-					"$ref": "#/definitions/xsd:string"
+				"title": {
+					"$ref": "#/definitions/string"
 				},
-				"@xlink:type": {
-					"$ref": "#/definitions/xsd:string"
+				"type": {
+					"$ref": "#/definitions/string"
 				},
 				"BundessortenamtsID": {
-					"$ref": "#/definitions/xsd:nonNegativeInteger",
+					"$ref": "#/definitions/nonNegativeInteger",
 					"description": "Die Sortenkennnummer des Bundessortenamtes. Achtung: Diese ist über mehrere Kulturarten hinweg nicht eindeutig.\nThe variety identifier of the Bundessortenamt, the german office for plant variety registration. Warning: this number is not unique across different crop species."
 				},
 				"Code": {
 					"$ref": "#/definitions/CodeType"
 				},
 				"CommunityPlantVarietyOfficeID": {
-					"$ref": "#/definitions/xsd:NMTOKEN",
+					"$ref": "#/definitions/NMTOKEN",
 					"description": "Die Sortenkennnummer des CPVO (Community Plant Variety Office), des europäischen Sortenamtes.\nThe variety identifier of the CPVO (Community Plant Variety Office). This is the European agency for variety registration."
 				},
 				"Name": {
@@ -5754,10 +5754,10 @@
 			"description": "Volumina sind in Kubikmeter (m3) angegeben.\nVolumes are measured in cubic meter (m3)",
 			"properties": {
 				"$": {
-					"$ref": "#/definitions/xsd:double"
+					"$ref": "#/definitions/double"
 				},
 				"@uom": {
-					"$ref": "#/definitions/xsd:normalizedString"
+					"$ref": "#/definitions/normalizedString"
 				}
 			},
 			"required": [
@@ -5772,7 +5772,7 @@
 		},
 		"WeatherStationType": {
 			"additionalProperties": false,
-			"description": "\nVorheriger deutscher Name: WetterstationType.\nPrevious german name: WetterstationType.\n",
+			"description": "Vorheriger deutscher Name: WetterstationType.\nPrevious german name: WetterstationType.\n",
 			"properties": {
 				"gml:Site": {
 					"$ref": "#/definitions/.gml:Site"
@@ -5794,7 +5794,7 @@
 				},
 				"WeatherStationCode": {
 					"$ref": "#/definitions/CodeType",
-					"description": "\nHier kann ein Code für eine Wetterstation\neingegeben werden. Alle Wetterstationen, die in\nein größeres Beobachtungsnetz eingebunden sind,\nhaben einen solchen Code, es gibt aber keine\nallumfassende Liste. Je nach Anwendungsfall wird\ndie entsprechende Liste eingebunden.\nPrevious german name: Code der Wetterstation\n"
+					"description": "Hier kann ein Code für eine Wetterstation\neingegeben werden. Alle Wetterstationen, die in\nein größeres Beobachtungsnetz eingebunden sind,\nhaben einen solchen Code, es gibt aber keine\nallumfassende Liste. Je nach Anwendungsfall wird\ndie entsprechende Liste eingebunden.\nPrevious german name: Code der Wetterstation\n"
 				},
 				"WindSpeed": {
 					"$ref": "#/definitions/WindSpeed"
@@ -5878,6 +5878,117 @@
 			},
 			"type": "object"
 		},
+		"ID": {
+			"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+			"type": "string"
+		},
+		"IDREF": {
+			"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+			"type": "string"
+		},
+		"IDREFS": {
+			"items": {
+				"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+				"type": "string"
+			},
+			"type": "array"
+		},
+		"NMTOKEN": {
+			"pattern": "^([\\d\\--\\.\\:A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]+)$",
+			"type": "string"
+		},
+		"anySimpleType": {
+			"type": [
+				"string",
+				"number",
+				"boolean"
+			]
+		},
+		"anyType": {
+			"additionalProperties": false,
+			"patternProperties": {
+				"^@\\w+$": {
+					"type": [
+						"string",
+						"number",
+						"boolean"
+					]
+				},
+				"^\\w+$": {
+				}
+			},
+			"properties": {
+				"$": {
+					"type": [
+						"string",
+						"number",
+						"boolean"
+					]
+				}
+			},
+			"type": [
+				"object",
+				"string",
+				"number",
+				"boolean"
+			]
+		},
+		"anyURI": {
+			"type": "string"
+		},
+		"boolean": {
+			"type": "boolean"
+		},
+		"date": {
+			"type": "string"
+		},
+		"decimal": {
+			"type": "number"
+		},
+		"double": {
+			"type": "number"
+		},
+		"duration": {
+			"type": "string"
+		},
+		"float": {
+			"type": "number"
+		},
+		"gYear": {
+			"type": "string"
+		},
+		"int": {
+			"maximum": 2147483647,
+			"minimum": -2147483648,
+			"type": "integer"
+		},
+		"integer": {
+			"type": "integer"
+		},
+		"language": {
+			"pattern": "^([A-Za-z]{1,8}(\\-[0-9A-Za-z]{1,8})*)$",
+			"type": "string"
+		},
+		"nonNegativeInteger": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"normalizedString": {
+			"type": "string"
+		},
+		"positiveInteger": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"string": {
+			"type": "string"
+		},
+		"token": {
+			"type": "string"
+		}
+	},
+	"description": "JSON Schema erstellt mit XMLSpy v2020 sp1 (x64) (http://www.altova.com)",
+	"properties": {
 		"Ackerzahl": {
 			"$ref": "#/definitions/Ackerzahl"
 		},
