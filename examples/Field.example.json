@@ -1,120 +1,2352 @@
 {
-  "Field": {
-    "description": "Vorheriger deutscher Name: Schlag. Zweidimensionales\nGeoobjekt, das durch die Schlaggrenzen gegenüber\nbenachbarten Schlägen, Wegen, Waldstücken etc. räumlich\neindeutig abgegrenzt ist.\nPrevious german name: Schlag\n"
-  },
-  "FieldGroup": {
-    "Area": {
-      "@uom": null,
-      "$": -94401825.20785885
-    },
-    "Denominator": null,
-    "FieldGroupName": "Excepteur non cupidatat",
-    "FieldGroupNumber": "nulla eu",
-    "LandUseCategory": {
-      "$": "culpa et eu labore in",
-      "@languageID": "TmiPC-QaqjnpMR-vJRM-Qbahenv4-E2u8LdcA",
-      "@languageLocaleID": null
-    },
-    "Nominator": null,
-    "SubNumber": "consectetur adipis"
-  },
-  "Gemarkung": {
-    "FieldGroup": {
-      "Area": false,
-      "Denominator": null,
-      "FieldGroupName": "aliqua ut sint",
-      "FieldGroupNumber": "esse Exc",
-      "LandUseCategory": "fugiat in",
-      "Nominator": null,
-      "SubNumber": "enim"
-    },
-    "GemarkungCode": -57887812.24675436,
-    "GemarkungName": "exercitation in consectetur officia",
-    "GemarkungNumber": "ea magna"
-  },
-  "LandUseRestriction": {
-    "EndDate": {
-      "year": 65673303,
-      "month": 6,
-      "day": 4,
-      "timezone": 701
-    },
-    "StartDate": null,
-    "TypeOfRestriction": "consequat"
-  },
+  "NameOfField": null,
+  "NumberOfField": "eiusmod deserunt non Duis",
+  "UniqueAreaID": "~7xG)\\oursMOP[]|1?%Kwr",
   "PartOfField": {
     "description": "Vorheriger deutscher Name: Teilschlag.\nPrevious german name: Teilschlag.\n"
   },
-  "SpatialData": {
-    "LineString": {
-      "type": "LineString",
-      "coordinates": [
-        [-56018757.71300988, -25682659.539186, 41880536.01384047, -62942881.36141018, 30788160.09016338],
-        [-85511849.08498289, 90655396.11132461, 56837403.32510689, 66922253.30813533, -8979965.95008795],
-        [-13330251.617887393, 86411823.65916628, 92007714.33398706, 81238801.3517595],
-        [-16973578.875180364, -45004779.105167314]
-      ],
-      "bbox": [68381873.79407504, 71816863.7165061, -31113087.575465187, 45820010.14250103, 58368566.61961639]
-    },
-    "Point": {
-      "type": "Point",
-      "coordinates": [-69616086.47101131, 17066378.600362554, -57603861.24605197, 95755469.23073435],
-      "bbox": [33551391.870610774, -89381254.62095834, 13017911.417835131, 90282754.68771043, 43025061.823835194]
-    },
-    "Polygon": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [21156453.752659485, -14439166.634720683, 40754223.46622455, 6693787.7340437025, 61329735.609496],
-          [-225611.1182628423, -14893137.449618354, -53203758.77137331],
-          [64646643.54947555, -23967922.332199216, -27683369.94735749, -94403554.02492781, -76527303.79630683],
-          [90278654.61395791, -18814271.840340525, -12938680.535846323],
-          [83378577.18028343, -8168733.699727684]
-        ],
-        [
-          [-96195434.7717823, -7835210.081379667],
-          [-21975139.218692258, 5305546.151364028, 28624266.10834512, -78240710.16468266],
-          [-65181321.462756395, -12443187.557781428, -74087280.09127831],
-          [59988615.03127563, -56544548.182146005],
-          [-94116991.70408937, 23129622.619590417, -36856901.9449108]
-        ],
-        [
-          [-43845439.73917423, 37182474.807830304, -44481476.77540226, 30309191.247732818],
-          [-83258965.06024972, -74062208.55958, 52463755.29533854],
-          [7966488.918450892, 33467179.7125265, 40200656.054525554, 91884230.95291728, -29314849.73379205],
-          [-6418220.798250392, -31955940.202694893, -26660705.315917045, -35647306.15362772, 42024855.33780384],
-          [24703521.958220392, 63264207.07159999, -38238793.81849431, -33999739.871840976]
-        ],
-        [
-          [47003673.41622397, -47752086.733710945, -23060882.339032233, 43094074.39244816],
-          [95968043.40883031, 80622003.04544958, -39392645.16961733, -14263268.103798628],
-          [-25572991.109369174, -32978964.80452303],
-          [-25146610.966339722, 55300834.34951681, -70603755.41422088],
-          [92048586.75883946, -71150350.92754155, 97850293.89644712, 36666621.92986223]
-        ]
-      ],
-      "bbox": [-5902732.169069573, -1487996.1473470777, 49764562.21772674, -17282020.750774324]
-    }
-  },
-  "Ackerzahl": 51076513,
-  "Denominator": null,
-  "EUNumberOfField": null,
-  "FieldBlockNumber": 24839945.83461255,
-  "FieldGroupName": null,
-  "FieldGroupNumber": "nostrud in",
-  "GemarkungCode": 19032561.569712132,
-  "GemarkungName": null,
-  "GemarkungNumber": null,
-  "Gruenlandzahl": 51659316,
-  "DistanceFarmField": "cupidatat veniam aliqua dolor",
-  "LandUseCategory": {
-    "$": "magna",
-    "@languageID": "XC-VfOeWo04-eZTKj3J-zV6a68-0tZgqsz-1OZVcPGM-TljX0Q-Licyx3uH-bOUk",
+  "EUNumberOfField": "qui do incididunt Excepteu",
+  "ContractNumber": {
+    "$": "irure in proident dolor sunt",
+    "@languageID": "I-A-o3dB0h-0GJv-lYzKsS-68F-6",
     "@languageLocaleID": null
   },
-  "NameOfField": "eu nostrud dolor velit consectetur",
-  "Nominator": "cillum et ex ut ",
-  "NumberOfField": null,
-  "SubNumber": "irure",
-  "TypeOfRestriction": -58795835.243011706
+  "Area": {
+    "@uom": null,
+    "$": -75003681.77196854
+  },
+  "SpatialData": {
+    "LineString": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [66926770.00420776, 31463172.974946335, -50696857.75087152, 78679499.8835071],
+          [43522164.47769925, 7658925.008834809, -11640547.165551677, 78869238.24747005, -3185371.014719069]
+        ],
+        [
+          [12490352.589844897, -85432398.8005107, -75429956.1635991, -39980231.16289877],
+          [-30958411.352140576, -78577038.62286627, 24254026.991093665, 78836959.40977687, 43069986.09045091],
+          [-33547325.99349965, 11258419.199058205, -89860016.59733173, -57014798.628407925, 22930957.51929988],
+          [-80836378.96792567, 19081388.45166421, 72365273.11787233, -42951614.75371207]
+        ],
+        [
+          [18210543.734843656, 85184468.10727221, 34821711.76839355, 5011207.351474091],
+          [67762061.14237753, 2806941.3926363736, -92214081.62115252],
+          [14109969.553958029, 44290890.22603136, 8174792.599162206, 37966267.173122406, -66424259.13399128]
+        ],
+        [
+          [-51906535.712323934, 8242719.5580126345, -44080271.87270518],
+          [-75066647.10157463, -92531163.40067837, -80622603.02781299, -32951383.24074345]
+        ]
+      ],
+      "bbox": [-98007577.88160288, -85222596.98593539, -17129908.65932125, -33631866.07957367, -56826297.07815194]
+    },
+    "Point": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [29689482.441551536, -13428446.544243798, -59301716.93570414],
+        [65375380.083218336, -57087766.58161762],
+        [46087090.90553814, -8151739.90178369, 30143888.989521757],
+        [-72757952.95922399, 4380544.133519709, 73261906.41578913, 51134753.731533825],
+        [-5718458.135057464, -41790241.06584981, 9514033.255969107]
+      ],
+      "bbox": [-93728103.82587393, 86127591.64478114, 64143663.49539286, -46176763.240416594, 71897851.0070253]
+    },
+    "Polygon": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [-70457816.08544748, -15595332.879416808, -57563920.52402903, 80685330.32713968],
+            [56010087.91456649, -49130403.098749876, 1737493.8162851632, -22777606.586467013],
+            [26241541.053292394, 43700806.906149715, 78754650.348275, -69726514.16470975, 96314102.6598076],
+            [96131321.92599729, 72433277.00582632, -40029592.88879033]
+          ]
+        ]
+      ],
+      "bbox": [61709827.93599543, -61413229.4885422, 49778059.188491374, -19049751.802655116, -13561391.214622945]
+    }
+  },
+  "FieldBlockNumber": 26266731.033634633,
+  "Gemarkung": {
+    "FieldGroup": {
+      "Area": {
+        "@uom": null,
+        "$": 31994058.521064386
+      },
+      "Denominator": "proident Duis",
+      "FieldGroupName": null,
+      "FieldGroupNumber": "nulla incididunt in Ut",
+      "LandUseCategory": true,
+      "Nominator": null,
+      "SubNumber": null
+    },
+    "GemarkungCode": {
+      "@codeSpace": "et anim",
+      "$": null,
+      "@codeListVersionID": null,
+      "@languageID": "NhUwohY-xZS-H"
+    },
+    "GemarkungName": "do",
+    "GemarkungNumber": "Ut sed adipisicing irure dolore"
+  },
+  "Ackerzahl": 19962503,
+  "Gruenlandzahl": 78837899,
+  "LandUseRestriction": {
+    "EndDate": null,
+    "StartDate": {
+      "year": -50486937,
+      "month": null,
+      "day": 23,
+      "timezone": -424
+    },
+    "TypeOfRestriction": "esse mollit velit"
+  },
+  "SoilTexture": {
+    "Classification": {
+      "DIN4220Texture": "Slu",
+      "Kartieranleitung4Texture": "St3"
+    },
+    "Method": {
+      "Comment": -92018303.21709923,
+      "Description": "eu in cillu",
+      "Name": 50272298.550010145
+    },
+    "Percentages": {
+      "Clay": {
+        "Total": true
+      },
+      "Sand": {
+        "Coarse": "cupidatat ut id",
+        "Fine": true,
+        "Middle": false,
+        "Total": null
+      },
+      "Silt": {
+        "Coarse": null,
+        "Fine": true,
+        "Middle": "Duis pariatur sit exercitation",
+        "Total": null
+      }
+    }
+  },
+  "Assessment": {
+    "actuate": "onRequest",
+    "arcrole": "in",
+    "href": "occaecat aliquip reprehenderit mollit ex",
+    "role": "fugiat voluptate Excepteur",
+    "show": "new",
+    "title": "elit",
+    "type": "enim Ut nostrud aliqua sed",
+    "PotentialWaterErosion": {
+      "description": "http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#key-urType"
+    },
+    "SustainabilityIndicators": {
+      "EnergyBalance": {
+        "AbsoluteValue": "occaecat anim in ut",
+        "SustainabilityAssessment": {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "ZvsTbi1PH",
+              "actuate": "onLoad",
+              "arcrole": "tempor mollit aliquip sit dolor",
+              "href": "ullamco",
+              "role": "labore cillum adipisicing ",
+              "show": "none",
+              "title": "fugiat cupidatat aliquip ut",
+              "type": "labore consectetur ut",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-50549814.04363197, -2005009.6215064228, -51900841.40452571, -44775580.96241445, 82341750.6896618],
+                  "bbox": [-89711195.99343607, -93895371.36568654, -41428224.848569915, -67937763.38633996, 41016582.7567074]
+                },
+                "City": "incididunt enim in qui",
+                "CityCode": "Ut Lorem irure ad",
+                "CountryCode": "magna ",
+                "CountyCode": "labore enim dolore reprehenderit nulla",
+                "CrossStreet": null,
+                "FederalState": {
+                  "@codeSpace": "mollit elit pariatur",
+                  "$": "sunt ullamco Ut amet",
+                  "@codeListVersionID": null,
+                  "@languageID": "TepAeB-W"
+                },
+                "FirstName": null,
+                "GLN": "3897374130368",
+                "Landkreis": -72047090.99554725,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "ut "
+                },
+                "Name": false,
+                "POBoxNumber": null,
+                "PostalCode": "pariatur sint id",
+                "ProvinceCode": "quis adipisicing",
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": "",
+                "StreetAddressTwo": "eu in aute ad",
+                "Title": true,
+                "UniquePositionID": "pF9aa+&A\"|X-"
+              },
+              "Comment": "Lorem aute reprehenderit",
+              "Contact": {
+                "Email": null,
+                "Fax": "dolor adipisicing aliquip",
+                "Mobile": "consequat Duis laborum eiusmod",
+                "Phone": "officia",
+                "URI": "sint"
+              },
+              "ContactPerson": {
+                "@id": "k",
+                "actuate": "none",
+                "arcrole": "aliquip consectetur",
+                "href": "Ut velit anim",
+                "role": "dolore in cupidatat officia velit",
+                "show": "new",
+                "title": "laborum exercitation labore qui",
+                "type": "laborum consequat",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-21256310.829483822, 71744283.96861526, 62776933.433285356],
+                    "bbox": [-22388455.087896734, -20241150.14292489, -32831778.03274429, 38670038.019645005, -10673991.02751176]
+                  },
+                  "City": "laboris",
+                  "CityCode": null,
+                  "CountryCode": true,
+                  "CountyCode": null,
+                  "CrossStreet": null,
+                  "FederalState": true,
+                  "FirstName": null,
+                  "GLN": "5359757485357",
+                  "Landkreis": -64549764.50962664,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "par"
+                  },
+                  "Name": 95577958.11464137,
+                  "POBoxNumber": null,
+                  "PostalCode": "ad ullamco proident consequat",
+                  "ProvinceCode": "occaecat",
+                  "Salutation": "commodo aute",
+                  "State": "commodo elit labore laboris",
+                  "StreetAddressOne": "ir",
+                  "StreetAddressTwo": null,
+                  "Title": {
+                    "$": "commodo consectetur",
+                    "@languageID": "Ja-tycU-XzgudhY-ptgF-HhhLY4o-Dr9u0kg-m5x",
+                    "@languageLocaleID": null
+                  },
+                  "UniquePositionID": "m\\A}j27A* Z{"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": null,
+                  "Mobile": "consequat sed adipisicing",
+                  "Phone": "minim",
+                  "URI": "velit cupidatat consectetur eiusmod"
+                },
+                "CostUnitRate": "in consectetur Lorem",
+                "EmployeeID": false
+              },
+              "Description": true,
+              "LegalForm": "dolore deserunt",
+              "Manager": {
+                "@id": "AKdAzc9",
+                "actuate": "other",
+                "arcrole": "ipsum",
+                "href": "sit dolor consequat consectetur",
+                "role": "sint Lorem voluptate",
+                "show": "replace",
+                "title": "est velit quis ut dolore",
+                "type": "occaecat Lorem culpa",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [63940763.30668393, 76984098.11884552, -37203364.265678205],
+                    "bbox": [-95135656.15656385, -6361537.12588276, -79478156.53015637, 98838416.17923567, -94725183.66854782]
+                  },
+                  "City": null,
+                  "CityCode": null,
+                  "CountryCode": 55746337.17596185,
+                  "CountyCode": null,
+                  "CrossStreet": "consequat",
+                  "FederalState": true,
+                  "FirstName": null,
+                  "GLN": "1215174369169",
+                  "Landkreis": 26666442.005814612,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "ni"
+                  },
+                  "Name": {
+                    "$": "ex fugiat",
+                    "@languageID": "xtCuu-a5-Se73Xc-v4V",
+                    "@languageLocaleID": null
+                  },
+                  "POBoxNumber": null,
+                  "PostalCode": "qui",
+                  "ProvinceCode": "laborum",
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": "laborum reprehenderit",
+                  "StreetAddressTwo": "anim incididunt in eiusmod",
+                  "Title": true,
+                  "UniquePositionID": "KNW-XR|Icn:o"
+                },
+                "Contact": {
+                  "Email": "aliqua ad irure",
+                  "Fax": null,
+                  "Mobile": null,
+                  "Phone": "irure esse",
+                  "URI": "ex aute"
+                },
+                "CostUnitRate": -1555357.810245186,
+                "EmployeeID": {
+                  "$": "eu exercitation nostrud",
+                  "@identificationSchemeAgencyID": "in Excepteur",
+                  "@identificationSchemeAgencyName": "",
+                  "@identificationSchemeDataURI": "dolore pariatur laborum irure",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "elit",
+                  "@identificationSchemeURI": "enim ullamco nisi laboris",
+                  "@identificationSchemeVersionID": null
+                }
+              },
+              "Name": "aute reprehenderit sunt magna",
+              "ValueAddedTaxID": false
+            },
+            "Person": {
+              "@id": "IU",
+              "actuate": "onLoad",
+              "arcrole": "i",
+              "href": "velit",
+              "role": "commodo proident mollit sint",
+              "show": "replace",
+              "title": "irure proident",
+              "type": "nisi ipsum in ullamco q",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-68980323.86744681, 2358657.1103610992],
+                  "bbox": [-89622670.21650656, 83591051.22490954, -65659224.971320555, -28618346.075508773, 72829978.75536865]
+                },
+                "City": "culpa ut non cupidatat",
+                "CityCode": "cupidatat",
+                "CountryCode": false,
+                "CountyCode": null,
+                "CrossStreet": "dolor",
+                "FederalState": {
+                  "@codeSpace": "in non nulla",
+                  "$": "cupidatat elit",
+                  "@codeListVersionID": null,
+                  "@languageID": "JoA-A7auCam-kBOL"
+                },
+                "FirstName": null,
+                "GLN": "7072559747519",
+                "Landkreis": -12839141.098596632,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "Du"
+                },
+                "Name": {
+                  "$": "dolor",
+                  "@languageID": "I-5HlN-MeqzC",
+                  "@languageLocaleID": "sunt"
+                },
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": null,
+                "Salutation": "dolor officia",
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": "amet nostrud n",
+                "Title": false,
+                "UniquePositionID": "C~MMvO:he7^C"
+              },
+              "Contact": {
+                "Email": "sed incididunt fugiat et",
+                "Fax": null,
+                "Mobile": null,
+                "Phone": "ipsum dolore",
+                "URI": "non ullamco anim"
+              },
+              "CostUnitRate": true,
+              "EmployeeID": ["in Duis deserunt in", {
+                "$": "ut Ut",
+                "@identificationSchemeAgencyID": null,
+                "@identificationSchemeAgencyName": "in",
+                "@identificationSchemeDataURI": "aute dolore velit sint minim",
+                "@identificationSchemeID": "eu sed pariatur anim est",
+                "@identificationSchemeName": "sint non sed",
+                "@identificationSchemeURI": "tempor",
+                "@identificationSchemeVersionID": "veniam labore ullamco ea"
+              }]
+            }
+          },
+          "Value": 0.2650442186859887
+        }
+      },
+      "HumusBalance": {
+        "AbsoluteValue": false,
+        "SustainabilityAssessment": [{
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "dOQJ8LY",
+              "actuate": "other",
+              "arcrole": "labore laboris",
+              "href": "ad",
+              "role": "pariatur Excepteur ut dolor nostrud",
+              "show": "replace",
+              "title": "non mollit dolor ut labore",
+              "type": "consequat",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-81021072.80526547, -32678588.624998912],
+                  "bbox": [-61462181.0801991, 24678904.852792278, 16913540.646903872, -31361311.19040817, -91460273.42803791]
+                },
+                "City": null,
+                "CityCode": "aliqua",
+                "CountryCode": -127445.26498678327,
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": "nostrud laboris",
+                "FirstName": null,
+                "GLN": "0231568851162",
+                "Landkreis": -574569.0273708999,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "i"
+                },
+                "Name": {
+                  "$": "magna eiusmod laboris Duis",
+                  "@languageID": "exhH",
+                  "@languageLocaleID": null
+                },
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": "labore aliquip officia",
+                "StreetAddressTwo": null,
+                "Title": 17269514.402051553,
+                "UniquePositionID": "8_-b0h`/OAY{"
+              },
+              "Comment": 50439885.65565297,
+              "Contact": {
+                "Email": "sunt magna officia",
+                "Fax": "tempor voluptate sed ipsum quis",
+                "Mobile": "Lorem ullamco ut",
+                "Phone": null,
+                "URI": "voluptate deserunt officia sint aliqua"
+              },
+              "ContactPerson": {
+                "@id": "_",
+                "actuate": "none",
+                "arcrole": "veniam amet exercitation",
+                "href": "laboris ut",
+                "role": "ea amet sint anim ci",
+                "show": "other",
+                "title": "amet reprehenderit",
+                "type": "veniam",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [54795171.82010242, -52309685.11110565, 5155954.798566192, 63712666.72183457],
+                    "bbox": [1315777.7395745218, -52306783.38893968, 57469865.535027236, 88779797.86932686]
+                  },
+                  "City": null,
+                  "CityCode": "velit",
+                  "CountryCode": "ex ut Ut in id",
+                  "CountyCode": null,
+                  "CrossStreet": null,
+                  "FederalState": false,
+                  "FirstName": null,
+                  "GLN": "7142261528138",
+                  "Landkreis": {
+                    "$": "officia fugiat aute qui",
+                    "@languageID": "dJdXy-m9K-xXQhF-RohGb-9",
+                    "@languageLocaleID": "sed Excepteur sint dolor"
+                  },
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "do"
+                  },
+                  "Name": -63777005.79964714,
+                  "POBoxNumber": null,
+                  "PostalCode": "enim adipisicing",
+                  "ProvinceCode": null,
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": "proident eu",
+                  "StreetAddressTwo": null,
+                  "Title": 20235574.60750167,
+                  "UniquePositionID": "GZaac>PJy)bp"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": "cupidatat elit officia consequat",
+                  "Mobile": "eu sit fugiat",
+                  "Phone": "commodo",
+                  "URI": "labore dolor Lorem"
+                },
+                "CostUnitRate": {
+                  "@uom": "sunt quis ex proident ullamco",
+                  "$": 89886197.999282,
+                  "@measureUnitCodeListVersionID": "nostrud"
+                },
+                "EmployeeID": {
+                  "$": null,
+                  "@identificationSchemeAgencyID": "laborum ut",
+                  "@identificationSchemeAgencyName": "Duis dolore minim in ipsum",
+                  "@identificationSchemeDataURI": "ipsum consectetur magna proident officia",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "sint consectetur deserunt officia",
+                  "@identificationSchemeURI": "officia deserunt",
+                  "@identificationSchemeVersionID": null
+                }
+              },
+              "Description": "Lorem in sit",
+              "LegalForm": "eiusmod sed id officia",
+              "Manager": {
+                "@id": "AnNklcWDPvh",
+                "actuate": "onRequest",
+                "arcrole": "laboris des",
+                "href": "deserunt Ut",
+                "role": "a",
+                "show": "new",
+                "title": "labore nostrud eiusmod eu non",
+                "type": "exercitation cupidatat",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [12020814.145079315, -42524965.95915587, -89527416.97956425, 53362958.46412119, 70421386.43763253],
+                    "bbox": [-79242876.67603967, -29714549.157754004, 63330245.98688021, 3727984.6975197345, 18730562.844778657]
+                  },
+                  "City": "qui laborum veniam Lorem esse",
+                  "CityCode": null,
+                  "CountryCode": {
+                    "@codeSpace": "nostrud",
+                    "$": null,
+                    "@codeListVersionID": "exercitation ad id commodo",
+                    "@languageID": "sLNDdS-wbMPn5-D7UZV"
+                  },
+                  "CountyCode": "ad exercitation est ea",
+                  "CrossStreet": "dolore consectetur sint",
+                  "FederalState": {
+                    "@codeSpace": "veniam officia",
+                    "$": null,
+                    "@codeListVersionID": "aliquip consequat ",
+                    "@languageID": "yvqO-mimYhT-OLvcu-MpI0-3o1-9U2"
+                  },
+                  "FirstName": "eiusmod Excepteur laboris",
+                  "GLN": "1526484956592",
+                  "Landkreis": "dolor",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "do"
+                  },
+                  "Name": false,
+                  "POBoxNumber": null,
+                  "PostalCode": "nisi reprehenderit est aute sint",
+                  "ProvinceCode": null,
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": "velit sint Du",
+                  "StreetAddressTwo": null,
+                  "Title": {
+                    "$": "nostrud proident Excepteur",
+                    "@languageID": "UA-0-aal0Rl7Y",
+                    "@languageLocaleID": "dolor sed ut"
+                  },
+                  "UniquePositionID": "J3wgI&*0Y $1"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": null,
+                  "Mobile": "dolore adipisicing irure",
+                  "Phone": null,
+                  "URI": "ea"
+                },
+                "CostUnitRate": "aute do nulla",
+                "EmployeeID": 60868328.73754737
+              },
+              "Name": -2392610.6391959637,
+              "ValueAddedTaxID": "Duis ut dolore ea magna"
+            },
+            "Person": {
+              "@id": "pJP",
+              "actuate": "onRequest",
+              "arcrole": "ut Lorem sint",
+              "href": "eu",
+              "role": "sed adipisicing cul",
+              "show": "none",
+              "title": "elit enim cillum mollit culpa",
+              "type": "fugiat in et ut",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [67160045.15939891, 65961400.46092719, 47611553.87597871],
+                  "bbox": [35479813.46149585, -36277857.57839432, -37260194.535452396, 51188568.20003837]
+                },
+                "City": "reprehenderit par",
+                "CityCode": null,
+                "CountryCode": false,
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": false,
+                "FirstName": "laboris ullamco cupidatat dolor",
+                "GLN": "6069864379743",
+                "Landkreis": true,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "in "
+                },
+                "Name": {
+                  "$": "in",
+                  "@languageID": "uatg-AbCeY86-vdqIjqd-Kbt-OBDJd8Z3-lwD",
+                  "@languageLocaleID": "dolor in sint reprehenderit"
+                },
+                "POBoxNumber": null,
+                "PostalCode": "eiusmod",
+                "ProvinceCode": "in sed labore officia do",
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": null,
+                "Title": true,
+                "UniquePositionID": "Gu6|:9cbkzeM"
+              },
+              "Contact": {
+                "Email": "ut",
+                "Fax": "in cillum",
+                "Mobile": null,
+                "Phone": null,
+                "URI": "proident laboris vo"
+              },
+              "CostUnitRate": {
+                "@uom": "deserunt consequat exercitation ad",
+                "$": -57178654.49009958,
+                "@measureUnitCodeListVersionID": "et laborum tempor consequat"
+              },
+              "EmployeeID": [17697477.473213315, {
+                "$": "deserunt u",
+                "@identificationSchemeAgencyID": "in elit",
+                "@identificationSchemeAgencyName": "irure incididunt dolore",
+                "@identificationSchemeDataURI": "id aliqua",
+                "@identificationSchemeID": "velit ea",
+                "@identificationSchemeName": "dolor consectetur ut",
+                "@identificationSchemeURI": "do aute ea consectetur nostrud",
+                "@identificationSchemeVersionID": "ipsum dolor et"
+              }, {
+                "$": "nisi et consequat nulla",
+                "@identificationSchemeAgencyID": null,
+                "@identificationSchemeAgencyName": "deserunt ad minim",
+                "@identificationSchemeDataURI": "anim in do tempor",
+                "@identificationSchemeID": null,
+                "@identificationSchemeName": "sit tempor ulla",
+                "@identificationSchemeURI": "magna culpa",
+                "@identificationSchemeVersionID": null
+              }]
+            }
+          },
+          "Value": 0.018373065051183524
+        }]
+      },
+      "NitrogenBalance": {
+        "AbsoluteValue": true,
+        "SustainabilityAssessment": {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "zV7f",
+              "actuate": "onLoad",
+              "arcrole": "cupidatat pariatur",
+              "href": "et mollit",
+              "role": "dolor laboris officia Excepteur Ut",
+              "show": "none",
+              "title": "magna aliqua",
+              "type": "exercitation incididunt quis et",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-47109747.196476094, -94938933.27479164, 1606985.116982475],
+                  "bbox": [-64778392.188924626, 8173752.44372122, 14560360.758847103, -62735210.67715669]
+                },
+                "City": null,
+                "CityCode": "ex occaecat laboris nisi amet",
+                "CountryCode": -90999002.46665941,
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": 34640428.16359699,
+                "FirstName": null,
+                "GLN": "5231051273485",
+                "Landkreis": true,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "do"
+                },
+                "Name": 37463551.57309008,
+                "POBoxNumber": null,
+                "PostalCode": "Lorem quis et",
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": "ad consequat est",
+                "StreetAddressOne": "ea pariatur veniam cupi",
+                "StreetAddressTwo": "sint qui exercitation",
+                "Title": true,
+                "UniquePositionID": "/c`H{?%1^w\"\""
+              },
+              "Comment": true,
+              "Contact": {
+                "Email": "sed est enim",
+                "Fax": null,
+                "Mobile": "irure ut fugiat",
+                "Phone": null,
+                "URI": "eu"
+              },
+              "ContactPerson": {
+                "@id": "q.84e19.l_",
+                "actuate": "other",
+                "arcrole": "pariatur minim elit exe",
+                "href": "dolore",
+                "role": "ipsum amet",
+                "show": "replace",
+                "title": "amet",
+                "type": "Duis consectetur fugiat cillum sint",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [29779090.0961501, -82122526.21303749, 43509990.37215629, -7931420.498247504],
+                    "bbox": [16433819.86675471, -30851986.38608469, 61829596.16335356, 13308808.36422357]
+                  },
+                  "City": "qui est aliqu",
+                  "CityCode": null,
+                  "CountryCode": true,
+                  "CountyCode": "nulla consequat ea",
+                  "CrossStreet": null,
+                  "FederalState": 63836232.80345678,
+                  "FirstName": null,
+                  "GLN": "3878488018644",
+                  "Landkreis": {
+                    "$": "ea",
+                    "@languageID": "SPTWILqR-4uZ8-9-fM-Mir-asBSs6I-hrlFx3-nDYSlbIO",
+                    "@languageLocaleID": "cupidatat m"
+                  },
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "Lo"
+                  },
+                  "Name": {
+                    "$": "ea qui officia",
+                    "@languageID": "BUeuDixo",
+                    "@languageLocaleID": null
+                  },
+                  "POBoxNumber": null,
+                  "PostalCode": null,
+                  "ProvinceCode": "et dolore culpa",
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": null,
+                  "StreetAddressTwo": "aute co",
+                  "Title": false,
+                  "UniquePositionID": ")75A5IDP~(;["
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": "voluptate ea",
+                  "Mobile": "Lorem qui laboris do",
+                  "Phone": null,
+                  "URI": ""
+                },
+                "CostUnitRate": 40435897.04941973,
+                "EmployeeID": ["ea est Ut aliquip", false]
+              },
+              "Description": {
+                "$": "minim id",
+                "@languageID": "lV-T2Z-a-9fUsumm-cBhlWq-mDe-LUWz-cL9lykq-qVww",
+                "@languageLocaleID": null
+              },
+              "LegalForm": "commodo",
+              "Manager": {
+                "@id": "nTbUcp3DVK3",
+                "actuate": "other",
+                "arcrole": "enim",
+                "href": "laboris id",
+                "role": "ut fugiat",
+                "show": "none",
+                "title": "aute minim sed pariatur",
+                "type": "culpa eiusmod irure ex",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-88948122.40883887, 72198882.36285827, 19170249.895630583, -29560667.436815664, -99240028.93254378],
+                    "bbox": [10938131.80070664, 45138054.21314877, 99255659.29413521, -25205385.47854075]
+                  },
+                  "City": null,
+                  "CityCode": "officia adipisicing proident laborum culpa",
+                  "CountryCode": "in nulla",
+                  "CountyCode": null,
+                  "CrossStreet": "amet nostrud Duis",
+                  "FederalState": {
+                    "@codeSpace": "pariatur ullamco in elit",
+                    "$": null,
+                    "@codeListVersionID": "commodo eu",
+                    "@languageID": "VVst"
+                  },
+                  "FirstName": "ullamco aliqua deserunt in",
+                  "GLN": "0481081281745",
+                  "Landkreis": {
+                    "$": "qui Duis cillum veniam nisi",
+                    "@languageID": "smU-xO-HsD-VKoHM",
+                    "@languageLocaleID": null
+                  },
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "i"
+                  },
+                  "Name": 11856451.12861909,
+                  "POBoxNumber": "velit cupidatat veniam magna adipisicing",
+                  "PostalCode": "aute officia enim",
+                  "ProvinceCode": "ut dolor labore dolore veniam",
+                  "Salutation": "ad Lorem nulla ut nostrud",
+                  "State": null,
+                  "StreetAddressOne": null,
+                  "StreetAddressTwo": "ullamco velit",
+                  "Title": true,
+                  "UniquePositionID": "etV-7)~w,*`z"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": "esse",
+                  "Mobile": null,
+                  "Phone": null,
+                  "URI": "eu anim elit minim nulla"
+                },
+                "CostUnitRate": 38591322.499974996,
+                "EmployeeID": false
+              },
+              "Name": -16124957.294875935,
+              "ValueAddedTaxID": false
+            },
+            "Person": {
+              "@id": "Y",
+              "actuate": "none",
+              "arcrole": "dolor",
+              "href": "elit ad eiusmod minim",
+              "role": "reprehenderit fugiat",
+              "show": "none",
+              "title": "aliqua commodo qui",
+              "type": "nostrud Ut nisi deserunt ut",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [78892426.91925219, 51936320.98723993, 53718639.844516635, -87853418.01748809, 41869252.004828095],
+                  "bbox": [-66589986.33004307, 70697843.491023, 49418966.371084124, 43668690.04808214, -53408398.06768592]
+                },
+                "City": null,
+                "CityCode": "ad",
+                "CountryCode": false,
+                "CountyCode": "dolo",
+                "CrossStreet": "sint voluptate culpa",
+                "FederalState": true,
+                "FirstName": "E",
+                "GLN": "0960138938868",
+                "Landkreis": {
+                  "$": "sit",
+                  "@languageID": "eXgYRv-41DFy5-ef-JQKGAcc-D3v-8OZo-HS14r6T-il",
+                  "@languageLocaleID": null
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "rep"
+                },
+                "Name": "laborum Lorem",
+                "POBoxNumber": "laborum nisi ven",
+                "PostalCode": "adipisicing",
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": "magna nisi Ut cillum in",
+                "StreetAddressTwo": null,
+                "Title": 65658508.451942086,
+                "UniquePositionID": "0kmf/R\"AwP\\j"
+              },
+              "Contact": {
+                "Email": null,
+                "Fax": null,
+                "Mobile": "laboris culpa",
+                "Phone": "esse cupidatat et aliquip pariatur",
+                "URI": "in minim"
+              },
+              "CostUnitRate": "ut laborum dolore",
+              "EmployeeID": "eu labore Excepteur dolore amet"
+            }
+          },
+          "Value": 0.9381942323241073
+        }
+      },
+      "PhosphorusBalance": {
+        "AbsoluteValue": false,
+        "SustainabilityAssessment": {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "VzO",
+              "actuate": "onLoad",
+              "arcrole": "amet officia ut eu",
+              "href": "culpa reprehenderit ad id",
+              "role": "",
+              "show": "replace",
+              "title": "exercitation consequat ut Duis",
+              "type": "elit culpa proident quis",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-71200631.05463204, 68852144.44593585, -13303215.985671908, -82587843.93291508],
+                  "bbox": [34701329.373562485, 45209972.08082628, 11522393.239305824, 93471611.5284603, -96566647.86016926]
+                },
+                "City": null,
+                "CityCode": "ut dolor culpa",
+                "CountryCode": "mollit",
+                "CountyCode": null,
+                "CrossStreet": "veniam consequat cupidatat",
+                "FederalState": false,
+                "FirstName": "deserunt ex ullamco minim",
+                "GLN": "1006185785861",
+                "Landkreis": -42459032.34175934,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "v"
+                },
+                "Name": -40633270.28877519,
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": "in ipsum sed aliquip mollit",
+                "StreetAddressOne": null,
+                "StreetAddressTwo": null,
+                "Title": 78373913.97654194,
+                "UniquePositionID": "?tLKc!0LN@Ri"
+              },
+              "Comment": "ipsum tem",
+              "Contact": {
+                "Email": null,
+                "Fax": null,
+                "Mobile": null,
+                "Phone": null,
+                "URI": "et aliqua laborum culpa"
+              },
+              "ContactPerson": {
+                "@id": "Ml0sWaWY01",
+                "actuate": "other",
+                "arcrole": "qui",
+                "href": "consectetur sint adipisicing occaecat",
+                "role": "qui",
+                "show": "replace",
+                "title": "commodo",
+                "type": "ipsum dolore amet aliquip",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [14542233.202418104, -90014855.60151106, -3127415.070101142],
+                    "bbox": [-77646281.69034506, 57574186.63523096, -95572787.86930232, 84754833.24038717]
+                  },
+                  "City": null,
+                  "CityCode": null,
+                  "CountryCode": "dolore Lorem adipisicing",
+                  "CountyCode": null,
+                  "CrossStreet": null,
+                  "FederalState": true,
+                  "FirstName": "veniam minim sed",
+                  "GLN": "3069144425130",
+                  "Landkreis": true,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "U"
+                  },
+                  "Name": 31590218.241846025,
+                  "POBoxNumber": null,
+                  "PostalCode": "esse mollit in",
+                  "ProvinceCode": "ipsum occaecat",
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": "ea voluptate laborum magna consequat",
+                  "StreetAddressTwo": null,
+                  "Title": {
+                    "$": "ipsum veniam",
+                    "@languageID": "WqNkY-S2k",
+                    "@languageLocaleID": "enim irure "
+                  },
+                  "UniquePositionID": "uurP_qZ8fm69"
+                },
+                "Contact": {
+                  "Email": "veniam Excepteur",
+                  "Fax": "in",
+                  "Mobile": "ex qui",
+                  "Phone": null,
+                  "URI": "adipisicing ullamco minim sint"
+                },
+                "CostUnitRate": "laboris ex minim qui",
+                "EmployeeID": ["ea dolore dolore voluptate ut", {
+                  "$": "id",
+                  "@identificationSchemeAgencyID": "aute dolore ullamco",
+                  "@identificationSchemeAgencyName": "in labore veniam amet nulla",
+                  "@identificationSchemeDataURI": "ea",
+                  "@identificationSchemeID": "sunt cupidatat sint laboris sed",
+                  "@identificationSchemeName": "laboris",
+                  "@identificationSchemeURI": "anim in do",
+                  "@identificationSchemeVersionID": "dolore non do exercitation ipsum"
+                }, "Duis magna", "Duis", {
+                  "$": null,
+                  "@identificationSchemeAgencyID": "nostrud pariatur",
+                  "@identificationSchemeAgencyName": "laboris dolore irure consequat",
+                  "@identificationSchemeDataURI": "enim ex anim eu aliquip",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "consectetur id",
+                  "@identificationSchemeURI": "do officia consectetur ipsum",
+                  "@identificationSchemeVersionID": "enim mollit qui"
+                }]
+              },
+              "Description": true,
+              "LegalForm": "et",
+              "Manager": {
+                "@id": "b5iq1",
+                "actuate": "none",
+                "arcrole": "non",
+                "href": "consectetur ir",
+                "role": "culpa",
+                "show": "replace",
+                "title": "laborum ea anim incididunt adipisic",
+                "type": "Excepteur in velit",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [81550776.56773984, 49281533.80814549, 3133854.4100792706],
+                    "bbox": [30437522.595167056, -72238108.00197676, -8898504.188342482, -3850935.2369823456, 86767573.11976045]
+                  },
+                  "City": null,
+                  "CityCode": "eu dolor cillum",
+                  "CountryCode": "qui est pariatur",
+                  "CountyCode": null,
+                  "CrossStreet": null,
+                  "FederalState": "laboris commodo labore",
+                  "FirstName": "in in veniam ut",
+                  "GLN": "6805038984604",
+                  "Landkreis": "sit anim Excepteur",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "in"
+                  },
+                  "Name": true,
+                  "POBoxNumber": null,
+                  "PostalCode": null,
+                  "ProvinceCode": null,
+                  "Salutation": "culpa Lorem nisi et eu",
+                  "State": "laboris",
+                  "StreetAddressOne": "labore velit cillum",
+                  "StreetAddressTwo": "tempor incididunt officia veniam reprehenderit",
+                  "Title": true,
+                  "UniquePositionID": "NDq/V'7,U7;s"
+                },
+                "Contact": {
+                  "Email": "Ut",
+                  "Fax": null,
+                  "Mobile": null,
+                  "Phone": "eiusmod dolor culpa",
+                  "URI": ""
+                },
+                "CostUnitRate": true,
+                "EmployeeID": ["quis temp", true]
+              },
+              "Name": -83765110.10145307,
+              "ValueAddedTaxID": "proident ven"
+            },
+            "Person": {
+              "@id": "r9I",
+              "actuate": "none",
+              "arcrole": "es",
+              "href": "magna voluptate in laboris cillu",
+              "role": "sit ",
+              "show": "new",
+              "title": "veniam nostrud",
+              "type": "fugiat",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [60398409.25605276, 17013057.778342992, 76594400.87807575, 21684459.25151992, 84335500.39393029],
+                  "bbox": [-98553520.0107197, -18171730.03512065, -32638563.860516354, 92974552.4957391]
+                },
+                "City": null,
+                "CityCode": null,
+                "CountryCode": -50103017.73906742,
+                "CountyCode": null,
+                "CrossStreet": "dolor labore",
+                "FederalState": 22788266.918235987,
+                "FirstName": null,
+                "GLN": "3109214592350",
+                "Landkreis": "cillum nisi anim",
+                "LanguageOfTheParty": {
+                  "languageISOCode": "u"
+                },
+                "Name": {
+                  "$": "in mollit ut ex",
+                  "@languageID": "wR-G-BI-gO0-MCF-V8ols5YJ-q5iahOR-g-B8",
+                  "@languageLocaleID": "voluptate"
+                },
+                "POBoxNumber": "enim sunt consequat quis officia",
+                "PostalCode": null,
+                "ProvinceCode": "laboris dolor nulla ",
+                "Salutation": "non ad Excepteur",
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": "commodo",
+                "Title": "magna quis voluptate deserunt",
+                "UniquePositionID": "'C8Oq$0mG=F<"
+              },
+              "Contact": {
+                "Email": null,
+                "Fax": "anim Excepteur",
+                "Mobile": "cillum elit laboris",
+                "Phone": null,
+                "URI": "amet eu labore id exercitation"
+              },
+              "CostUnitRate": 69443735.73950142,
+              "EmployeeID": [true, -49074180.19168017]
+            }
+          },
+          "Value": 0.5799025340330504
+        }
+      },
+      "PotassiumBalance": {
+        "AbsoluteValue": -93355045.18311368,
+        "SustainabilityAssessment": [{
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "gtorpZ7GQ",
+              "actuate": "onRequest",
+              "arcrole": "enim consectetur",
+              "href": "irure labore nisi est",
+              "role": "occaecat reprehenderit nisi",
+              "show": "new",
+              "title": "irure sint",
+              "type": "fug",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-26345391.38317415, 92389802.3597869],
+                  "bbox": [-22489477.12799892, 91754328.78103632, 54438896.76960248, -19029395.17547013, -13614261.263233423]
+                },
+                "City": "laboris nostrud nulla",
+                "CityCode": "mollit",
+                "CountryCode": true,
+                "CountyCode": "Duis commodo voluptate Excepteur",
+                "CrossStreet": "elit",
+                "FederalState": "labore sed",
+                "FirstName": "laboris",
+                "GLN": "9565595008366",
+                "Landkreis": {
+                  "$": "ut",
+                  "@languageID": "kcL-BQxLRC-uP-ZOJnK-3hKp-C-LB5Wgwz",
+                  "@languageLocaleID": null
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "o"
+                },
+                "Name": {
+                  "$": "culpa elit",
+                  "@languageID": "dC-rSrMQha-54EYV-uequCjF-NX1eH2-YoMxoUKZ-uqQyqE-jEPg4UUq-nQV5",
+                  "@languageLocaleID": null
+                },
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": "reprehenderit",
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": null,
+                "Title": {
+                  "$": "dolor eu qui",
+                  "@languageID": "Ujc-O-VIW9T-QBuAym7J-2o8i-sS-myJWPyZ-oo1v4b-dV5l",
+                  "@languageLocaleID": null
+                },
+                "UniquePositionID": "1&_:I2o<_'0k"
+              },
+              "Comment": 71382484.16267926,
+              "Contact": {
+                "Email": null,
+                "Fax": "id Lorem ex",
+                "Mobile": null,
+                "Phone": "fugiat ad ut magna",
+                "URI": "ipsum r"
+              },
+              "ContactPerson": {
+                "@id": "qK-gXK6rtd",
+                "actuate": "other",
+                "arcrole": "amet commodo ea",
+                "href": "amet v",
+                "role": "sint aliqua ullamco do",
+                "show": "other",
+                "title": "laborum",
+                "type": "velit dolore",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [59300200.40880275, 5023876.016358167],
+                    "bbox": [96939191.39669314, -94209680.14758503, -36951813.61225615, 36025652.5916166]
+                  },
+                  "City": "c",
+                  "CityCode": null,
+                  "CountryCode": -21349957.563290983,
+                  "CountyCode": null,
+                  "CrossStreet": null,
+                  "FederalState": "minim sit incididunt eu",
+                  "FirstName": null,
+                  "GLN": "1963214065817",
+                  "Landkreis": "magna",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "qu"
+                  },
+                  "Name": "sed aute magna cillum esse",
+                  "POBoxNumber": null,
+                  "PostalCode": "deserunt voluptate tempor aliquip labore",
+                  "ProvinceCode": null,
+                  "Salutation": "elit reprehenderit",
+                  "State": "consecte",
+                  "StreetAddressOne": "cupidatat ut nulla dolor",
+                  "StreetAddressTwo": null,
+                  "Title": -91281364.23067743,
+                  "UniquePositionID": "2-8YxoHpz?]i"
+                },
+                "Contact": {
+                  "Email": "cupidatat in",
+                  "Fax": null,
+                  "Mobile": "aute culpa anim Ut Excepteur",
+                  "Phone": null,
+                  "URI": "velit "
+                },
+                "CostUnitRate": -31697378.021580607,
+                "EmployeeID": {
+                  "$": null,
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "sint ipsum",
+                  "@identificationSchemeDataURI": "deserunt nisi",
+                  "@identificationSchemeID": "Duis ea",
+                  "@identificationSchemeName": "dolore laborum cupidatat dolor",
+                  "@identificationSchemeURI": "in",
+                  "@identificationSchemeVersionID": null
+                }
+              },
+              "Description": false,
+              "LegalForm": "cillum non sin",
+              "Manager": {
+                "@id": "YKEjAuBnMms",
+                "actuate": "other",
+                "arcrole": "anim sit",
+                "href": "sit ipsum labore",
+                "role": "consequat in laborum",
+                "show": "replace",
+                "title": "anim culpa deserunt esse proident",
+                "type": "quis sint esse",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-82237379.11373354, -83230200.15312266, -69788192.5766178, 63598132.263295114],
+                    "bbox": [-28164703.444882333, -73995946.39852434, -68218474.8276189, 56614289.29922199, -13729384.73700951]
+                  },
+                  "City": null,
+                  "CityCode": "est",
+                  "CountryCode": {
+                    "@codeSpace": "in aliquip adipisicing",
+                    "$": null,
+                    "@codeListVersionID": "cupidatat adipisicing",
+                    "@languageID": "SYt-bVX-OUqGk1"
+                  },
+                  "CountyCode": null,
+                  "CrossStreet": "voluptate anim",
+                  "FederalState": {
+                    "@codeSpace": "ullamco nostrud amet",
+                    "$": "ex ea voluptate eiusmod eu",
+                    "@codeListVersionID": "elit",
+                    "@languageID": "nMw-TOlo7Uoi-m8haFq-DO4Y-1wlEp0jB-STR-L-uhOk-mO5KwfC"
+                  },
+                  "FirstName": "aute eu veniam minim",
+                  "GLN": "3388274793982",
+                  "Landkreis": -11455956.80068694,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "e"
+                  },
+                  "Name": "anim sed est do esse",
+                  "POBoxNumber": "tempor com",
+                  "PostalCode": null,
+                  "ProvinceCode": "velit",
+                  "Salutation": null,
+                  "State": "dolore do dolor exercitation quis",
+                  "StreetAddressOne": "minim ex",
+                  "StreetAddressTwo": "Excepteur",
+                  "Title": true,
+                  "UniquePositionID": "a=e~'ZQVnL#l"
+                },
+                "Contact": {
+                  "Email": "esse Lorem aliqua adipisicing",
+                  "Fax": null,
+                  "Mobile": null,
+                  "Phone": null,
+                  "URI": "officia in amet esse"
+                },
+                "CostUnitRate": false,
+                "EmployeeID": [true, "enim et"]
+              },
+              "Name": {
+                "$": "labore deserunt incididunt eu",
+                "@languageID": "rjnK-Ab",
+                "@languageLocaleID": "non ad commodo ullamco"
+              },
+              "ValueAddedTaxID": "Excepteur"
+            },
+            "Person": {
+              "@id": "OgUHHZ",
+              "actuate": "onRequest",
+              "arcrole": "laboris veniam sint ad do",
+              "href": "quis commodo minim eiusmod",
+              "role": "sint re",
+              "show": "new",
+              "title": "mollit",
+              "type": "Ut consequat cupidatat incididunt anim",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [50753278.455198824, -67520862.29855974, 34166916.113369614, -84898745.18436737],
+                  "bbox": [-71501960.45583868, -69223178.87501355, 13075609.206128553, 61370877.331998885]
+                },
+                "City": null,
+                "CityCode": "aliquip ut officia",
+                "CountryCode": {
+                  "@codeSpace": "veniam commodo non nisi",
+                  "$": "est Lorem dolo",
+                  "@codeListVersionID": null,
+                  "@languageID": "sMX-3-FTn4bZ-ehUJi-G595V"
+                },
+                "CountyCode": "elit ipsum",
+                "CrossStreet": "enim",
+                "FederalState": -87070370.16931811,
+                "FirstName": null,
+                "GLN": "6880834072245",
+                "Landkreis": false,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "o"
+                },
+                "Name": -30362145.3866715,
+                "POBoxNumber": null,
+                "PostalCode": "in do aliquip nisi dolor",
+                "ProvinceCode": "non in labore consequat enim",
+                "Salutation": "adipisicing",
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": null,
+                "Title": "fugiat pariatur",
+                "UniquePositionID": "@^ws41dS)`@U"
+              },
+              "Contact": {
+                "Email": null,
+                "Fax": "officia cupidatat quis ea dolor",
+                "Mobile": "sunt ex officia elit velit",
+                "Phone": "consectetur ut cupidatat",
+                "URI": "aliqua dolore in occaecat consectetur"
+              },
+              "CostUnitRate": true,
+              "EmployeeID": ["ea sed in dolore ex", -41688985.87575449]
+            }
+          },
+          "Value": 0.7058827529429563
+        }]
+      },
+      "ProfitMarginII": {
+        "AbsoluteValue": "veniam",
+        "SustainabilityAssessment": [{
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "fk7tOMFAV",
+              "actuate": "none",
+              "arcrole": "adipisicing ipsum",
+              "href": "reprehenderit amet ea et mollit",
+              "role": "pariatur Duis in dolore",
+              "show": "embed",
+              "title": "labore amet",
+              "type": "ad Ut",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-91346146.01559839, 2133958.2648772597, -68926859.61016226],
+                  "bbox": [56123383.967828035, -93276203.36453703, 77768533.5541198, 21460695.1169388]
+                },
+                "City": null,
+                "CityCode": null,
+                "CountryCode": -14572038.903981,
+                "CountyCode": "irur",
+                "CrossStreet": null,
+                "FederalState": {
+                  "@codeSpace": "sit in cillum",
+                  "$": null,
+                  "@codeListVersionID": null,
+                  "@languageID": "EKBz-Tib6-1lHa-Gv-Oc-MxrsJRob-erW-kq-8HzKS"
+                },
+                "FirstName": "aliqua amet",
+                "GLN": "4851900923032",
+                "Landkreis": "ullamco consectetur ipsum",
+                "LanguageOfTheParty": {
+                  "languageISOCode": "vel"
+                },
+                "Name": -96591820.68954983,
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": "in ut veniam dolore incididunt",
+                "StreetAddressOne": "velit ullamco voluptate quis",
+                "StreetAddressTwo": "quis reprehenderit qui ipsum ullamco",
+                "Title": true,
+                "UniquePositionID": "Xyb@~};1Q_u2"
+              },
+              "Comment": {
+                "$": "amet incididunt est",
+                "@languageID": "DJ-OyL-lr1-wh0-WRQCRut-tR-yjDY-QtI2Zx",
+                "@languageLocaleID": "culpa aliqua"
+              },
+              "Contact": {
+                "Email": null,
+                "Fax": "officia eiusmod ipsum ex",
+                "Mobile": "esse nulla",
+                "Phone": "laborum in minim id",
+                "URI": "veni"
+              },
+              "ContactPerson": {
+                "@id": "WyFjBfGNz",
+                "actuate": "onLoad",
+                "arcrole": "ipsum",
+                "href": "reprehenderit",
+                "role": "",
+                "show": "other",
+                "title": "Ut eiusmod ea culpa",
+                "type": "occaecat Excepteur",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [94457059.65057614, -10007820.82319583, 7328466.668482304, 86185905.3434881, 65488905.54906586],
+                    "bbox": [85949189.38906991, -66219627.92781288, -99368989.57307401, 69072349.2137467, -36592035.645282105]
+                  },
+                  "City": "eu veniam qui",
+                  "CityCode": "ad tempor",
+                  "CountryCode": "commodo esse irure et quis",
+                  "CountyCode": null,
+                  "CrossStreet": "in",
+                  "FederalState": 95154221.65768185,
+                  "FirstName": null,
+                  "GLN": "5740420154560",
+                  "Landkreis": false,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "et "
+                  },
+                  "Name": {
+                    "$": "ut nulla dolore id",
+                    "@languageID": "yNrWJ-w-v-jUGFUh-VX9g-fTTDqDm-s9kCMcg2-R2-2OTYTxAH",
+                    "@languageLocaleID": "dolore enim incididunt elit"
+                  },
+                  "POBoxNumber": "eu ea",
+                  "PostalCode": null,
+                  "ProvinceCode": "reprehenderit fugiat anim dolore",
+                  "Salutation": null,
+                  "State": "incididunt ut",
+                  "StreetAddressOne": "dolore ea",
+                  "StreetAddressTwo": null,
+                  "Title": "sit eu minim id do",
+                  "UniquePositionID": "09H F7]R.k5b"
+                },
+                "Contact": {
+                  "Email": "non",
+                  "Fax": "consectetur Duis labore ipsum aliqua",
+                  "Mobile": "proident qui Ut ut dolor",
+                  "Phone": null,
+                  "URI": "incididunt ullamco dolore eu sit"
+                },
+                "CostUnitRate": false,
+                "EmployeeID": ["eiusmod qui in", 88804749.74372602, {
+                  "$": "occaecat",
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "officia in sit cupidatat",
+                  "@identificationSchemeDataURI": "nisi ullamco sed",
+                  "@identificationSchemeID": "eiusmod Ut",
+                  "@identificationSchemeName": "exercitation nostrud aliqua",
+                  "@identificationSchemeURI": "id eiusmod in reprehenderit",
+                  "@identificationSchemeVersionID": "Duis et cillum nostrud"
+                }, 42430802.39765403, {
+                  "$": null,
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "cupidatat mollit tempor",
+                  "@identificationSchemeDataURI": "proident aute in labore sint",
+                  "@identificationSchemeID": "tempor",
+                  "@identificationSchemeName": "sint",
+                  "@identificationSchemeURI": "velit quis esse",
+                  "@identificationSchemeVersionID": "sint"
+                }]
+              },
+              "Description": false,
+              "LegalForm": "fugiat id",
+              "Manager": {
+                "@id": "MJn9f8_",
+                "actuate": "onLoad",
+                "arcrole": "veniam Excepteur dolore in",
+                "href": "in",
+                "role": "do id ",
+                "show": "embed",
+                "title": "nostru",
+                "type": "eiusmod anim",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [60046285.45808247, 2306811.21300216, -54285388.219243735],
+                    "bbox": [22508639.099263042, -13487365.37588811, 670850.8584181666, 20644552.87981759, 1238132.870141983]
+                  },
+                  "City": "dolor",
+                  "CityCode": "nisi Excepteur fugiat non exercitation",
+                  "CountryCode": "est eiusmod",
+                  "CountyCode": "commodo ad est nostrud et",
+                  "CrossStreet": "pariatur adipisicing sint dolor",
+                  "FederalState": {
+                    "@codeSpace": "pariatur voluptate laborum Lorem Duis",
+                    "$": "elit nisi cupidatat in quis",
+                    "@codeListVersionID": "minim in elit",
+                    "@languageID": "SwiSk-quzvunt-Zc5-Kg-PNQ2Up5X-TsPJP-fBgqsYj-c5Xgg-vE1BcyV"
+                  },
+                  "FirstName": null,
+                  "GLN": "2151804196797",
+                  "Landkreis": "fugiat",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "se"
+                  },
+                  "Name": true,
+                  "POBoxNumber": "est consectetur magna commo",
+                  "PostalCode": null,
+                  "ProvinceCode": "enim cupidatat",
+                  "Salutation": "sint consectetur velit exercitation",
+                  "State": "laborum veniam nulla dolore",
+                  "StreetAddressOne": "aute velit",
+                  "StreetAddressTwo": null,
+                  "Title": 18220336.98669499,
+                  "UniquePositionID": "}b_>VptF+W~o"
+                },
+                "Contact": {
+                  "Email": "velit do",
+                  "Fax": "non pariatur aute magna",
+                  "Mobile": "ut",
+                  "Phone": "in est",
+                  "URI": "nisi enim labore"
+                },
+                "CostUnitRate": true,
+                "EmployeeID": true
+              },
+              "Name": true,
+              "ValueAddedTaxID": 98696139.95040005
+            },
+            "Person": {
+              "@id": "WmhJn6QSqNz",
+              "actuate": "none",
+              "arcrole": "mollit sint Lorem consectetur et",
+              "href": "ullamco exercitation dolore",
+              "role": "ve",
+              "show": "new",
+              "title": "ut dolore ad sunt",
+              "type": "adipisicing commodo cillum ut sed",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-48384719.99786158, 19520910.818743527],
+                  "bbox": [21977476.679417446, -10677341.404224098, 79295577.62643409, 88243561.54557732]
+                },
+                "City": "nisi non deserunt",
+                "CityCode": null,
+                "CountryCode": {
+                  "@codeSpace": "dolor ea eu mollit",
+                  "$": "id aliqua",
+                  "@codeListVersionID": null,
+                  "@languageID": "uxtL-IKV1-q8lQsri6-yteDJ2kZ-iI-3BDEN-u7X8wMOH-Ce-a1G6p-JADkhNvq-vLuDbX"
+                },
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": {
+                  "@codeSpace": "labore consequat",
+                  "$": null,
+                  "@codeListVersionID": "in est nulla magna",
+                  "@languageID": "HRM-x-d-WNy-TrP-jhVkY-pHQD-GneOZTl-9gV3JyO"
+                },
+                "FirstName": "Ut aute dolor anim",
+                "GLN": "8929285532926",
+                "Landkreis": {
+                  "$": "ipsum elit",
+                  "@languageID": "uGNmQ-n13wCLL",
+                  "@languageLocaleID": "ea sit tempor"
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "sun"
+                },
+                "Name": "Excepteur in enim pariatur occaecat",
+                "POBoxNumber": "eu aliqua laborum veniam",
+                "PostalCode": "anim",
+                "ProvinceCode": null,
+                "Salutation": "ullamco adipisicing",
+                "State": null,
+                "StreetAddressOne": "cillum adipisicing",
+                "StreetAddressTwo": null,
+                "Title": false,
+                "UniquePositionID": "XIv'ztF#O \"_"
+              },
+              "Contact": {
+                "Email": "sed Duis tempor et",
+                "Fax": "est dolor enim",
+                "Mobile": null,
+                "Phone": null,
+                "URI": "voluptate fugiat consectetur laboris esse"
+              },
+              "CostUnitRate": {
+                "@uom": "ea eiusmod pariatur",
+                "$": 88605301.41047761,
+                "@measureUnitCodeListVersionID": "in velit reprehenderit consequat irure"
+              },
+              "EmployeeID": {
+                "$": null,
+                "@identificationSchemeAgencyID": null,
+                "@identificationSchemeAgencyName": "aliquip amet commodo cupidatat dolore",
+                "@identificationSchemeDataURI": "qui",
+                "@identificationSchemeID": null,
+                "@identificationSchemeName": "enim aute adipisicing non",
+                "@identificationSchemeURI": "veniam",
+                "@identificationSchemeVersionID": "velit incididunt qui aute"
+              }
+            }
+          },
+          "Value": 0.6037346594495858
+        }, {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "XItGYA_",
+              "actuate": "other",
+              "arcrole": "nisi culpa aute cupidatat Ut",
+              "href": "tempor mollit in",
+              "role": "dolore",
+              "show": "embed",
+              "title": "adipisicing",
+              "type": "Excepteur proident aute",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [77531220.27521756, 74894719.97992495, 24198764.105728716, -92065986.05800092, -60538678.46522407],
+                  "bbox": [-46304042.508166045, 75739982.21793368, 83082665.84354919, -89229552.58791064]
+                },
+                "City": "ut ea",
+                "CityCode": null,
+                "CountryCode": {
+                  "@codeSpace": "non sit q",
+                  "$": "ad velit id proident",
+                  "@codeListVersionID": "dolore nulla magna mollit",
+                  "@languageID": "NdAc"
+                },
+                "CountyCode": null,
+                "CrossStreet": "sit proident",
+                "FederalState": -57731664.76461751,
+                "FirstName": "ex nostrud exercitation anim",
+                "GLN": "1683213188459",
+                "Landkreis": "est enim pariatur",
+                "LanguageOfTheParty": {
+                  "languageISOCode": "ex"
+                },
+                "Name": 5128516.101592943,
+                "POBoxNumber": "nulla reprehenderit",
+                "PostalCode": null,
+                "ProvinceCode": "est irure",
+                "Salutation": "amet magna eu cillum nulla",
+                "State": "velit",
+                "StreetAddressOne": "mollit amet",
+                "StreetAddressTwo": "aute dolor nulla",
+                "Title": 69119470.1294457,
+                "UniquePositionID": "t`qGib3F$uFQ"
+              },
+              "Comment": true,
+              "Contact": {
+                "Email": "mollit adipisicing consectetur incididunt",
+                "Fax": "cillum eu fugiat occaecat",
+                "Mobile": null,
+                "Phone": null,
+                "URI": "proident"
+              },
+              "ContactPerson": {
+                "@id": "IsNIDvFh",
+                "actuate": "none",
+                "arcrole": "proident Lorem enim",
+                "href": "fugiat",
+                "role": "labore id enim ipsum",
+                "show": "replace",
+                "title": "amet ut",
+                "type": "incididunt sed",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-73730341.5628368, -41408948.499375686, 88475396.20182395, -89102953.74480088],
+                    "bbox": [-59154631.926518284, 78524996.78641105, 92706328.6048103, 84433437.3254191, -18664059.27556154]
+                  },
+                  "City": null,
+                  "CityCode": "nostrud sit",
+                  "CountryCode": "culpa aute tempor",
+                  "CountyCode": "occaecat non",
+                  "CrossStreet": "dolor pariatur",
+                  "FederalState": 10630594.457686543,
+                  "FirstName": null,
+                  "GLN": "0482340627432",
+                  "Landkreis": false,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "qui"
+                  },
+                  "Name": false,
+                  "POBoxNumber": "occaecat elit proident",
+                  "PostalCode": null,
+                  "ProvinceCode": "ipsum eiusmod ad",
+                  "Salutation": "ad laborum",
+                  "State": "aute deserunt tempor cupidatat labore",
+                  "StreetAddressOne": "deserunt veniam",
+                  "StreetAddressTwo": "nulla dolo",
+                  "Title": "sunt in",
+                  "UniquePositionID": "aLbOrLbLp\\~-"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": null,
+                  "Mobile": null,
+                  "Phone": "fugiat quis ut",
+                  "URI": "culpa mollit"
+                },
+                "CostUnitRate": "ipsum Lorem",
+                "EmployeeID": false
+              },
+              "Description": "ex cillum",
+              "LegalForm": "irure",
+              "Manager": {
+                "@id": "p.u8v1IV",
+                "actuate": "none",
+                "arcrole": "Duis veniam laboris",
+                "href": "ad",
+                "role": "ex dolor",
+                "show": "none",
+                "title": "amet Ut in",
+                "type": "Excepteur Duis",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-91646835.43379128, 51233054.85678938, -63152392.81221743],
+                    "bbox": [12924322.791286394, -57781891.4762942, -17621939.02158828, -45229068.226932466, 22557554.565294996]
+                  },
+                  "City": "sunt",
+                  "CityCode": "labore velit Lorem anim irure",
+                  "CountryCode": "dolore",
+                  "CountyCode": null,
+                  "CrossStreet": "quis consectetur la",
+                  "FederalState": {
+                    "@codeSpace": "commodo si",
+                    "$": "ut non amet",
+                    "@codeListVersionID": null,
+                    "@languageID": "nrenXec-YNvc0Bz-kzk-CWm5h6-qc1TB-e6zW1vL-OwJPDC0i-Mz8TArd-z7A-NWtLOT"
+                  },
+                  "FirstName": "sed laboris aute",
+                  "GLN": "9409071681676",
+                  "Landkreis": {
+                    "$": "esse laboris",
+                    "@languageID": "TgFwqo-8KufKTR-g9ThObw-evjct1-ux-VU8Oty-uJoEDrO-34",
+                    "@languageLocaleID": "fugiat tempor"
+                  },
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "ir"
+                  },
+                  "Name": {
+                    "$": "anim et",
+                    "@languageID": "LvAWwc-tyJULmEh-El3p9-xu-6Dsh",
+                    "@languageLocaleID": null
+                  },
+                  "POBoxNumber": null,
+                  "PostalCode": "commodo ut culpa dolore",
+                  "ProvinceCode": null,
+                  "Salutation": "tempor in ex in",
+                  "State": null,
+                  "StreetAddressOne": "aliquip reprehenderit",
+                  "StreetAddressTwo": "cillum",
+                  "Title": true,
+                  "UniquePositionID": "oYi1fMd3j5+@"
+                },
+                "Contact": {
+                  "Email": "Lorem non",
+                  "Fax": "laboris exercitation reprehenderit",
+                  "Mobile": "incididunt ipsum laborum",
+                  "Phone": "nisi enim velit pariatur veniam",
+                  "URI": "consectetur ut ad"
+                },
+                "CostUnitRate": "aute cupidatat nis",
+                "EmployeeID": ["sed", "in", {
+                  "$": "consequat in",
+                  "@identificationSchemeAgencyID": "dolor eu fugiat dolore aute",
+                  "@identificationSchemeAgencyName": "et in id mollit",
+                  "@identificationSchemeDataURI": "Lorem deserunt",
+                  "@identificationSchemeID": "ut Duis occaecat sed",
+                  "@identificationSchemeName": "deserunt dolor culpa proident ut",
+                  "@identificationSchemeURI": "id pariatur",
+                  "@identificationSchemeVersionID": "ea culpa labore deserunt"
+                }, "consectetur eiusmod occaecat esse commodo"]
+              },
+              "Name": true,
+              "ValueAddedTaxID": -89594449.19888297
+            },
+            "Person": {
+              "@id": "llHRqWWzo",
+              "actuate": "onLoad",
+              "arcrole": "anim nisi eu aliqua",
+              "href": "aliquip sint id",
+              "role": "veniam sunt cillum ipsum",
+              "show": "other",
+              "title": "mollit proident dolor dolor",
+              "type": "enim veniam esse dolore",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [48756961.29181665, 74192613.50268134, 90313842.35154736, 16487151.683666125, -3493471.6310617775],
+                  "bbox": [94506203.53419068, -81442863.00052719, 50865322.71795386, -95267970.94001096, -68948689.70737508]
+                },
+                "City": "nostrud",
+                "CityCode": "laboris",
+                "CountryCode": "eu",
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": true,
+                "FirstName": null,
+                "GLN": "8851885507788",
+                "Landkreis": {
+                  "$": "pariatur in laboris dolore",
+                  "@languageID": "X-t-1-se9tw53l-PlqlqYWl",
+                  "@languageLocaleID": "non enim dolore"
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "a"
+                },
+                "Name": "in commodo in cillum do",
+                "POBoxNumber": null,
+                "PostalCode": null,
+                "ProvinceCode": "incididunt voluptate minim ea amet",
+                "Salutation": null,
+                "State": "commodo officia velit in",
+                "StreetAddressOne": "minim in ullamco aliquip",
+                "StreetAddressTwo": null,
+                "Title": {
+                  "$": "incididunt ex Ut",
+                  "@languageID": "iHA-hKhu-2VHt-B0O-xezX3rm",
+                  "@languageLocaleID": "officia in adipisicing"
+                },
+                "UniquePositionID": "J#q2)U&R!0lK"
+              },
+              "Contact": {
+                "Email": "fugiat Excepteur veniam",
+                "Fax": "sunt tempor fugiat veniam Excepteur",
+                "Mobile": null,
+                "Phone": "cupidatat exercitation nulla",
+                "URI": "exercitation dolo"
+              },
+              "CostUnitRate": {
+                "@uom": "ut sunt qui cupidatat veniam",
+                "$": 62803313.96192896,
+                "@measureUnitCodeListVersionID": "magna dolor"
+              },
+              "EmployeeID": {
+                "$": "pariatur laboris",
+                "@identificationSchemeAgencyID": null,
+                "@identificationSchemeAgencyName": "proident veniam in enim sit",
+                "@identificationSchemeDataURI": "et eu ea nisi",
+                "@identificationSchemeID": "nulla dolore",
+                "@identificationSchemeName": "et eiusmod",
+                "@identificationSchemeURI": "dolor velit mollit aute reprehenderit",
+                "@identificationSchemeVersionID": null
+              }
+            }
+          },
+          "Value": 0.27502144653621974
+        }, {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "_tWkfGzeXB",
+              "actuate": "onLoad",
+              "arcrole": "consectetur dolor",
+              "href": "Ut labore quis exe",
+              "role": "occaecat",
+              "show": "other",
+              "title": "occaecat nulla",
+              "type": "anim sunt",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-56094658.92233687, 69196378.39324361, -45691238.82447857, -63907644.43441737, -29754952.43997632],
+                  "bbox": [-81774386.77807575, -42624193.79733045, 38850660.64276597, -89901684.12514335, 74862047.14935502]
+                },
+                "City": "ut ad",
+                "CityCode": null,
+                "CountryCode": {
+                  "@codeSpace": "reprehenderit ut incididunt irure occaecat",
+                  "$": "consequat voluptate esse eiusmod qui",
+                  "@codeListVersionID": "fugiat amet",
+                  "@languageID": "oZR-8B-z9-ZXKTrOPY-X-eDgG6BQJ-sp-iu-eN-jd-XXpT9MJ"
+                },
+                "CountyCode": "deserunt non",
+                "CrossStreet": null,
+                "FederalState": false,
+                "FirstName": "eu",
+                "GLN": "9120698954758",
+                "Landkreis": {
+                  "$": "nulla",
+                  "@languageID": "zSHmN-ZwUbpS-4ua4J-All-E-qTYrr-SIK46TVY-wt7c",
+                  "@languageLocaleID": null
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "o"
+                },
+                "Name": false,
+                "POBoxNumber": "commodo cupidatat enim officia",
+                "PostalCode": "",
+                "ProvinceCode": "nulla d",
+                "Salutation": null,
+                "State": "ut",
+                "StreetAddressOne": "irure deserunt",
+                "StreetAddressTwo": "dolor Excepteur elit",
+                "Title": -71289054.66402955,
+                "UniquePositionID": "swZ*-Sb)&0`o"
+              },
+              "Comment": false,
+              "Contact": {
+                "Email": null,
+                "Fax": "reprehenderit eiusmod nostrud incididunt",
+                "Mobile": "adipisicing id nostrud ut dolore",
+                "Phone": "an",
+                "URI": "ut eu in mollit enim"
+              },
+              "ContactPerson": {
+                "@id": "JAWEfyrM95Y",
+                "actuate": "other",
+                "arcrole": "adipisicing ut ut",
+                "href": "eu mollit off",
+                "role": "se",
+                "show": "new",
+                "title": "id",
+                "type": "qui Excepteur et",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-12761382.042221174, 84229457.77056938, 8096244.410707071],
+                    "bbox": [-8547598.592346221, 21703495.74675092, -19015537.581242457, -73032022.97125955]
+                  },
+                  "City": "dolore ad",
+                  "CityCode": "in velit null",
+                  "CountryCode": -18732777.457616568,
+                  "CountyCode": "qui",
+                  "CrossStreet": null,
+                  "FederalState": true,
+                  "FirstName": null,
+                  "GLN": "9922940778070",
+                  "Landkreis": "ullamco ea Ut commodo",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "e"
+                  },
+                  "Name": -1984452.4819500297,
+                  "POBoxNumber": null,
+                  "PostalCode": null,
+                  "ProvinceCode": "sint dolor",
+                  "Salutation": "dolor eu sed fugiat Duis",
+                  "State": "eiusmod voluptate",
+                  "StreetAddressOne": "labore sunt est Duis",
+                  "StreetAddressTwo": "officia minim",
+                  "Title": "sint",
+                  "UniquePositionID": "A.f#pk.|Wil>"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": "dolor enim in occaecat",
+                  "Mobile": "ut labore id sit",
+                  "Phone": null,
+                  "URI": "reprehenderit elit aliqua minim"
+                },
+                "CostUnitRate": -54204841.52308336,
+                "EmployeeID": [{
+                  "$": "aliquip non qui exercitation",
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "fugiat dolor sit Duis",
+                  "@identificationSchemeDataURI": "est dolore",
+                  "@identificationSchemeID": "incididunt voluptate proident",
+                  "@identificationSchemeName": "reprehenderit",
+                  "@identificationSchemeURI": "Lorem amet labore velit",
+                  "@identificationSchemeVersionID": "dolore irure cupidatat culpa sed"
+                }, "reprehenderit nisi sint", -31483256.115314573, 23844341.005925074, true]
+              },
+              "Description": false,
+              "LegalForm": "Duis sint nulla",
+              "Manager": {
+                "@id": "XjNIcj6LvrR",
+                "actuate": "none",
+                "arcrole": "ex ut",
+                "href": "enim deserunt",
+                "role": "quis irure consequat repre",
+                "show": "replace",
+                "title": "incididunt in",
+                "type": "sed exercitation do",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-40216062.13501307, -63838468.559095226, 1848951.6182166487, 57518624.98052272],
+                    "bbox": [57751405.48053846, -8879356.446396485, -15081703.910086647, -14570204.872284934, 88211534.80222157]
+                  },
+                  "City": null,
+                  "CityCode": null,
+                  "CountryCode": {
+                    "@codeSpace": "qui fugiat veniam consectetur voluptate",
+                    "$": null,
+                    "@codeListVersionID": null,
+                    "@languageID": "ZpDwv-di727i-LDcoEf3-EykQSPrD"
+                  },
+                  "CountyCode": null,
+                  "CrossStreet": "occaecat tempor nisi in eiusmod",
+                  "FederalState": {
+                    "@codeSpace": "dolore dolor consectetur",
+                    "$": "Lorem esse",
+                    "@codeListVersionID": null,
+                    "@languageID": "YIZKisEY-yyzhCHNk-orH6Sv"
+                  },
+                  "FirstName": "nulla consequat proident",
+                  "GLN": "6643214793363",
+                  "Landkreis": "laboris dolore reprehenderit proident nulla",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "inc"
+                  },
+                  "Name": 82155911.33253017,
+                  "POBoxNumber": "ad aliquip veniam proident ex",
+                  "PostalCode": null,
+                  "ProvinceCode": "cupidatat ea in",
+                  "Salutation": "officia et aliquip aliqua cupidatat",
+                  "State": "eu amet Duis",
+                  "StreetAddressOne": "cillum nulla consequat incididunt et",
+                  "StreetAddressTwo": "proident sed eu consequat aute",
+                  "Title": "eiusmod nisi",
+                  "UniquePositionID": "vjw-zw%HD)zU"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": null,
+                  "Mobile": "Duis",
+                  "Phone": "esse culpa do cillum aliq",
+                  "URI": "nulla esse laboris nisi commodo"
+                },
+                "CostUnitRate": -46684516.3342553,
+                "EmployeeID": ["incididunt qui aliquip Excepteur non", true, true, {
+                  "$": "esse quis sit",
+                  "@identificationSchemeAgencyID": "dolor",
+                  "@identificationSchemeAgencyName": "officia adipisicing elit cupidatat",
+                  "@identificationSchemeDataURI": "cupidatat",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "labore Ut Excepteur occaecat",
+                  "@identificationSchemeURI": "tempor aliquip cupidatat",
+                  "@identificationSchemeVersionID": "sed dolor"
+                }]
+              },
+              "Name": "commodo qui nostrud ipsum laboris",
+              "ValueAddedTaxID": "fugiat nisi in laborum"
+            },
+            "Person": {
+              "@id": "V8",
+              "actuate": "other",
+              "arcrole": "in ut id",
+              "href": "amet et quis",
+              "role": "Ut",
+              "show": "none",
+              "title": "est consectetur adipisicing culpa ad",
+              "type": "ex nostrud Duis occaeca",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-51189211.728262275, 17922101.823562115, -80176365.5094851, 35508323.14093283],
+                  "bbox": [-32047946.701157674, -31524268.830357864, 98886418.14321798, 14437278.020541862, -20165524.77069369]
+                },
+                "City": "velit id si",
+                "CityCode": "reprehenderit pariatur est voluptate proident",
+                "CountryCode": -21171214.497353703,
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": {
+                  "@codeSpace": "nulla minim incididunt sit",
+                  "$": "sed",
+                  "@codeListVersionID": "ipsum amet dolore dolor officia",
+                  "@languageID": "zCQ"
+                },
+                "FirstName": "aute ",
+                "GLN": "7144145680942",
+                "Landkreis": false,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "s"
+                },
+                "Name": false,
+                "POBoxNumber": null,
+                "PostalCode": "Lorem sunt",
+                "ProvinceCode": null,
+                "Salutation": "aliqua culpa labore amet",
+                "State": null,
+                "StreetAddressOne": "mollit",
+                "StreetAddressTwo": "pariatur voluptate nisi Ut",
+                "Title": true,
+                "UniquePositionID": "ZeA-8+y-+G'A"
+              },
+              "Contact": {
+                "Email": "in aliquip",
+                "Fax": "enim qui velit consequat",
+                "Mobile": null,
+                "Phone": "ut aute amet ullamco esse",
+                "URI": "id irure aute culpa quis"
+              },
+              "CostUnitRate": -33863820.32539123,
+              "EmployeeID": "qui sit mollit cillum"
+            }
+          },
+          "Value": 0.39415653737987033
+        }, {
+          "SourceOfInformation": {
+            "Company": {
+              "@id": "FY2CDIkfAiA",
+              "actuate": "none",
+              "arcrole": "veniam et Duis ad",
+              "href": "aute nostrud dolor",
+              "role": "ipsum consequat",
+              "show": "replace",
+              "title": "amet et eu",
+              "type": "velit do in",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [-2229853.124092251, 60532598.55621973, -4357509.2941866815],
+                  "bbox": [-46481348.818322845, -15129532.463584244, 18555789.533723697, 11600632.851883978, 23691008.804095805]
+                },
+                "City": null,
+                "CityCode": null,
+                "CountryCode": "ipsum ullamco in nulla",
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": -14143848.448846579,
+                "FirstName": null,
+                "GLN": "3929879397767",
+                "Landkreis": false,
+                "LanguageOfTheParty": {
+                  "languageISOCode": "id "
+                },
+                "Name": true,
+                "POBoxNumber": "dolo",
+                "PostalCode": "amet tempor ea dolore laboris",
+                "ProvinceCode": null,
+                "Salutation": null,
+                "State": "et dolor veniam eu",
+                "StreetAddressOne": "reprehenderit labore",
+                "StreetAddressTwo": null,
+                "Title": false,
+                "UniquePositionID": "]N<b5a|tR=F-"
+              },
+              "Comment": -33673972.254280396,
+              "Contact": {
+                "Email": null,
+                "Fax": "proi",
+                "Mobile": null,
+                "Phone": null,
+                "URI": "cupidatat sint"
+              },
+              "ContactPerson": {
+                "@id": "i",
+                "actuate": "none",
+                "arcrole": "laboris adipisicing aliquip laborum",
+                "href": "dolor",
+                "role": "venia",
+                "show": "replace",
+                "title": "adipisicing do magna",
+                "type": "dolor mollit reprehenderit",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [10330290.180346236, 67732967.34986517, -74043882.95465387],
+                    "bbox": [-75762430.7966378, 93758857.4722018, 20769513.744436845, -71929407.60214368, -91248181.10163467]
+                  },
+                  "City": null,
+                  "CityCode": null,
+                  "CountryCode": {
+                    "@codeSpace": "et tempor ut eiusmod",
+                    "$": null,
+                    "@codeListVersionID": null,
+                    "@languageID": "gAAf-yWlo-rM-QPHWdvB-kGpII0Qt-gtS-vuNoVPn-Deau7yG-ZVYExq-CS"
+                  },
+                  "CountyCode": null,
+                  "CrossStreet": "ipsum cil",
+                  "FederalState": -16127495.627432615,
+                  "FirstName": null,
+                  "GLN": "6236156937572",
+                  "Landkreis": false,
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "c"
+                  },
+                  "Name": 15016538.049600035,
+                  "POBoxNumber": null,
+                  "PostalCode": "com",
+                  "ProvinceCode": "dolor enim eiusmod",
+                  "Salutation": null,
+                  "State": "consequat et amet mollit",
+                  "StreetAddressOne": "enim quis",
+                  "StreetAddressTwo": "ullamco elit",
+                  "Title": -64293963.87138451,
+                  "UniquePositionID": "^f3czT_S-iTW"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": null,
+                  "Mobile": null,
+                  "Phone": "reprehenderit in veniam laborum",
+                  "URI": "mollit dolor"
+                },
+                "CostUnitRate": "dolore",
+                "EmployeeID": true
+              },
+              "Description": "deserunt aute",
+              "LegalForm": "aliquip est mollit",
+              "Manager": {
+                "@id": "pn9yja",
+                "actuate": "other",
+                "arcrole": "laborum",
+                "href": "reprehenderit",
+                "role": "adipisicing ea ex",
+                "show": "none",
+                "title": "non tempor",
+                "type": "nulla",
+                "Address": {
+                  "Point": {
+                    "type": "Point",
+                    "coordinates": [-92101876.9459124, -84632473.65300894, 72275083.30977449, 95775242.47790018, -60022597.81996342],
+                    "bbox": [72525604.30106908, 34971773.70671731, -22008976.083488822, 41588066.00483516, 95871253.05272171]
+                  },
+                  "City": "consectetur commodo",
+                  "CityCode": "aliqua voluptate",
+                  "CountryCode": true,
+                  "CountyCode": "veniam in id aliquip",
+                  "CrossStreet": null,
+                  "FederalState": {
+                    "@codeSpace": "consectetur est",
+                    "$": "consectet",
+                    "@codeListVersionID": null,
+                    "@languageID": "S-houym6-u-fUrY-T2o12vG-nQL4-y-zL"
+                  },
+                  "FirstName": "esse ut cillum fugiat",
+                  "GLN": "7330106645258",
+                  "Landkreis": "occaecat ut exercitation incididunt fugiat",
+                  "LanguageOfTheParty": {
+                    "languageISOCode": "q"
+                  },
+                  "Name": "eiusmod reprehenderit",
+                  "POBoxNumber": null,
+                  "PostalCode": "eu laboris exercitation ea irure",
+                  "ProvinceCode": "in amet consequat deserunt non",
+                  "Salutation": null,
+                  "State": null,
+                  "StreetAddressOne": null,
+                  "StreetAddressTwo": "commodo voluptate",
+                  "Title": 50668831.66703412,
+                  "UniquePositionID": "T\\4-:5$|lR_D"
+                },
+                "Contact": {
+                  "Email": null,
+                  "Fax": "anim dolor mollit labore ullamco",
+                  "Mobile": null,
+                  "Phone": "tempor i",
+                  "URI": "culpa eu occaecat"
+                },
+                "CostUnitRate": {
+                  "@uom": "dolore",
+                  "$": 75109054.1975016,
+                  "@measureUnitCodeListVersionID": null
+                },
+                "EmployeeID": [{
+                  "$": null,
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "dolore",
+                  "@identificationSchemeDataURI": "ad cupidatat ut",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "adipisicing u",
+                  "@identificationSchemeURI": "in",
+                  "@identificationSchemeVersionID": null
+                }, false, {
+                  "$": "voluptate ea in",
+                  "@identificationSchemeAgencyID": null,
+                  "@identificationSchemeAgencyName": "eiusmod ipsum",
+                  "@identificationSchemeDataURI": "exercitation Ut",
+                  "@identificationSchemeID": null,
+                  "@identificationSchemeName": "culpa sed sunt in",
+                  "@identificationSchemeURI": "labore qui",
+                  "@identificationSchemeVersionID": null
+                }, "irure officia sit", 49416356.15474126]
+              },
+              "Name": {
+                "$": "minim",
+                "@languageID": "tvRe-hvZOWR-RXwk-LlsjEKjR-vIu2kO5v-memHxD",
+                "@languageLocaleID": null
+              },
+              "ValueAddedTaxID": -19311890.410898164
+            },
+            "Person": {
+              "@id": "al4oQ-Ys",
+              "actuate": "onRequest",
+              "arcrole": "in occaecat",
+              "href": "dolore est sint",
+              "role": "cupidatat est",
+              "show": "new",
+              "title": "sit culpa adipisicing aliqua ad",
+              "type": "consectetur laboris incididunt nostrud cupidatat",
+              "Address": {
+                "Point": {
+                  "type": "Point",
+                  "coordinates": [92042539.89405724, -26964595.60588637, -99164884.53496179, 97250945.78633073],
+                  "bbox": [-26289035.525194526, -25593850.9399904, 22151334.975335896, 29361706.135383382, -13703044.639037147]
+                },
+                "City": "labore cupidatat nostrud",
+                "CityCode": null,
+                "CountryCode": -29875636.37166138,
+                "CountyCode": null,
+                "CrossStreet": null,
+                "FederalState": "incididunt",
+                "FirstName": "commodo et dolor",
+                "GLN": "7627653023375",
+                "Landkreis": {
+                  "$": "id in non enim",
+                  "@languageID": "Z-DUDngc0-TjP-2h9E1-baOkrr9-6Dm",
+                  "@languageLocaleID": "aliqua occaecat do eiusmod consectetur"
+                },
+                "LanguageOfTheParty": {
+                  "languageISOCode": "c"
+                },
+                "Name": "Lorem proident cupidatat",
+                "POBoxNumber": "aliqua in nulla e",
+                "PostalCode": "in enim",
+                "ProvinceCode": "id occaecat nisi tempor",
+                "Salutation": null,
+                "State": null,
+                "StreetAddressOne": null,
+                "StreetAddressTwo": null,
+                "Title": -57614585.8102679,
+                "UniquePositionID": "MPS}(BAX9Oq+"
+              },
+              "Contact": {
+                "Email": null,
+                "Fax": "veniam eiusmod sed",
+                "Mobile": "commodo",
+                "Phone": null,
+                "URI": "occaecat"
+              },
+              "CostUnitRate": {
+                "@uom": "minim",
+                "$": -27174968.29785499,
+                "@measureUnitCodeListVersionID": null
+              },
+              "EmployeeID": "tempor"
+            }
+          },
+          "Value": 0.4647130415192733
+        }]
+      }
+    }
+  },
+  "DistanceFarmField": "do proident Ex"
 }

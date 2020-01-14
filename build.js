@@ -18,34 +18,27 @@ const agroJSON = require('./agroJSON.schema.json')
       acc[prop] = fakeData[prop]
       return acc
     }, {})
-    await writeFile(`examples/${name}.example.json`, JSON.stringify(subsetExample), 'utf8')
+    // await writeFile(`examples/${name}.example.json`, JSON.stringify(subsetExample), 'utf8')
   }
 
   // create an example JSON for a Field with the given properties
   const fieldProperties = [
-    "Field",
-    "FieldGroup",
-    "Gemarkung",
-    "LandUseRestriction",
-    "PartOfField",
-    "SpatialData",
-    "Ackerzahl",
-    "Denominator",
-    "EUNumberOfField",
-    "FieldBlockNumber",
-    "FieldGroupName",
-    "FieldGroupNumber",
-    "GemarkungCode",
-    "GemarkungName",
-    "GemarkungNumber",
-    "Gruenlandzahl",
-    "DistanceFarmField",
-    "LandUseCategory",
     "NameOfField",
-    "Nominator",
     "NumberOfField",
-    "SubNumber",
-    "TypeOfRestriction"
+    "UniqueAreaID",
+    "PartOfField",
+    "EUNumberOfField",
+    "ContractNumber",
+    "Area",
+    "SpatialData",
+    "FieldBlockNumber",
+    "Gemarkung",
+    "Ackerzahl",
+    "Gruenlandzahl",
+    "LandUseRestriction",
+    "SoilTexture",
+    "Assessment",
+    "DistanceFarmField"
   ]
   await createSubsetExample("Field",fieldProperties)
 })()
