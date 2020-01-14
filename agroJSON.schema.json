@@ -1,8 +1,215 @@
 {
-	"__copyright": "Copyright © 2007 Kuratorium für Technik und Bauwesen in der Landwirtschaft e.V. (KTBL). All Rights Reserved. http://www.agroxml.de/Legal/\n\nThis KTBL work (including software, documents, or other related items) is being provided by the copyright holders under the following license.\nBy obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions: Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications, that you make:\n\n1.\tThe full text of this NOTICE in a location viewable to users of the redistributed or derivative work.\n2.\tAny pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist,\n\ta short notice of the following form (hypertext is preferred, text is permitted) should be used within\n\tthe body of any redistributed or derivative code:\n\t\"Copyright © [$date-of-software] Kuratorium für Technik und Bauwesen in der Landwirtschaft e.V. (KTBL).\n\tAll Rights Reserved. http://www.agroxml.de/Legal/\"\n3.\tNotice of any changes or modifications to the KTBL files, including the date changes were made.\n\t(We recommend you provide URIs to the location from which the code is derived.)\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission. Title to copyright in this software and any associated documentation will at all times remain with copyright holders.",
+	"title": "agroJSON",
+	"description": "A JSON schema to simplify client-server communication in agriculture",
+	"copyright_agroxml": "Copyright © 2007 Kuratorium für Technik und Bauwesen in der Landwirtschaft e.V. (KTBL). All Rights Reserved. http://www.agroxml.de/Legal/\n\nThis KTBL work (including software, documents, or other related items) is being provided by the copyright holders under the following license.\nBy obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions: Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications, that you make:\n\n1.\tThe full text of this NOTICE in a location viewable to users of the redistributed or derivative work.\n2.\tAny pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist,\n\ta short notice of the following form (hypertext is preferred, text is permitted) should be used within\n\tthe body of any redistributed or derivative code:\n\t\"Copyright © [$date-of-software] Kuratorium für Technik und Bauwesen in der Landwirtschaft e.V. (KTBL).\n\tAll Rights Reserved. http://www.agroxml.de/Legal/\"\n3.\tNotice of any changes or modifications to the KTBL files, including the date changes were made.\n\t(We recommend you provide URIs to the location from which the code is derived.)\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission. Title to copyright in this software and any associated documentation will at all times remain with copyright holders.",
 	"$schema": "http://json-schema.org/schema#",
 	"additionalProperties": false,
 	"definitions": {
+		"Point": {
+			"type": "object",
+		  "required": [
+		    "type",
+		    "coordinates"
+		  ],
+		  "properties": {
+		    "type": {
+		      "type": "string",
+		      "enum": [
+		        "Point"
+		      ]
+		    },
+		    "coordinates": {
+		      "type": "array",
+		      "minItems": 2,
+		      "items": {
+		        "type": "number"
+		      }
+		    },
+		    "bbox": {
+		      "type": "array",
+		      "minItems": 4,
+		      "items": {
+		        "type": "number"
+		      }
+		    }
+		  }
+		},
+		"MultiPoint": {
+			"type": "object",
+			"required": [
+				"type",
+				"coordinates"
+			],
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"MultiPoint"
+					]
+				},
+				"coordinates": {
+					"type": "array",
+					"items": {
+						"type": "array",
+						"minItems": 2,
+						"items": {
+							"type": "number"
+						}
+					}
+				},
+				"bbox": {
+					"type": "array",
+					"minItems": 4,
+					"items": {
+						"type": "number"
+					}
+				}
+			}
+		},
+		"LineString": {
+			"type": "object",
+		  "required": [
+		    "type",
+		    "coordinates"
+		  ],
+		  "properties": {
+		    "type": {
+		      "type": "string",
+		      "enum": [
+		        "LineString"
+		      ]
+		    },
+		    "coordinates": {
+		      "type": "array",
+		      "minItems": 2,
+		      "items": {
+		        "type": "array",
+		        "minItems": 2,
+		        "items": {
+		          "type": "number"
+		        }
+		      }
+		    },
+		    "bbox": {
+		      "type": "array",
+		      "minItems": 4,
+		      "items": {
+		        "type": "number"
+		      }
+		    }
+		  }
+		},
+		"MultiLineString": {
+			"type": "object",
+			"required": [
+				"type",
+				"coordinates"
+			],
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"MultiLineString"
+					]
+				},
+				"coordinates": {
+					"type": "array",
+					"items": {
+						"type": "array",
+						"minItems": 2,
+						"items": {
+							"type": "array",
+							"minItems": 2,
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"bbox": {
+					"type": "array",
+					"minItems": 4,
+					"items": {
+						"type": "number"
+					}
+				}
+			}
+		},
+		"Polygon": {
+			"type": "object",
+			"required": [
+				"type",
+				"coordinates"
+			],
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"Polygon"
+					]
+				},
+				"coordinates": {
+					"type": "array",
+					"items": {
+						"type": "array",
+						"minItems": 4,
+						"items": {
+							"type": "array",
+							"minItems": 2,
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"bbox": {
+					"type": "array",
+					"minItems": 4,
+					"items": {
+						"type": "number"
+					}
+				}
+			}
+		},
+		"MultiPolygon": {
+			"type": "object",
+		  "required": [
+		    "type",
+		    "coordinates"
+		  ],
+		  "properties": {
+		    "type": {
+		      "type": "string",
+		      "enum": [
+		        "MultiPolygon"
+		      ]
+		    },
+		    "coordinates": {
+		      "type": "array",
+		      "items": {
+		        "type": "array",
+		        "items": {
+		          "type": "array",
+		          "minItems": 4,
+		          "items": {
+		            "type": "array",
+		            "minItems": 2,
+		            "items": {
+		              "type": "number"
+		            }
+		          }
+		        }
+		      }
+		    },
+		    "bbox": {
+		      "type": "array",
+		      "minItems": 4,
+		      "items": {
+		        "type": "number"
+		      }
+		    }
+		  }
+		},
 		"Ackerzahl": {
 			"$ref": "#/definitions/nonNegativeInteger",
 			"description": "Vorheriger deutscher Name: Ackerzahl.\nEnthält die im\nRahmen der Reichsbodenschätzung erhobene Ackerzahl eines\nStandorts und beschreibt die Bodenqualität. In der Regel bewegt sich diese zwischen 0 und\n100, kann gelegentlich aber auch höhere Werte annehmen,\nweshalb auf eine Beschränkung des Wertebereiches nach\noben verzichtet wurde. Je höher der Wert umso besser die Qualität des Bodens.\nPrevious german name: Ackerzahl\n"
@@ -22,10 +229,6 @@
 		"AgentNameCoded": {
 			"$ref": "#/definitions/CodeType",
 			"description": "Vorheriger deutscher Name: MittelnameCoded. Codierter\nMittelname. Nur zu verwenden, wenn es sich um\nPflanzenschutzmittel handelt. Dann zu befüllen aus der\nListe PesticideName.xml\nPrevious german name: MittelnameCoded\n"
-		},
-		"AgentType": {
-			"$ref": "#/definitions/CodeType",
-			"description": "Vorheriger deutscher Name: Mitteltyp. Der Typ des\nPflanzenschutzmittel.\nPrevious german name: Mitteltyp\n"
 		},
 		"AgriculturalCertificationCode": {
 			"$ref": "#/definitions/CodeType",
@@ -897,7 +1100,7 @@
 			"description": "Vorheriger deutscher Name: Saat.\nPrevious german name: Saat"
 		},
 		"SeedingDensity": {
-			"$ref": "#/definitions/..nonNegativeInteger.1",
+			"$ref": "#/definitions/nonNegativeInteger",
 			"description": "Die Dichte der Ausbringung des Saatgutes beim Säen. Sie wird in Körner pro Quadratmeter angegeben\nPrevious german name: Saatdichte"
 		},
 		"SeedingMethod": {
@@ -1444,450 +1647,11 @@
 			},
 			"type": "object"
 		},
-		"gml:CoordType": {
-			"additionalProperties": false,
-			"description": "Represents a coordinate tuple in one, two, or three\ndimensions.\n",
-			"properties": {
-				"gml:X": {
-					"$ref": "#/definitions/decimal"
-				},
-				"gml:Y": {
-					"$ref": "#/definitions/decimal"
-				},
-				"gml:Z": {
-					"$ref": "#/definitions/decimal"
-				}
-			},
-			"required": [
-				"gml:X"
-			],
-			"type": "object"
-		},
-		"gml:CoordinatesType": {
-			"additionalProperties": false,
-			"description": "Coordinates can be included in a single string, but\nthere is no facility for validating string content. The\nvalue of the 'cs' attribute is the separator for\ncoordinate values, and the value of the 'ts' attribute\ngives the tuple separator (a single space by default);\nthe default values may be changed to reflect local\nusage.\n",
-			"properties": {
-				"$": {
-					"$ref": "#/definitions/string"
-				},
-				"@cs": {
-					"$ref": "#/definitions/string"
-				},
-				"@decimal": {
-					"$ref": "#/definitions/string"
-				},
-				"@ts": {
-					"$ref": "#/definitions/string"
-				}
-			},
-			"type": [
-				"object",
-				"string",
-				"number",
-				"boolean"
-			]
-		},
-		"gml:DirectPositionListType": {
-			"additionalProperties": false,
-			"description": "DirectPositionList instances hold the coordinates for a\nsequence of direct positions within the same coordinate\nreference system (CRS).\n",
-			"properties": {
-				"$": {
-					"$ref": "#/definitions/gml:DoubleList"
-				},
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@count": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				}
-			},
-			"type": [
-				"object",
-				"string",
-				"number",
-				"boolean"
-			]
-		},
-		"gml:DirectPositionType": {
-			"additionalProperties": false,
-			"description": "DirectPosition instances hold the coordinates for a\nposition within some coordinate reference system (CRS).\nSince DirectPositions, as data types, will often be\nincluded in larger objects (such as geometry elements)\nthat have references to CRS, the \"srsName\" attribute\nwill in general be missing, if this particular\nDirectPosition is included in a larger element with such\na reference to a CRS. In this case, the CRS is\nimplicitly assumed to take on the value of the\ncontaining object's CRS.\n",
-			"properties": {
-				"$": {
-					"$ref": "#/definitions/gml:DoubleList"
-				},
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				}
-			},
-			"type": [
-				"object",
-				"string",
-				"number",
-				"boolean"
-			]
-		},
-		"gml:DoubleList": {
-			"description": "XML List based on XML Schema double type. An element of\nthis type contains a space-separated list of double\nvalues\n",
-			"items": {
-				"type": "number"
-			},
-			"type": "array"
-		},
-		"gml:LineStringType": {
-			"additionalProperties": false,
-			"description": "some explanation\n",
-			"properties": {
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@gid": {
-					"$ref": "#/definitions/string"
-				},
-				"@id": {
-					"$ref": "#/definitions/ID"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"gml:Coord": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:Coord"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:Coord"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:Coordinates": {
-					"$ref": "#/definitions/.gml:Coordinates"
-				},
-				"gml:Description": {
-					"$ref": "#/definitions/.gml:Description"
-				},
-				"gml:MetaDataProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:MetaDataProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:MetaDataProperty"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:PointProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:PointProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:PointProperty"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:Pos": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:Pos"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:Pos"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:PosList": {
-					"$ref": "#/definitions/.gml:PosList"
-				}
-			},
-			"type": "object"
-		},
-		"gml:LinearRingType": {
-			"additionalProperties": false,
-			"properties": {
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@gid": {
-					"$ref": "#/definitions/string"
-				},
-				"@id": {
-					"$ref": "#/definitions/ID"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"gml:Coord": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:Coord"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:Coord"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:Coordinates": {
-					"$ref": "#/definitions/.gml:Coordinates"
-				},
-				"gml:Description": {
-					"$ref": "#/definitions/.gml:Description"
-				},
-				"gml:MetaDataProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:MetaDataProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:MetaDataProperty"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:PointProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:PointProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:PointProperty"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:Pos": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:Pos"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:Pos"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:PosList": {
-					"$ref": "#/definitions/.gml:PosList"
-				}
-			},
-			"type": "object"
-		},
-		"gml:NCNameList": {
-			"description": "A set of values, representing a list of token with the\nlexical value space of NCName. The tokens are seperated\nby whitespace.\n",
-			"items": {
-				"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
-				"type": "string"
-			},
-			"type": "array"
-		},
-		"gml:PointPropertyType": {
-			"additionalProperties": false,
-			"description": "A property that has a point as its value domain can\neither be an appropriate geometry element encapsulated\nin an element of this type or an XLink reference to a\nremote geometry element (where remote includes geometry\nelements located elsewhere in the same document). Either\nthe reference or the contained element must be given,\nbut neither both nor none.\n",
-			"properties": {
-				"@remoteSchema": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"actuate": {
-					"enum": [
-						"onLoad",
-						"onRequest",
-						"other",
-						"none"
-					],
-					"type": "string"
-				},
-				"arcrole": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"href": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"role": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"show": {
-					"enum": [
-						"new",
-						"replace",
-						"embed",
-						"other",
-						"none"
-					],
-					"type": "string"
-				},
-				"title": {
-					"$ref": "#/definitions/string"
-				},
-				"type": {
-					"$ref": "#/definitions/string"
-				},
-				"gml:Point": {
-					"$ref": "#/definitions/.gml:Point"
-				}
-			},
-			"type": "object"
-		},
-		"gml:PointType": {
-			"additionalProperties": false,
-			"properties": {
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@gid": {
-					"$ref": "#/definitions/string"
-				},
-				"@id": {
-					"$ref": "#/definitions/ID"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"gml:Coord": {
-					"$ref": "#/definitions/.gml:Coord"
-				},
-				"gml:Coordinates": {
-					"$ref": "#/definitions/.gml:Coordinates"
-				},
-				"gml:Description": {
-					"$ref": "#/definitions/.gml:Description"
-				},
-				"gml:MetaDataProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:MetaDataProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:MetaDataProperty"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:Pos": {
-					"$ref": "#/definitions/.gml:Pos"
-				}
-			},
-			"type": "object"
-		},
-		"gml:PolygonType": {
-			"additionalProperties": false,
-			"description": "A Polygon is a special surface that is defined by a\nsingle surface patch. The boundary of this patch is\ncoplanar and the polygon uses planar interpolation in\nits interior. It is backwards compatible with the\nPolygon of GML 2, GM_Polygon of ISO 19107 is implemented\nby PolygonPatch.\n",
-			"properties": {
-				"@axisLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"@gid": {
-					"$ref": "#/definitions/string"
-				},
-				"@id": {
-					"$ref": "#/definitions/ID"
-				},
-				"@srsDimension": {
-					"$ref": "#/definitions/positiveInteger"
-				},
-				"@srsName": {
-					"$ref": "#/definitions/anyURI"
-				},
-				"@uomLabels": {
-					"$ref": "#/definitions/gml:NCNameList"
-				},
-				"gml:Description": {
-					"$ref": "#/definitions/.gml:Description"
-				},
-				"gml:Exterior": {
-					"$ref": "#/definitions/.gml:Exterior"
-				},
-				"gml:Interior": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:Interior"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:Interior"
-							},
-							"type": "array"
-						}
-					]
-				},
-				"gml:MetaDataProperty": {
-					"anyOf": [
-						{
-							"$ref": "#/definitions/.gml:MetaDataProperty"
-						},
-						{
-							"items": {
-								"$ref": "#/definitions/.gml:MetaDataProperty"
-							},
-							"type": "array"
-						}
-					]
-				}
-			},
-			"type": "object"
-		},
 		"AbstractAnalysisType": {
 			"additionalProperties": false,
 			"properties": {
 				"ConductedBy": {
-					"$ref": "#/definitions/.SourceOfInformationType.1"
+					"$ref": "#/definitions/SourceOfInformationType"
 				},
 				"ConductedOn": {
 					"additionalProperties": false,
@@ -3784,8 +3548,8 @@
 			"additionalProperties": false,
 			"description": "Vorheriger deutscher Name: NameAndAddressType. orientiert an organicXML, angelehnt an EAN-UCC, http://organicxml.com/schema/xsd/organicXML-0.1b/NameAndAddress.xsd\nPrevious german name: NameAndAddressType",
 			"properties": {
-				"gml:Point": {
-					"$ref": "#/definitions/.gml:Point"
+				"Point": {
+					"$ref": "#/definitions/Point"
 				},
 				"City": {
 					"$ref": "#/definitions/City"
@@ -4905,7 +4669,7 @@
 					"$ref": "#/definitions/ChromiumContent"
 				},
 				"ConductedBy": {
-					"$ref": "#/definitions/.SourceOfInformationType.1"
+					"$ref": "#/definitions/SourceOfInformationType"
 				},
 				"ConductedOn": {
 					"additionalProperties": false,
@@ -5269,42 +5033,33 @@
 			"additionalProperties": false,
 			"description": "Vorheriger deutscher Name: GeoinformationType.\nPrevious german name: GeoinformationType.\n",
 			"properties": {
-				"gml:LineString": {
+				"LineString": {
 					"anyOf": [
 						{
-							"$ref": "#/definitions/.gml:LineString"
+							"$ref": "#/definitions/LineString"
 						},
 						{
-							"items": {
-								"$ref": "#/definitions/.gml:LineString"
-							},
-							"type": "array"
+							"$ref": "#/definitions/MultiLineString"
 						}
 					]
 				},
-				"gml:Point": {
+				"Point": {
 					"anyOf": [
 						{
-							"$ref": "#/definitions/.gml:Point"
+							"$ref": "#/definitions/Point"
 						},
 						{
-							"items": {
-								"$ref": "#/definitions/.gml:Point"
-							},
-							"type": "array"
+							"$ref": "#/definitions/MultiPoint"
 						}
 					]
 				},
-				"gml:Polygon": {
+				"Polygon": {
 					"anyOf": [
 						{
-							"$ref": "#/definitions/.gml:Polygon"
+							"$ref": "#/definitions/Polygon"
 						},
 						{
-							"items": {
-								"$ref": "#/definitions/.gml:Polygon"
-							},
-							"type": "array"
+							"$ref": "#/definitions/MultiPolygon"
 						}
 					]
 				}
@@ -5775,8 +5530,8 @@
 			"additionalProperties": false,
 			"description": "Vorheriger deutscher Name: WetterstationType.\nPrevious german name: WetterstationType.\n",
 			"properties": {
-				"gml:Site": {
-					"$ref": "#/definitions/.gml:Site"
+				"Site": {
+					"$ref": "#/definitions/Point"
 				},
 				"Humidity": {
 					"$ref": "#/definitions/Humidity"
@@ -5880,68 +5635,84 @@
 			"type": "object"
 		},
 		"ID": {
-			"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+			"pattern": "^[A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][-.0-9A-Z_a-z\u00B7\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u037D\u037F-\u1FFF\u200C-\u200D\u203F\u2040\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]*$",
 			"type": "string"
 		},
 		"IDREF": {
-			"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+			"pattern": "^[A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][-.0-9A-Z_a-z\u00B7\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u037D\u037F-\u1FFF\u200C-\u200D\u203F\u2040\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]*$",
 			"type": "string"
 		},
 		"IDREFS": {
 			"items": {
-				"pattern": "^([A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�𐀀-󯿿][\\d\\--\\.A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]*)$",
+				"pattern": "^[A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][-.0-9A-Z_a-z\u00B7\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u037D\u037F-\u1FFF\u200C-\u200D\u203F\u2040\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]*$",
 				"type": "string"
 			},
 			"type": "array"
 		},
 		"NMTOKEN": {
-			"pattern": "^([\\d\\--\\.\\:A-Z_a-z·À-ÖØ-öø-ͽͿ-ٟ٪-ۯۺ-޿ߊ-॥॰-৥ৰ-੥ੰ-૥૰-୥୰-௥௰-౥౰-೥೰-൥൰-๏๚-໏໚-༟༪-ဿ၊-ႏႚ-៟៪-᠏᠚-᥅ᥐ-᧏᧚-᩿᪊-᪏᪚-᭏᭚-ᮯᮺ-᰿᱊-ᱏᱚ-῿‌-‍‿-⁀⁰-↏Ⰰ-⿯、-ꘟꘪ-꣏꣚-ꣿꤊ-ꧏ꧚-꩏꩚-꯯꯺-퟿豈-﷏ﷰ-／：-�𐀀-𐒟𐒪-𑁥𑁰-𝟍𝠀-󯿿]+)$",
+			"pattern": "^[A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][-.0-9A-Z_a-z\u00B7\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u037D\u037F-\u1FFF\u200C-\u200D\u203F\u2040\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]*$",
 			"type": "string"
 		},
-		"anySimpleType": {
-			"type": [
-				"string",
-				"number",
-				"boolean"
-			]
+		"anySimpleType" : {
+			"type" : [ "string", "number", "integer", "boolean", "null" ],
+			"description" : "http://www.w3.org/TR/xmlschema-2/#dt-anySimpleType"
 		},
-		"anyType": {
-			"additionalProperties": false,
-			"patternProperties": {
-				"^@\\w+$": {
-					"type": [
-						"string",
-						"number",
-						"boolean"
-					]
-				},
-				"^\\w+$": {
-				}
-			},
-			"properties": {
-				"$": {
-					"type": [
-						"string",
-						"number",
-						"boolean"
-					]
-				}
-			},
-			"type": [
-				"object",
-				"string",
-				"number",
-				"boolean"
-			]
+		"anyType" : {
+			"description" : "http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#key-urType"
 		},
 		"anyURI": {
 			"type": "string"
 		},
-		"boolean": {
-			"type": "boolean"
+		"boolean" : {
+			"type" : [ "boolean", "null" ],
+			"description" : "http://www.w3.org/TR/xmlschema-2/#boolean"
 		},
-		"date": {
-			"type": "string"
+		"date" : {
+			"anyOf" : [ {
+				"type" : "object",
+				"properties" : {
+					"year" : {
+						"$ref" : "#/definitions/integer"
+					},
+					"month" : {
+						"allOf" : [ {
+							"$ref" : "#/definitions/unsignedByte"
+						}, {
+							"minimum" : 1,
+							"maximum" : 12
+						} ]
+					},
+					"day" : {
+						"allOf" : [ {
+							"$ref" : "#/definitions/unsignedByte"
+						}, {
+							"minimum" : 1,
+							"maximum" : 31
+						} ]
+					},
+					"timezone" : {
+						"allOf" : [ {
+							"$ref" : "#/definitions/integer"
+						}, {
+							"minimum" : -1440,
+							"maximum" : 1439
+						} ]
+					}
+				}
+			}, {
+				"type" : "null"
+			} ],
+			"description" : "http://www.w3.org/TR/xmlschema-2/#date"
+		},
+		"unsignedByte" : {
+			"anyOf" : [ {
+				"type" : "integer",
+				"minimum" : 0,
+				"maximum" : 255
+			}, {
+				"type" : "null"
+			} ],
+			"description" : "http://www.w3.org/TR/xmlschema-2/#unsignedByte"
 		},
 		"decimal": {
 			"type": "number"
@@ -5974,8 +5745,13 @@
 			"minimum": 0,
 			"type": "integer"
 		},
-		"normalizedString": {
-			"type": "string"
+		"normalizedString" : {
+			"anyOf" : [ {
+				"type" : "string"
+			}, {
+				"type" : "null"
+			} ],
+			"description" : "http://www.w3.org/TR/xmlschema-2/#normalizedString"
 		},
 		"positiveInteger": {
 			"minimum": 1,
@@ -5988,7 +5764,6 @@
 			"type": "string"
 		}
 	},
-	"description": "JSON Schema erstellt mit XMLSpy v2020 sp1 (x64) (http://www.altova.com)",
 	"properties": {
 		"Ackerzahl": {
 			"$ref": "#/definitions/Ackerzahl"

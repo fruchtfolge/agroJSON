@@ -1,0 +1,30 @@
+{
+  "name": "agrojson",
+  "version": "1.0.0",
+  "description": "A JSON schema to simplify client-server communication in agriculture",
+  "main": "agroJSON.schema.json",
+  "scripts": {
+    "test": "eslint agroJSON.schema.json && node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fruchtfolge/agroJSON.git"
+  },
+  "keywords": [
+    "agroJSON",
+    "agroXML",
+    "JSON",
+    "schema"
+  ],
+  "author": "Christoph Pahmeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fruchtfolge/agroJSON/issues"
+  },
+  "homepage": "https://github.com/fruchtfolge/agroJSON#readme",
+  "devDependencies": {
+    "ajv": "^6.10.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-json": "^2.0.1"
+  }
+}
